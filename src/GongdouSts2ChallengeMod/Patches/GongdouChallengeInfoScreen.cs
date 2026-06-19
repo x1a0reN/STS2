@@ -508,13 +508,18 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
 
     private void OnGuiInput(InputEvent input)
     {
-        if (input.IsActionPressed("ui_cancel")
-            || input.IsActionPressed("ui_pause")
-            || input.IsActionPressed("ui_back"))
+        if (IsCloseInput(input))
         {
             Close();
             AcceptEvent();
         }
+    }
+
+    private static bool IsCloseInput(InputEvent input)
+    {
+        return input.IsActionPressed("ui_cancel")
+            || input is InputEventKey { Pressed: true, Echo: false, Keycode: Key.Escape }
+            || input is InputEventMouseButton { Pressed: true, ButtonIndex: MouseButton.Right };
     }
 
     private static EnemyActionConfig ResolveActionForRound(IReadOnlyList<EnemyActionConfig> actions, int round)
