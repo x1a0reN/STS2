@@ -1,0 +1,854 @@
+{
+  "enemy_hp": 54,
+  "player_hp": 8,
+  "incoming": [
+    6,
+    12,
+    15,
+    18
+  ],
+  "legal_deck_count": 218,
+  "perfect_success_count": 0,
+  "top30": [
+    {
+      "display": "重锤（改）、重击、飞剑回旋、铁斩波、防御 x2、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 2,
+      "success": 0.8582857142857143,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        24.7619,
+        39.8095,
+        21.2571,
+        14.1714
+      ]
+    },
+    {
+      "display": "重锤（改）、飞剑回旋、铁斩波、防御 x3、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.8383809523809526,
+      "deck": [
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        11.4286,
+        72.4095,
+        16.1619
+      ]
+    },
+    {
+      "display": "重锤（改）、重击、飞剑回旋、铁斩波、打击、防御 x2",
+      "family": "重锤快线",
+      "first_turn": 2,
+      "success": 0.8175714285714285,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        24.7619,
+        38.8571,
+        18.1381,
+        18.2429
+      ]
+    },
+    {
+      "display": "重锤（改）、重击、飞剑回旋、铁斩波、防御 x3",
+      "family": "重锤快线",
+      "first_turn": 2,
+      "success": 0.8065714285714287,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        19.0476,
+        43.7619,
+        17.8476,
+        19.3429
+      ]
+    },
+    {
+      "display": "重击、飞剑回旋、铁斩波、防御 x3、全身撞击",
+      "family": "格挡撞击线",
+      "first_turn": 3,
+      "success": 0.7999047619047623,
+      "deck": [
+        "Bash",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        4.0,
+        75.9905,
+        20.0095
+      ]
+    },
+    {
+      "display": "飞剑回旋、铁斩波、打击、防御 x3、全身撞击",
+      "family": "格挡撞击线",
+      "first_turn": 4,
+      "success": 0.7864761904761906,
+      "deck": [
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        0.0,
+        78.6476,
+        21.3524
+      ]
+    },
+    {
+      "display": "重锤（改）、飞剑回旋、铁斩波、打击、防御 x2、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.7685714285714287,
+      "deck": [
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        20.8571,
+        56.0,
+        23.1429
+      ]
+    },
+    {
+      "display": "重锤（改）、重击、铁斩波、防御 x3、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.7553809523809525,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        46.1905,
+        29.3476,
+        24.4619
+      ]
+    },
+    {
+      "display": "重锤（改）、飞剑回旋、铁斩波、打击、防御 x3",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.7493809523809525,
+      "deck": [
+        "Bludgeon",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        20.7143,
+        54.2238,
+        25.0619
+      ]
+    },
+    {
+      "display": "重锤（改）、飞剑回旋、铁斩波、打击 x2、防御 x2",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.7326190476190477,
+      "deck": [
+        "Bludgeon",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        22.5714,
+        50.6905,
+        26.7381
+      ]
+    },
+    {
+      "display": "重锤（改）、重击、完美打击、飞剑回旋、铁斩波、防御 x2",
+      "family": "重锤快线",
+      "first_turn": 2,
+      "success": 0.7172380952380951,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Perfected Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        27.619,
+        35.5238,
+        8.581,
+        28.2762
+      ]
+    },
+    {
+      "display": "重锤（改）、铁斩波、打击、防御 x3、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.7155238095238095,
+      "deck": [
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        6.8571,
+        64.6952,
+        28.4476
+      ]
+    },
+    {
+      "display": "重击、飞剑回旋、铁斩波、打击、防御 x2、全身撞击",
+      "family": "格挡撞击线",
+      "first_turn": 3,
+      "success": 0.6963333333333332,
+      "deck": [
+        "Bash",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        8.7143,
+        60.919,
+        30.3667
+      ]
+    },
+    {
+      "display": "重锤（改）、重击、铁斩波、打击、防御 x2、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.689047619047619,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        36.8571,
+        32.0476,
+        31.0952
+      ]
+    },
+    {
+      "display": "重锤（改）、完美打击、飞剑回旋、铁斩波、防御 x2、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.6804285714285715,
+      "deck": [
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Perfected Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        9.3333,
+        58.7095,
+        31.9571
+      ]
+    },
+    {
+      "display": "完美打击、飞剑回旋、铁斩波、防御 x3、全身撞击",
+      "family": "格挡撞击线",
+      "first_turn": 4,
+      "success": 0.6730476190476191,
+      "deck": [
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Perfected Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        0.0,
+        67.3048,
+        32.6952
+      ]
+    },
+    {
+      "display": "完美打击、飞剑回旋、铁斩波、打击、防御 x2、全身撞击",
+      "family": "格挡撞击线",
+      "first_turn": 3,
+      "success": 0.6676666666666667,
+      "deck": [
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Perfected Strike",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        3.4286,
+        63.3381,
+        33.2333
+      ]
+    },
+    {
+      "display": "飞剑回旋、铁斩波、打击 x2、防御 x2、全身撞击",
+      "family": "格挡撞击线",
+      "first_turn": 3,
+      "success": 0.6597142857142857,
+      "deck": [
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        2.5714,
+        63.4,
+        34.0286
+      ]
+    },
+    {
+      "display": "重锤（改）、重击、飞剑回旋、铁斩波、打击、防御、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 2,
+      "success": 0.6566666666666665,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        33.3333,
+        32.0476,
+        0.2857,
+        34.3333
+      ]
+    },
+    {
+      "display": "重锤（改）、重击、完美打击、飞剑回旋、铁斩波、防御、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 2,
+      "success": 0.6337142857142856,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Iron Wave",
+        "Perfected Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        33.3333,
+        29.4286,
+        0.6095,
+        36.6286
+      ]
+    },
+    {
+      "display": "重锤（改）、重击、飞剑回旋、铁斩波、打击 x2、防御",
+      "family": "重锤快线",
+      "first_turn": 2,
+      "success": 0.6309523809523809,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        33.3333,
+        29.7619,
+        0.0,
+        36.9048
+      ]
+    },
+    {
+      "display": "重锤（改）、完美打击、飞剑回旋、铁斩波、打击、防御 x2",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.6276190476190475,
+      "deck": [
+        "Bludgeon",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Perfected Strike",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        13.4762,
+        49.2857,
+        37.2381
+      ]
+    },
+    {
+      "display": "重锤（改）、铁斩波、打击 x2、防御 x2、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.6148571428571429,
+      "deck": [
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Strike"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        17.2381,
+        44.2476,
+        38.5143
+      ]
+    },
+    {
+      "display": "重击、完美打击、飞剑回旋、铁斩波、防御 x2、全身撞击",
+      "family": "格挡撞击线",
+      "first_turn": 3,
+      "success": 0.6124761904761905,
+      "deck": [
+        "Bash",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Perfected Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        12.0952,
+        49.1524,
+        38.7524
+      ]
+    },
+    {
+      "display": "重锤（改）、重击、完美打击、飞剑回旋、铁斩波、打击、防御",
+      "family": "重锤快线",
+      "first_turn": 2,
+      "success": 0.6066666666666666,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Defend",
+        "Iron Wave",
+        "Perfected Strike",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        33.3333,
+        26.9048,
+        0.4286,
+        39.3333
+      ]
+    },
+    {
+      "display": "重击、飞剑回旋、铁斩波、打击、防御 x3",
+      "family": "易伤混合线",
+      "first_turn": 3,
+      "success": 0.595,
+      "deck": [
+        "Bash",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        12.0,
+        47.5,
+        40.5
+      ]
+    },
+    {
+      "display": "重锤（改）、重击、完美打击、铁斩波、防御 x2、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.576952380952381,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Perfected Strike"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        42.5714,
+        15.1238,
+        42.3048
+      ]
+    },
+    {
+      "display": "重锤（改）、完美打击、铁斩波、打击、防御 x2、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.5668571428571428,
+      "deck": [
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Perfected Strike",
+        "Strike"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        5.9048,
+        50.781,
+        43.3143
+      ]
+    },
+    {
+      "display": "重击、飞剑回旋、铁斩波、打击 x2、防御 x2",
+      "family": "易伤混合线",
+      "first_turn": 3,
+      "success": 0.5622857142857143,
+      "deck": [
+        "Bash",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        10.619,
+        45.6095,
+        43.7714
+      ]
+    },
+    {
+      "display": "飞剑回旋、铁斩波、打击 x2、防御 x3",
+      "family": "基础攻击线",
+      "first_turn": 3,
+      "success": 0.5524285714285715,
+      "deck": [
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        4.2857,
+        50.9571,
+        44.7571
+      ]
+    }
+  ],
+  "best_by_turn": {
+    "2": {
+      "display": "重锤（改）、重击、飞剑回旋、铁斩波、防御 x2、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 2,
+      "success": 0.8582857142857143,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        24.7619,
+        39.8095,
+        21.2571,
+        14.1714
+      ]
+    },
+    "3": {
+      "display": "重锤（改）、飞剑回旋、铁斩波、防御 x3、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 3,
+      "success": 0.8383809523809526,
+      "deck": [
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        11.4286,
+        72.4095,
+        16.1619
+      ]
+    },
+    "4": {
+      "display": "飞剑回旋、铁斩波、打击、防御 x3、全身撞击",
+      "family": "格挡撞击线",
+      "first_turn": 4,
+      "success": 0.7864761904761906,
+      "deck": [
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        0.0,
+        78.6476,
+        21.3524
+      ]
+    },
+    "0": {
+      "display": "重锤（改）、重击、完美打击、防御 x3、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 0,
+      "success": 0.0,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Perfected Strike"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ]
+    }
+  },
+  "best_by_family": {
+    "重锤快线": {
+      "display": "重锤（改）、重击、飞剑回旋、铁斩波、防御 x2、全身撞击",
+      "family": "重锤快线",
+      "first_turn": 2,
+      "success": 0.8582857142857143,
+      "deck": [
+        "Bash",
+        "Bludgeon",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        24.7619,
+        39.8095,
+        21.2571,
+        14.1714
+      ]
+    },
+    "格挡撞击线": {
+      "display": "重击、飞剑回旋、铁斩波、防御 x3、全身撞击",
+      "family": "格挡撞击线",
+      "first_turn": 3,
+      "success": 0.7999047619047623,
+      "deck": [
+        "Bash",
+        "Body Slam",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        4.0,
+        75.9905,
+        20.0095
+      ]
+    },
+    "易伤混合线": {
+      "display": "重击、飞剑回旋、铁斩波、打击、防御 x3",
+      "family": "易伤混合线",
+      "first_turn": 3,
+      "success": 0.595,
+      "deck": [
+        "Bash",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        12.0,
+        47.5,
+        40.5
+      ]
+    },
+    "基础攻击线": {
+      "display": "飞剑回旋、铁斩波、打击 x2、防御 x3",
+      "family": "基础攻击线",
+      "first_turn": 3,
+      "success": 0.5524285714285715,
+      "deck": [
+        "Defend",
+        "Defend",
+        "Defend",
+        "Iron Wave",
+        "Strike",
+        "Strike",
+        "Sword Boomerang"
+      ],
+      "result": [
+        0.0,
+        0.0,
+        4.2857,
+        50.9571,
+        44.7571
+      ]
+    }
+  }
+}

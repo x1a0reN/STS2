@@ -1,0 +1,1174 @@
+{
+  "enemy_hp": 94,
+  "player_hp": 24,
+  "incoming": [
+    7,
+    15,
+    23,
+    32,
+    42
+  ],
+  "legal_deck_count": 1874,
+  "legal_build_count": 11244,
+  "perfect_success_count": 0,
+  "top30": [
+    {
+      "deck": [
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击 x2；护壳药水；封印护符",
+      "family": "基础封印线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        63.5714,
+        0.0,
+        36.4286
+      ],
+      "success": 63.5714
+    },
+    {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、稳击、打击；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.381,
+        60.9095,
+        0.0,
+        38.7095
+      ],
+      "success": 61.2905
+    },
+    {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Key",
+        "Release",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、解封释放（改）、稳击；护壳药水；钥环",
+      "family": "钥环释放线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.3333,
+        48.9381,
+        0.0,
+        50.7286
+      ],
+      "success": 49.2714
+    },
+    {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Key",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、打击 x2；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.381,
+        46.9952,
+        0.0,
+        52.6238
+      ],
+      "success": 47.3762
+    },
+    {
+      "deck": [
+        "Defend",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击、防御；护壳药水；钥环",
+      "family": "基础封印线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        44.6429,
+        0.0,
+        55.3571
+      ],
+      "success": 44.6429
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Key",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、稳击、防御；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.3333,
+        38.8714,
+        0.3505,
+        60.4448
+      ],
+      "success": 39.5552
+    },
+    {
+      "deck": [
+        "Blank",
+        "Guard Key",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、稳击、空牌；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.3333,
+        38.8286,
+        0.0,
+        60.8381
+      ],
+      "success": 39.1619
+    },
+    {
+      "deck": [
+        "Guard Key",
+        "Heavy Slash",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、稳击、重斩；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.3333,
+        38.8286,
+        0.0,
+        60.8381
+      ],
+      "success": 39.1619
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、重斩、打击；护壳药水；封印护符",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        39.1381,
+        0.0,
+        60.8619
+      ],
+      "success": 39.1381
+    },
+    {
+      "deck": [
+        "Key",
+        "Key",
+        "Release",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、封印击（改） x2、解封释放（改）、稳击、打击；护壳药水；封印护符",
+      "family": "解封释放线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        38.619,
+        0.0,
+        61.381
+      ],
+      "success": 38.619
+    },
+    {
+      "deck": [
+        "Blank",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击、空牌；护壳药水；封印护符",
+      "family": "基础封印线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        37.2714,
+        0.0,
+        62.7286
+      ],
+      "success": 37.2714
+    },
+    {
+      "deck": [
+        "Defend",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击、防御；护壳药水；封印护符",
+      "family": "基础封印线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        37.2714,
+        0.0,
+        62.7286
+      ],
+      "success": 37.2714
+    },
+    {
+      "deck": [
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Key",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击 x2；钥药水；钥环",
+      "family": "基础封印线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        35.5714,
+        0.0,
+        0.0,
+        64.4286
+      ],
+      "success": 35.5714
+    },
+    {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Key",
+        "Release",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、解封释放（改）、打击；护壳药水；钥环",
+      "family": "钥环释放线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.3333,
+        34.9905,
+        0.0,
+        64.6762
+      ],
+      "success": 35.3238
+    },
+    {
+      "deck": [
+        "Delay Lock",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、延锁（改）、封印击（改） x2、稳击、打击；护壳药水；钥环",
+      "family": "基础封印线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        35.0952,
+        0.0,
+        64.9048
+      ],
+      "success": 35.0952
+    },
+    {
+      "deck": [
+        "Key",
+        "Key",
+        "Release",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Key",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、封印击（改） x2、解封释放（改）、稳击、打击；钥药水；钥环",
+      "family": "钥环释放线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        34.5238,
+        0.0,
+        0.0,
+        65.4762
+      ],
+      "success": 34.5238
+    },
+    {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Break",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、稳击、打击；破封药水；封印护符",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.381,
+        33.9905,
+        0.0,
+        65.6286
+      ],
+      "success": 34.3714
+    },
+    {
+      "deck": [
+        "Blank",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Key",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击、空牌；钥药水；钥环",
+      "family": "基础封印线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        34.1429,
+        0.0,
+        0.0,
+        65.8571
+      ],
+      "success": 34.1429
+    },
+    {
+      "deck": [
+        "Defend",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Key",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击、防御；钥药水；钥环",
+      "family": "基础封印线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        34.1429,
+        0.0,
+        0.0,
+        65.8571
+      ],
+      "success": 34.1429
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Key",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、重斩、打击；钥药水；钥环",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        34.1429,
+        0.0,
+        0.0,
+        65.8571
+      ],
+      "success": 34.1429
+    },
+    {
+      "deck": [
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Break",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击 x2；破封药水；钥环",
+      "family": "基础封印线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        33.4762,
+        0.0,
+        0.0,
+        66.5238
+      ],
+      "success": 33.4762
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Key",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit"
+      ],
+      "potion": "Break",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、稳击、防御；破封药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        6.4762,
+        26.5,
+        0.0,
+        67.0238
+      ],
+      "success": 32.9762
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Key",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit"
+      ],
+      "potion": "Break",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、稳击、防御；破封药水；封印护符",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.3333,
+        32.1952,
+        0.0,
+        67.4714
+      ],
+      "success": 32.5286
+    },
+    {
+      "deck": [
+        "Blank",
+        "Guard Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改）、护钥（改）、封印击（改） x2、稳击、打击、空牌；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        32.3238,
+        0.0,
+        67.6762
+      ],
+      "success": 32.3238
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改）、护钥（改）、封印击（改） x2、稳击、打击、防御；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        32.3238,
+        0.0,
+        67.6762
+      ],
+      "success": 32.3238
+    },
+    {
+      "deck": [
+        "Guard Key",
+        "Heavy Slash",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改）、护钥（改）、封印击（改） x2、稳击、重斩、打击；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        32.3238,
+        0.0,
+        67.6762
+      ],
+      "success": 32.3238
+    },
+    {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改）、护钥（改）、封印击（改） x2、稳击、打击 x2；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        32.3238,
+        0.0,
+        67.6762
+      ],
+      "success": 32.3238
+    },
+    {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Release",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改）、护钥（改）、封印击（改） x2、解封释放（改）、稳击、打击；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        31.9286,
+        0.0,
+        68.0714
+      ],
+      "success": 31.9286
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Key",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit"
+      ],
+      "potion": "Key",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、稳击、防御；钥药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        4.2857,
+        27.3857,
+        0.0,
+        68.3286
+      ],
+      "success": 31.6714
+    },
+    {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Guard Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit"
+      ],
+      "potion": "Key",
+      "relic": "Keyring",
+      "display": "解封钥（改）、护钥（改）、封印击（改） x2、稳击、防御、空牌；钥药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        3.4762,
+        26.5667,
+        0.0,
+        69.9571
+      ],
+      "success": 30.0429
+    }
+  ],
+  "best_by_first_turn": {
+    "4": {
+      "deck": [
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击 x2；护壳药水；封印护符",
+      "family": "基础封印线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        63.5714,
+        0.0,
+        36.4286
+      ],
+      "success": 63.5714
+    },
+    "3": {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、稳击、打击；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.381,
+        60.9095,
+        0.0,
+        38.7095
+      ],
+      "success": 61.2905
+    },
+    "5": {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改）、稳击、打击 x2；护壳药水；封印护符",
+      "family": "基础封印线",
+      "first_turn": 5,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1857,
+        99.8143
+      ],
+      "success": 0.1857
+    },
+    "0": {
+      "deck": [
+        "Blank",
+        "Deep Seal",
+        "Defend",
+        "Defend",
+        "Delay Lock",
+        "Guard Key",
+        "Heavy Slash"
+      ],
+      "potion": "Key",
+      "relic": "Keyring",
+      "display": "深封（改）、护钥（改）、延锁（改）、重斩、防御 x2、空牌；钥药水；钥环",
+      "family": "深封陷阱线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  },
+  "best_by_family": {
+    "基础封印线": {
+      "deck": [
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击 x2；护壳药水；封印护符",
+      "family": "基础封印线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        63.5714,
+        0.0,
+        36.4286
+      ],
+      "success": 63.5714
+    },
+    "护钥封击线": {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、稳击、打击；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.381,
+        60.9095,
+        0.0,
+        38.7095
+      ],
+      "success": 61.2905
+    },
+    "钥环释放线": {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Key",
+        "Release",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、解封释放（改）、稳击；护壳药水；钥环",
+      "family": "钥环释放线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.3333,
+        48.9381,
+        0.0,
+        50.7286
+      ],
+      "success": 49.2714
+    },
+    "重斩诱导线": {
+      "deck": [
+        "Heavy Slash",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、重斩、打击；护壳药水；封印护符",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        39.1381,
+        0.0,
+        60.8619
+      ],
+      "success": 39.1381
+    },
+    "解封释放线": {
+      "deck": [
+        "Key",
+        "Key",
+        "Release",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、封印击（改） x2、解封释放（改）、稳击、打击；护壳药水；封印护符",
+      "family": "解封释放线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        38.619,
+        0.0,
+        61.381
+      ],
+      "success": 38.619
+    },
+    "深封陷阱线": {
+      "deck": [
+        "Deep Seal",
+        "Guard Key",
+        "Key",
+        "Release",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit"
+      ],
+      "potion": "Key",
+      "relic": "Keyring",
+      "display": "解封钥（改）、深封（改）、护钥（改）、封印击（改） x2、解封释放（改）、稳击；钥药水；钥环",
+      "family": "深封陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        10.9524,
+        0.0,
+        0.0,
+        89.0476
+      ],
+      "success": 10.9524
+    },
+    "破封补刀线": {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Release",
+        "Safe Hit",
+        "Seal Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Break",
+      "relic": "Keyring",
+      "display": "解封钥（改）、护钥（改）、封印击（改）、解封释放（改）、稳击、打击 x2；破封药水；钥环",
+      "family": "破封补刀线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        1.2857,
+        0.0,
+        98.7143
+      ],
+      "success": 1.2857
+    }
+  },
+  "best_by_potion": {
+    "Guard": {
+      "deck": [
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击 x2；护壳药水；封印护符",
+      "family": "基础封印线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        63.5714,
+        0.0,
+        36.4286
+      ],
+      "success": 63.5714
+    },
+    "Key": {
+      "deck": [
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Key",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击 x2；钥药水；钥环",
+      "family": "基础封印线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        35.5714,
+        0.0,
+        0.0,
+        64.4286
+      ],
+      "success": 35.5714
+    },
+    "Break": {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Break",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、稳击、打击；破封药水；封印护符",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.381,
+        33.9905,
+        0.0,
+        65.6286
+      ],
+      "success": 34.3714
+    }
+  },
+  "best_by_relic": {
+    "Ward": {
+      "deck": [
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ward",
+      "display": "解封钥（改） x2、封印击（改） x2、稳击、打击 x2；护壳药水；封印护符",
+      "family": "基础封印线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        63.5714,
+        0.0,
+        36.4286
+      ],
+      "success": 63.5714
+    },
+    "Keyring": {
+      "deck": [
+        "Guard Key",
+        "Key",
+        "Key",
+        "Safe Hit",
+        "Seal Hit",
+        "Seal Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Keyring",
+      "display": "解封钥（改） x2、护钥（改）、封印击（改） x2、稳击、打击；护壳药水；钥环",
+      "family": "护钥封击线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.381,
+        60.9095,
+        0.0,
+        38.7095
+      ],
+      "success": 61.2905
+    }
+  }
+}

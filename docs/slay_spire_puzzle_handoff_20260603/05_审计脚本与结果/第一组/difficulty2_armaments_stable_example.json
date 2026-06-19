@@ -1,0 +1,2274 @@
+{
+  "variant": {
+    "name": "difficulty2_armaments_stable_example",
+    "card_pool": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Bash",
+      "Armaments",
+      "Hemokinesis"
+    ],
+    "enemy_hp": 50,
+    "player_hp": 8,
+    "enemy_damage_by_turn": [
+      0,
+      9,
+      11,
+      13
+    ],
+    "min_deck_size": 7,
+    "max_deck_size": 9,
+    "draw_per_turn": 5
+  },
+  "solutions": [
+    {
+      "label": "stable_line",
+      "deck": [
+        "Armaments",
+        "Bash",
+        "Defend",
+        "Defend",
+        "Hemokinesis",
+        "Strike",
+        "Strike"
+      ],
+      "deck_display": "Armaments, Bash, Defend x2, Hemokinesis, Strike x2",
+      "exact_result": [
+        0.0,
+        0.8571428571428572,
+        0.14,
+        0.0028571428571428576,
+        0.0
+      ],
+      "expected_kill_turn_if_success": 2.145714285714286,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 21,
+              "block": 0,
+              "prob": 0.47619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 33,
+              "block": 0,
+              "prob": 0.23809523809523808
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Hemokinesis]",
+                "Defend",
+                "Hemokinesis+"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 31,
+              "block": 10,
+              "prob": 0.19047619047619047
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Strike]",
+                "Strike",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 35,
+              "block": 5,
+              "prob": 0.047619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 24,
+              "block": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.4761904761904763
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.2380952380952381
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 31,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.19047619047619047
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 24,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.04761904761904763
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 35,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.04761904761904762
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 1.0000000000000002,
+          "exact_kill_prob": 0.8571428571428571,
+          "cumulative_kill_prob": 0.8571428571428571,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.4761904761904763
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.2380952380952381
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 31,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.19047619047619047
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 24,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.04761904761904763
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 35,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.04761904761904762
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Hemokinesis]",
+                "Hemokinesis+",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": -4,
+              "block": 5,
+              "prob": 0.14761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 31,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -5,
+              "block": 0,
+              "prob": 0.1142857142857143
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Strike]",
+                "Strike",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": -1,
+              "block": 5,
+              "prob": 0.10476190476190475
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.08571428571428573
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.07142857142857144
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Defend",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 10,
+              "prob": 0.07142857142857142
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Defend",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 10,
+              "prob": 0.05714285714285715
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Defend+",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 13,
+              "prob": 0.05714285714285715
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -12,
+              "block": 0,
+              "prob": 0.05714285714285715
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 31,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 25,
+              "block": 10,
+              "prob": 0.05714285714285715
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Defend",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 10,
+              "prob": 0.028571428571428574
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 24,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Hemokinesis]",
+                "Hemokinesis+",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -1,
+              "block": 5,
+              "prob": 0.02380952380952381
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 24,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 24,
+              "block": 10,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 31,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 25,
+              "block": 10,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": -6,
+              "block": 0,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 5,
+              "prob": 0.014285714285714287
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 35,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Bash+"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 25,
+              "block": 5,
+              "prob": 0.014285714285714287
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 35,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Hemokinesis]",
+                "Defend",
+                "Hemokinesis+"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 16,
+              "block": 10,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 35,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Strike",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 20,
+              "block": 5,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 24,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -5,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 35,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Strike]",
+                "Strike+",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 17,
+              "block": 5,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 35,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Defend",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 21,
+              "block": 10,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 35,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Hemokinesis",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 12,
+              "block": 5,
+              "prob": 0.004761904761904762
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 6,
+              "enemy_hp": 25,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.0761904761904762
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 24,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.01904761904761905
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 25,
+              "vulnerable": 2,
+              "weak": 0,
+              "prob": 0.01428571428571429
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 20,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.009523809523809526
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 16,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.009523809523809526
+            },
+            {
+              "player_hp": 2,
+              "enemy_hp": 12,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.004761904761904763
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.004761904761904763
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 17,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.004761904761904762
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "start_mass": 0.14285714285714288,
+          "exact_kill_prob": 0.14000000000000018,
+          "cumulative_kill_prob": 0.9971428571428573,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 6,
+              "enemy_hp": 25,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.0761904761904762
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 24,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.01904761904761905
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 25,
+              "vulnerable": 2,
+              "weak": 0,
+              "prob": 0.01428571428571429
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 20,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.009523809523809526
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 16,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.009523809523809526
+            },
+            {
+              "player_hp": 2,
+              "enemy_hp": 12,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.004761904761904763
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.004761904761904763
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 17,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.004761904761904762
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 25,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Hemokinesis+",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 5,
+              "prob": 0.036190476190476197
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 25,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash+",
+                "Hemokinesis+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -13,
+              "block": 0,
+              "prob": 0.02
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 24,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Hemokinesis]",
+                "Hemokinesis+",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -1,
+              "block": 5,
+              "prob": 0.010476190476190477
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 25,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Hemokinesis+",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 5,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 24,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash+",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -7,
+              "block": 0,
+              "prob": 0.006666666666666668
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 25,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Hemokinesis+",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 5,
+              "prob": 0.005714285714285715
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 25,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Strike]",
+                "Strike+",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -1,
+              "block": 5,
+              "prob": 0.0033333333333333335
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 25,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash+",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -11,
+              "block": 0,
+              "prob": 0.0028571428571428576
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 25,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Strike]",
+                "Hemokinesis+",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 5,
+              "prob": 0.0028571428571428576
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 25,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash+",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -3,
+              "block": 0,
+              "prob": 0.002380952380952381
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Hemokinesis",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 0,
+              "block": 5,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -1,
+              "block": 0,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 25,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Hemokinesis",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -5,
+              "block": 5,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 25,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Hemokinesis",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -9,
+              "block": 5,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Strike]",
+                "Strike+",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": -2,
+              "block": 5,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -20,
+              "block": 0,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": -1,
+              "block": 0,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 24,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -2,
+              "block": 0,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 25,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -11,
+              "block": 0,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Strike",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -3,
+              "block": 5,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Strike",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -3,
+              "block": 5,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -5,
+              "block": 0,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 17,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 25,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Hemokinesis",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -5,
+              "block": 5,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Hemokinesis",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -2,
+              "block": 5,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Hemokinesis",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -2,
+              "block": 5,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 17,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Hemokinesis",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -6,
+              "block": 5,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 17,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -12,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 20,
+              "block": 10,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Hemokinesis",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 0,
+              "block": 5,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Hemokinesis",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -3,
+              "block": 5,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Hemokinesis",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -3,
+              "block": 5,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Strike]",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 20,
+              "block": 10,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -9,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Defend",
+                "Hemokinesis+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -3,
+              "block": 10,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Defend",
+                "Hemokinesis+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -3,
+              "block": 10,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Defend+",
+                "Hemokinesis+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -3,
+              "block": 13,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Defend",
+                "Hemokinesis+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -3,
+              "block": 10,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Hemokinesis]",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 12,
+              "block": 10,
+              "prob": 0.00047619047619047624
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 17,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Strike+",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -1,
+              "block": 5,
+              "prob": 0.00047619047619047624
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 17,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Hemokinesis]",
+                "Defend",
+                "Hemokinesis+"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -2,
+              "block": 10,
+              "prob": 0.00047619047619047624
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 17,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Hemokinesis",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -6,
+              "block": 5,
+              "prob": 0.00047619047619047624
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 25,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Hemokinesis]",
+                "Hemokinesis+"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -3,
+              "block": 5,
+              "prob": 0.00047619047619047624
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Strike]",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 21,
+              "block": 10,
+              "prob": 0.00047619047619047624
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 3,
+              "enemy_hp": 20,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.0019047619047619052
+            },
+            {
+              "player_hp": 1,
+              "enemy_hp": 12,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.0004761904761904763
+            },
+            {
+              "player_hp": 5,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.0004761904761904763
+            }
+          ]
+        },
+        {
+          "turn": 4,
+          "start_mass": 0.0028571428571428576,
+          "exact_kill_prob": 0.002857142857142858,
+          "cumulative_kill_prob": 1.0000000000000002,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 3,
+              "enemy_hp": 20,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.0019047619047619052
+            },
+            {
+              "player_hp": 1,
+              "enemy_hp": 12,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.0004761904761904763
+            },
+            {
+              "player_hp": 5,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.0004761904761904763
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 3,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Hemokinesis",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 1,
+              "end_enemy_hp": -3,
+              "block": 5,
+              "prob": 0.0004761904761904763
+            },
+            {
+              "start_state": {
+                "player_hp": 3,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 1,
+              "end_enemy_hp": -9,
+              "block": 0,
+              "prob": 0.00047619047619047624
+            },
+            {
+              "start_state": {
+                "player_hp": 3,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Hemokinesis",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 1,
+              "end_enemy_hp": -3,
+              "block": 5,
+              "prob": 0.00028571428571428574
+            },
+            {
+              "start_state": {
+                "player_hp": 3,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash+",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 1,
+              "end_enemy_hp": -11,
+              "block": 0,
+              "prob": 0.00028571428571428574
+            },
+            {
+              "start_state": {
+                "player_hp": 5,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Hemokinesis",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 3,
+              "end_enemy_hp": -2,
+              "block": 5,
+              "prob": 0.00023809523809523815
+            },
+            {
+              "start_state": {
+                "player_hp": 5,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 3,
+              "end_enemy_hp": -8,
+              "block": 0,
+              "prob": 0.00023809523809523812
+            },
+            {
+              "start_state": {
+                "player_hp": 1,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 1,
+              "end_enemy_hp": -9,
+              "block": 0,
+              "prob": 0.0001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 3,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Defend]",
+                "Hemokinesis",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 1,
+              "end_enemy_hp": 0,
+              "block": 5,
+              "prob": 0.0001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 1,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Bash]",
+                "Strike",
+                "Strike+"
+              ],
+              "end_player_hp_before_enemy": 1,
+              "end_enemy_hp": -3,
+              "block": 5,
+              "prob": 0.00014285714285714287
+            },
+            {
+              "start_state": {
+                "player_hp": 1,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 1,
+              "end_enemy_hp": -5,
+              "block": 0,
+              "prob": 0.00014285714285714287
+            },
+            {
+              "start_state": {
+                "player_hp": 3,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Armaments[upgrade Hemokinesis]",
+                "Hemokinesis+",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 1,
+              "end_enemy_hp": -5,
+              "block": 5,
+              "prob": 9.523809523809525e-05
+            },
+            {
+              "start_state": {
+                "player_hp": 3,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Hemokinesis",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 1,
+              "end_enemy_hp": 0,
+              "block": 5,
+              "prob": 9.523809523809525e-05
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    }
+  ],
+  "audit_summary": {
+    "case_count": 36,
+    "stable_count": 4,
+    "top_rows": [
+      {
+        "deck": [
+          "Armaments",
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.1380952380952381,
+          0.0,
+          0.004761904761904762
+        ],
+        "fail": 0.004761904761904762
+      },
+      {
+        "deck": [
+          "Armaments",
+          "Bash",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190479,
+          0.0,
+          0.0380952380952381
+        ],
+        "fail": 0.0380952380952381
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ],
+        "fail": 0.0380952380952381
+      },
+      {
+        "deck": [
+          "Armaments",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8571428571428572,
+          0.14,
+          0.0028571428571428576,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8571428571428572,
+          0.1380952380952381,
+          0.0,
+          0.004761904761904762
+        ],
+        "fail": 0.004761904761904762
+      },
+      {
+        "deck": [
+          "Bash",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8571428571428572,
+          0.0,
+          0.0,
+          0.14285714285714285
+        ],
+        "fail": 0.14285714285714285
+      },
+      {
+        "deck": [
+          "Armaments",
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.7321428571428571,
+          0.2357142857142857,
+          0.0,
+          0.03214285714285715
+        ],
+        "fail": 0.03214285714285715
+      },
+      {
+        "deck": [
+          "Armaments",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.732142857142857,
+          0.25071428571428567,
+          0.011785714285714287,
+          0.005357142857142857
+        ],
+        "fail": 0.005357142857142857
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.732142857142857,
+          0.23571428571428565,
+          0.0,
+          0.03214285714285715
+        ],
+        "fail": 0.03214285714285715
+      },
+      {
+        "deck": [
+          "Armaments",
+          "Bash",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.7321428571428569,
+          0.1607142857142857,
+          0.0,
+          0.10714285714285714
+        ],
+        "fail": 0.10714285714285714
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.7321428571428569,
+          0.1607142857142857,
+          0.0,
+          0.10714285714285712
+        ],
+        "fail": 0.10714285714285712
+      },
+      {
+        "deck": [
+          "Armaments",
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.6111111111111112,
+          0.30952380952380953,
+          0.0,
+          0.07936507936507936
+        ],
+        "fail": 0.07936507936507936
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.611111111111111,
+          0.30952380952380953,
+          0.0,
+          0.07936507936507936
+        ],
+        "fail": 0.07936507936507936
+      },
+      {
+        "deck": [
+          "Armaments",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.6111111111111109,
+          0.352063492063492,
+          0.01142857142857143,
+          0.025396825396825397
+        ],
+        "fail": 0.025396825396825397
+      },
+      {
+        "deck": [
+          "Armaments",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5523809523809525,
+          0.0,
+          0.01904761904761905
+        ],
+        "fail": 0.01904761904761905
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5523809523809525,
+          0.0,
+          0.01904761904761905
+        ],
+        "fail": 0.01904761904761905
+      },
+      {
+        "deck": [
+          "Armaments",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.42857142857142866,
+          0.0,
+          0.14285714285714285
+        ],
+        "fail": 0.14285714285714285
+      },
+      {
+        "deck": [
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.4285714285714286,
+          0.0,
+          0.14285714285714285
+        ],
+        "fail": 0.14285714285714285
+      },
+      {
+        "deck": [
+          "Armaments",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.42857142857142855,
+          0.5542857142857143,
+          0.017142857142857147,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Armaments",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.24999999999999994,
+          0.7124999999999999,
+          0.026785714285714277,
+          0.010714285714285713
+        ],
+        "fail": 0.010714285714285713
+      }
+    ],
+    "top_non_solution_rows": [
+      {
+        "deck": [
+          "Armaments",
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.1380952380952381,
+          0.0,
+          0.004761904761904762
+        ],
+        "fail": 0.004761904761904762
+      },
+      {
+        "deck": [
+          "Armaments",
+          "Bash",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190479,
+          0.0,
+          0.0380952380952381
+        ],
+        "fail": 0.0380952380952381
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ],
+        "fail": 0.0380952380952381
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8571428571428572,
+          0.1380952380952381,
+          0.0,
+          0.004761904761904762
+        ],
+        "fail": 0.004761904761904762
+      },
+      {
+        "deck": [
+          "Bash",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8571428571428572,
+          0.0,
+          0.0,
+          0.14285714285714285
+        ],
+        "fail": 0.14285714285714285
+      }
+    ]
+  },
+  "export_meta": {
+    "script": "difficulty1_formal_draft_export.py",
+    "variant_name": "difficulty2_armaments_stable_example",
+    "solution_labels": [
+      "stable_line"
+    ]
+  }
+}

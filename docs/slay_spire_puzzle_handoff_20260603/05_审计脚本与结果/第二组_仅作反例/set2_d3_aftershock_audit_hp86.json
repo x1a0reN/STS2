@@ -1,0 +1,876 @@
+{
+  "enemy_hp": 86,
+  "player_hp": 15,
+  "incoming": [
+    7,
+    14,
+    21,
+    28
+  ],
+  "legal_deck_count": 494,
+  "perfect_success_count": 0,
+  "top30": [
+    {
+      "deck": [
+        "Breaker",
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、破震斩（改）、防御",
+      "family": "破震斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.7619,
+        0.1143,
+        91.1238
+      ],
+      "success": 8.8762
+    },
+    {
+      "deck": [
+        "Breaker",
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、破震斩（改）、打击",
+      "family": "破震斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.3333,
+        0.0,
+        91.6667
+      ],
+      "success": 8.3333
+    },
+    {
+      "deck": [
+        "Breaker",
+        "Focus Guard",
+        "Heavy Slash",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、破震斩（改）、重斩",
+      "family": "破震斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        5.7619,
+        0.0,
+        94.2381
+      ],
+      "success": 5.7619
+    },
+    {
+      "deck": [
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、打击、防御",
+      "family": "基础余震线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        5.7619,
+        0.0,
+        94.2381
+      ],
+      "success": 5.7619
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、防御 x2",
+      "family": "稳震拖回合线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        4.9524,
+        0.0,
+        95.0476
+      ],
+      "success": 4.9524
+    },
+    {
+      "deck": [
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Strike",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、打击 x2",
+      "family": "基础余震线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        4.381,
+        0.0,
+        95.619
+      ],
+      "success": 4.381
+    },
+    {
+      "deck": [
+        "Defend",
+        "Focus Guard",
+        "Heavy Slash",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、重斩、防御",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        3.5714,
+        0.0,
+        96.4286
+      ],
+      "success": 3.5714
+    },
+    {
+      "deck": [
+        "Focus Guard",
+        "Heavy Slash",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、重斩、打击",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        3.4286,
+        0.0,
+        96.5714
+      ],
+      "success": 3.4286
+    },
+    {
+      "deck": [
+        "Breaker",
+        "Defend",
+        "Defend",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、余震爆发（改）、破震斩（改）、防御 x2",
+      "family": "破震斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        2.8571,
+        0.0,
+        97.1429
+      ],
+      "success": 2.8571
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、余震爆发（改）、打击、防御 x2",
+      "family": "基础余震线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        2.7619,
+        0.0,
+        97.2381
+      ],
+      "success": 2.7619
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改） x2、余震爆发（改）、防御 x2",
+      "family": "余震爆发线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        2.6667,
+        0.0,
+        97.3333
+      ],
+      "success": 2.6667
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、余震爆发（改）、重斩、防御 x2",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        2.0476,
+        0.0,
+        97.9524
+      ],
+      "success": 2.0476
+    },
+    {
+      "deck": [
+        "Breaker",
+        "Defend",
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改）、震击（改）、稳震格挡（改）、余震爆发（改）、破震斩（改）、防御 x2",
+      "family": "破震斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.9048,
+        0.3762,
+        98.719
+      ],
+      "success": 1.281
+    },
+    {
+      "deck": [
+        "Breaker",
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改） x2、稳震格挡（改）、余震爆发（改）、破震斩（改）",
+      "family": "余震爆发线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.1429,
+        0.0,
+        98.8571
+      ],
+      "success": 1.1429
+    },
+    {
+      "deck": [
+        "Breaker",
+        "Defend",
+        "Focus Guard",
+        "Heavy Slash",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改）、震击（改）、稳震格挡（改）、余震爆发（改）、破震斩（改）、重斩、防御",
+      "family": "破震斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.8571,
+        0.2524,
+        98.8905
+      ],
+      "success": 1.1095
+    },
+    {
+      "deck": [
+        "Breaker",
+        "Focus Guard",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Strike",
+        "Tremor"
+      ],
+      "display": "脉冲（改）、震击（改）、稳震格挡（改）、余震爆发（改）、破震斩（改）、打击 x2",
+      "family": "破震斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.9524,
+        0.0,
+        99.0476
+      ],
+      "success": 0.9524
+    },
+    {
+      "deck": [
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改） x2、稳震格挡（改）、余震爆发（改）、防御",
+      "family": "余震爆发线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.8571,
+        0.0,
+        99.1429
+      ],
+      "success": 0.8571
+    },
+    {
+      "deck": [
+        "Breaker",
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Tremor"
+      ],
+      "display": "脉冲（改）、震击（改）、稳震格挡（改）、余震爆发（改）、破震斩（改）、打击、防御",
+      "family": "破震斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.8095,
+        0.0,
+        99.1905
+      ],
+      "success": 0.8095
+    },
+    {
+      "deck": [
+        "Breaker",
+        "Focus Guard",
+        "Heavy Slash",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Tremor"
+      ],
+      "display": "脉冲（改）、震击（改）、稳震格挡（改）、余震爆发（改）、破震斩（改）、重斩、打击",
+      "family": "破震斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.7619,
+        0.0,
+        99.2381
+      ],
+      "success": 0.7619
+    },
+    {
+      "deck": [
+        "Breaker",
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Quake",
+        "Tremor",
+        "Tremor"
+      ],
+      "display": "脉冲（改）、震击（改） x2、稳震格挡（改）、余震爆发（改）、破震斩（改）、防御",
+      "family": "余震爆发线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.6667,
+        0.0,
+        99.3333
+      ],
+      "success": 0.6667
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Focus Guard",
+        "Heavy Slash",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改）、震击（改）、稳震格挡（改）、余震爆发（改）、重斩、防御 x2",
+      "family": "稳震拖回合线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.6667,
+        0.0,
+        99.3333
+      ],
+      "success": 0.6667
+    },
+    {
+      "deck": [
+        "Breaker",
+        "Focus Guard",
+        "Heavy Slash",
+        "Pulse",
+        "Quake",
+        "Tremor",
+        "Tremor"
+      ],
+      "display": "脉冲（改）、震击（改） x2、稳震格挡（改）、余震爆发（改）、破震斩（改）、重斩",
+      "family": "余震爆发线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.5714,
+        0.0,
+        99.4286
+      ],
+      "success": 0.5714
+    },
+    {
+      "deck": [
+        "Breaker",
+        "Focus Guard",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Tremor",
+        "Tremor"
+      ],
+      "display": "脉冲（改）、震击（改） x2、稳震格挡（改）、余震爆发（改）、破震斩（改）、打击",
+      "family": "余震爆发线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.5714,
+        0.0,
+        99.4286
+      ],
+      "success": 0.5714
+    },
+    {
+      "deck": [
+        "Focus Guard",
+        "Heavy Slash",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改） x2、稳震格挡（改）、余震爆发（改）、重斩",
+      "family": "余震爆发线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.5714,
+        0.0,
+        99.4286
+      ],
+      "success": 0.5714
+    },
+    {
+      "deck": [
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Tremor",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改） x2、稳震格挡（改）、余震爆发（改）、打击",
+      "family": "余震爆发线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.5714,
+        0.0,
+        99.4286
+      ],
+      "success": 0.5714
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Tremor"
+      ],
+      "display": "脉冲（改）、震击（改）、稳震格挡（改）、余震爆发（改）、打击、防御 x2",
+      "family": "稳震拖回合线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.2857,
+        0.0,
+        99.7143
+      ],
+      "success": 0.2857
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Quake",
+        "Tremor",
+        "Tremor"
+      ],
+      "display": "脉冲（改）、震击（改） x2、稳震格挡（改）、余震爆发（改）、防御 x2",
+      "family": "余震爆发线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.2857,
+        0.0,
+        99.7143
+      ],
+      "success": 0.2857
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Focus Guard",
+        "Heavy Slash",
+        "Pulse",
+        "Pulse",
+        "Quake"
+      ],
+      "display": "脉冲（改） x2、稳震格挡（改）、余震爆发（改）、重斩、防御 x2",
+      "family": "稳震拖回合线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.2619,
+        99.7381
+      ],
+      "success": 0.2619
+    },
+    {
+      "deck": [
+        "Defend",
+        "Focus Guard",
+        "Heavy Slash",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Tremor"
+      ],
+      "display": "脉冲（改）、震击（改）、稳震格挡（改）、余震爆发（改）、重斩、打击、防御",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.2381,
+        0.0,
+        99.7619
+      ],
+      "success": 0.2381
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Strike"
+      ],
+      "display": "脉冲（改） x2、稳震格挡（改）、余震爆发（改）、打击、防御 x2",
+      "family": "稳震拖回合线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        99.8
+      ],
+      "success": 0.2
+    }
+  ],
+  "best_by_first_turn": {
+    "3": {
+      "deck": [
+        "Breaker",
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、破震斩（改）、防御",
+      "family": "破震斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.7619,
+        0.1143,
+        91.1238
+      ],
+      "success": 8.8762
+    },
+    "4": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Focus Guard",
+        "Heavy Slash",
+        "Pulse",
+        "Pulse",
+        "Quake"
+      ],
+      "display": "脉冲（改） x2、稳震格挡（改）、余震爆发（改）、重斩、防御 x2",
+      "family": "稳震拖回合线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.2619,
+        99.7381
+      ],
+      "success": 0.2619
+    },
+    "0": {
+      "deck": [
+        "Breaker",
+        "Defend",
+        "Defend",
+        "Focus Guard",
+        "Heavy Slash",
+        "Premature",
+        "Pulse"
+      ],
+      "display": "脉冲（改）、稳震格挡（改）、早爆（改）、破震斩（改）、重斩、防御 x2",
+      "family": "早爆陷阱线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  },
+  "best_by_family": {
+    "破震斩线": {
+      "deck": [
+        "Breaker",
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、破震斩（改）、防御",
+      "family": "破震斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.7619,
+        0.1143,
+        91.1238
+      ],
+      "success": 8.8762
+    },
+    "基础余震线": {
+      "deck": [
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Strike",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、打击、防御",
+      "family": "基础余震线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        5.7619,
+        0.0,
+        94.2381
+      ],
+      "success": 5.7619
+    },
+    "稳震拖回合线": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Focus Guard",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、防御 x2",
+      "family": "稳震拖回合线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        4.9524,
+        0.0,
+        95.0476
+      ],
+      "success": 4.9524
+    },
+    "重斩诱导线": {
+      "deck": [
+        "Defend",
+        "Focus Guard",
+        "Heavy Slash",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改）、稳震格挡（改）、余震爆发（改）、重斩、防御",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        3.5714,
+        0.0,
+        96.4286
+      ],
+      "success": 3.5714
+    },
+    "余震爆发线": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Pulse",
+        "Pulse",
+        "Quake",
+        "Tremor",
+        "Tremor"
+      ],
+      "display": "脉冲（改） x2、震击（改） x2、余震爆发（改）、防御 x2",
+      "family": "余震爆发线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        2.6667,
+        0.0,
+        97.3333
+      ],
+      "success": 2.6667
+    },
+    "早爆陷阱线": {
+      "deck": [
+        "Breaker",
+        "Defend",
+        "Defend",
+        "Focus Guard",
+        "Heavy Slash",
+        "Premature",
+        "Pulse"
+      ],
+      "display": "脉冲（改）、稳震格挡（改）、早爆（改）、破震斩（改）、重斩、防御 x2",
+      "family": "早爆陷阱线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  }
+}

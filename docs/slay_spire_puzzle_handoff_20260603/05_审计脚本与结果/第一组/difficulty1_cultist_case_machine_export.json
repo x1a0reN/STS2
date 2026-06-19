@@ -1,0 +1,1316 @@
+{
+  "variant": {
+    "name": "six_strike_def3_perfected_hp50_php8_turn4",
+    "card_pool": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Perfected Strike"
+    ],
+    "enemy_hp": 50,
+    "player_hp": 8,
+    "enemy_damage_by_turn": [
+      0,
+      9,
+      11,
+      13
+    ],
+    "min_deck_size": 7,
+    "max_deck_size": 9,
+    "draw_per_turn": 5
+  },
+  "solutions": [
+    {
+      "label": "fast_2_turn",
+      "deck": [
+        "Perfected Strike",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "deck_display": "Perfected Strike, Strike x6",
+      "exact_result": [
+        0.0,
+        0.42857142857142866,
+        0.0,
+        0.0,
+        0.5714285714285714
+      ],
+      "expected_kill_turn_if_success": 2.0,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 24,
+              "block": 0,
+              "prob": 0.7142857142857144
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 50,
+              "block": 0,
+              "prob": 0.2857142857142857
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 24,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.7142857142857144
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.28571428571428564
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.42857142857142866,
+          "cumulative_kill_prob": 0.42857142857142866,
+          "fail_prob_after_action": 0.5714285714285714,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 24,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.7142857142857144
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.28571428571428564
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 24,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": -2,
+              "block": 0,
+              "prob": 0.42857142857142866
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 24,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 24,
+              "block": 0,
+              "prob": 0.28571428571428575
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 50,
+              "block": 0,
+              "prob": 0.28571428571428564
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    },
+    {
+      "label": "main_3_turn",
+      "deck": [
+        "Defend",
+        "Defend",
+        "Perfected Strike",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "deck_display": "Defend x2, Perfected Strike, Strike x4",
+      "exact_result": [
+        0.0,
+        0.0,
+        0.9523809523809526,
+        0.0,
+        0.047619047619047616
+      ],
+      "expected_kill_turn_if_success": 3.0,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Perfected Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 34,
+              "block": 5,
+              "prob": 0.6666666666666666
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 32,
+              "block": 0,
+              "prob": 0.2857142857142857
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 34,
+              "block": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 34,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.7142857142857144
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 32,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2857142857142857
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.047619047619047616,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 34,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.7142857142857144
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 32,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2857142857142857
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 34,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Perfected Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 18,
+              "block": 5,
+              "prob": 0.4
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 34,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 22,
+              "block": 5,
+              "prob": 0.28571428571428575
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 32,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Perfected Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 16,
+              "block": 5,
+              "prob": 0.26666666666666666
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 34,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 34,
+              "block": 0,
+              "prob": 0.02857142857142857
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 32,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 32,
+              "block": 0,
+              "prob": 0.01904761904761905
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 4,
+              "enemy_hp": 18,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.40000000000000013
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 22,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.28571428571428575
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 16,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2666666666666667
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "start_mass": 0.9523809523809527,
+          "exact_kill_prob": 0.9523809523809527,
+          "cumulative_kill_prob": 0.9523809523809527,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 4,
+              "enemy_hp": 18,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.40000000000000013
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 22,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.28571428571428575
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 16,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2666666666666667
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 22,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.28571428571428575
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 18,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.24000000000000002
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 18,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.16000000000000003
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Perfected Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 5,
+              "prob": 0.14857142857142858
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -2,
+              "block": 0,
+              "prob": 0.10666666666666666
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.011428571428571429
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    },
+    {
+      "label": "slow_4_turn",
+      "deck": [
+        "Defend",
+        "Defend",
+        "Defend",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "deck_display": "Defend x3, Strike x6",
+      "exact_result": [
+        0.0,
+        0.0,
+        0.0,
+        0.7619047619047611,
+        0.238095238095238
+      ],
+      "expected_kill_turn_if_success": 4.0,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 0.9999999999999989,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.9999999999999989
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 32,
+              "block": 0,
+              "prob": 0.8809523809523798
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 50,
+              "block": 0,
+              "prob": 0.11904761904761904
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 32,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.8809523809523798
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.11904761904761905
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 0.9999999999999989,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.11904761904761905,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 32,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.8809523809523798
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.11904761904761905
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 32,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 26,
+              "block": 10,
+              "prob": 0.5952380952380947
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 32,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 20,
+              "block": 5,
+              "prob": 0.28571428571428525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 50,
+              "block": 0,
+              "prob": 0.11904761904761905
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 26,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.5952380952380947
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 20,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.28571428571428525
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "start_mass": 0.8809523809523799,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.04761904761904759,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 26,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.5952380952380947
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 20,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.28571428571428525
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 26,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 14,
+              "block": 5,
+              "prob": 0.547619047619047
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 14,
+              "block": 10,
+              "prob": 0.28571428571428525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 26,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 26,
+              "block": 0,
+              "prob": 0.04761904761904759
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 2,
+              "enemy_hp": 14,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.5476190476190471
+            },
+            {
+              "player_hp": 3,
+              "enemy_hp": 14,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2857142857142853
+            }
+          ]
+        },
+        {
+          "turn": 4,
+          "start_mass": 0.8333333333333324,
+          "exact_kill_prob": 0.7619047619047611,
+          "cumulative_kill_prob": 0.7619047619047611,
+          "fail_prob_after_action": 0.07142857142857136,
+          "start_state_groups": [
+            {
+              "player_hp": 2,
+              "enemy_hp": 14,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.5476190476190471
+            },
+            {
+              "player_hp": 3,
+              "enemy_hp": 14,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2857142857142853
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 14,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.4761904761904758
+            },
+            {
+              "start_state": {
+                "player_hp": 3,
+                "enemy_hp": 14,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 3,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.2857142857142853
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 14,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 14,
+              "block": 0,
+              "prob": 0.07142857142857136
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    }
+  ],
+  "audit_summary": {
+    "case_count": 15,
+    "stable_count": 0,
+    "top_rows": [
+      {
+        "deck": [
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.42857142857142866,
+          0.0,
+          0.0,
+          0.5714285714285714
+        ],
+        "fail": 0.5714285714285714
+      },
+      {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.24999999999999994,
+          0.482142857142857,
+          0.0,
+          0.2678571428571428
+        ],
+        "fail": 0.2678571428571428
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.11111111111111106,
+          0.7460317460317458,
+          0.0,
+          0.14285714285714285
+        ],
+        "fail": 0.14285714285714285
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.9523809523809526,
+          0.0,
+          0.047619047619047616
+        ],
+        "fail": 0.047619047619047616
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.0,
+          0.8928571428571427,
+          0.0,
+          0.10714285714285712
+        ],
+        "fail": 0.10714285714285712
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.0,
+          0.8889285714285715,
+          0.08999999999999998,
+          0.02107142857142857
+        ],
+        "fail": 0.02107142857142857
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.0,
+          0.8857142857142856,
+          0.06666666666666668,
+          0.047619047619047616
+        ],
+        "fail": 0.047619047619047616
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.7457142857142858,
+          0.23800000000000004,
+          0.01628571428571429
+        ],
+        "fail": 0.01628571428571429
+      },
+      {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.7142857142857144,
+          0.0,
+          0.2857142857142857
+        ],
+        "fail": 0.2857142857142857
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7619047619047611,
+          0.238095238095238
+        ],
+        "fail": 0.238095238095238
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ],
+        "fail": 0.2857142857142857
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.6589285714285713,
+          0.3410714285714285
+        ],
+        "fail": 0.3410714285714285
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.5008571428571429,
+          0.4991428571428571
+        ],
+        "fail": 0.4991428571428571
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.4642857142857142,
+          0.5357142857142856
+        ],
+        "fail": 0.5357142857142856
+      },
+      {
+        "deck": [
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fail": 1.0
+      }
+    ],
+    "top_non_solution_rows": [
+      {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.24999999999999994,
+          0.482142857142857,
+          0.0,
+          0.2678571428571428
+        ],
+        "fail": 0.2678571428571428
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.11111111111111106,
+          0.7460317460317458,
+          0.0,
+          0.14285714285714285
+        ],
+        "fail": 0.14285714285714285
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.0,
+          0.8928571428571427,
+          0.0,
+          0.10714285714285712
+        ],
+        "fail": 0.10714285714285712
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.0,
+          0.8889285714285715,
+          0.08999999999999998,
+          0.02107142857142857
+        ],
+        "fail": 0.02107142857142857
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.0,
+          0.8857142857142856,
+          0.06666666666666668,
+          0.047619047619047616
+        ],
+        "fail": 0.047619047619047616
+      }
+    ]
+  },
+  "export_meta": {
+    "script": "difficulty1_formal_draft_export.py",
+    "variant_name": "six_strike_def3_perfected_hp50_php8_turn4",
+    "solution_labels": [
+      "fast_2_turn",
+      "main_3_turn",
+      "slow_4_turn"
+    ],
+    "turn_rows_precision": "authoritative"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "Gongdou_STS2_Frieren_Character",
+  "name": "GongDou STS2 Frieren Character",
+  "author": "x1a0reN",
+  "description": "Independent Frieren character framework for Slay the Spire 2.",
+  "version": "0.1.36",
+  "has_pck": false,
+  "has_dll": true,
+  "affects_gameplay": true
+}

@@ -1,0 +1,1599 @@
+{
+  "family": "bludgeon_bash_window52",
+  "card_pool": [
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Defend",
+    "Defend",
+    "Bash",
+    "Bludgeon"
+  ],
+  "enemy_hps": [
+    52,
+    53,
+    54
+  ],
+  "player_hps": [
+    8,
+    9
+  ],
+  "damage_sequences": [
+    [
+      0,
+      8,
+      10,
+      12
+    ],
+    [
+      0,
+      9,
+      10,
+      12
+    ],
+    [
+      0,
+      9,
+      11,
+      13
+    ],
+    [
+      0,
+      9,
+      12,
+      14
+    ]
+  ],
+  "details": [
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 53,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7857142857142856,
+          0.047619047619047596,
+          0.16666666666666669
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 53,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7857142857142856,
+          0.047619047619047596,
+          0.16666666666666669
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 53,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7857142857142856,
+          0.047619047619047596,
+          0.16666666666666669
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 53,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7857142857142856,
+          0.047619047619047596,
+          0.16666666666666669
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 53,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 53,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7857142857142856,
+          0.047619047619047596,
+          0.16666666666666669
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 53,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7857142857142856,
+          0.047619047619047596,
+          0.16666666666666669
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 53,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3214285714285714,
+          0.007142857142857142,
+          0.004761904761904762
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7857142857142856,
+          0.047619047619047596,
+          0.16666666666666669
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3114285714285714,
+          0.014285714285714287,
+          0.007619047619047619
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.3142857142857143,
+          0.4548571428571429,
+          0.23085714285714287
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3114285714285714,
+          0.014285714285714287,
+          0.007619047619047619
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.3142857142857143,
+          0.4548571428571429,
+          0.23085714285714287
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3114285714285714,
+          0.014285714285714287,
+          0.007619047619047619
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.3142857142857143,
+          0.4548571428571429,
+          0.23085714285714287
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3114285714285714,
+          0.014285714285714287,
+          0.007619047619047619
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.3142857142857143,
+          0.4548571428571429,
+          0.23085714285714287
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3333333333333333,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3114285714285714,
+          0.014285714285714287,
+          0.007619047619047619
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.3142857142857143,
+          0.4548571428571429,
+          0.23085714285714287
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3114285714285714,
+          0.014285714285714287,
+          0.007619047619047619
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.3142857142857143,
+          0.4548571428571429,
+          0.23085714285714287
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Bludgeon",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.6666666666666667,
+          0.3114285714285714,
+          0.014285714285714287,
+          0.007619047619047619
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.3142857142857143,
+          0.4548571428571429,
+          0.23085714285714287
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2780 @@
+{
+  "family": "pure_block_hemo_body_slam",
+  "card_pool": [
+    "Strike",
+    "Strike",
+    "Strike",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Hemokinesis",
+    "Body Slam"
+  ],
+  "enemy_hps": [
+    49,
+    50,
+    51,
+    52
+  ],
+  "player_hps": [
+    8,
+    9
+  ],
+  "damage_sequences": [
+    [
+      0,
+      9,
+      11,
+      13
+    ],
+    [
+      0,
+      9,
+      10,
+      12
+    ],
+    [
+      0,
+      8,
+      10,
+      12
+    ],
+    [
+      0,
+      8,
+      11,
+      13
+    ],
+    [
+      0,
+      9,
+      12,
+      14
+    ]
+  ],
+  "details": [
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.5852380952380952,
+          0.09857142857142859,
+          0.05904761904761906
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5,
+          0.4686984126984128,
+          0.0313015873015873
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.5852380952380952,
+          0.10914285714285715,
+          0.04847619047619048
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5,
+          0.4686984126984128,
+          0.0313015873015873
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6823809523809523,
+          0.02714285714285715,
+          0.03333333333333333
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7107936507936509,
+          0.28126984126984134,
+          0.007936507936507936
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6823809523809523,
+          0.02714285714285715,
+          0.03333333333333333
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7107936507936509,
+          0.23073015873015873,
+          0.05847619047619048
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.5852380952380952,
+          0.05000000000000001,
+          0.10761904761904763
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5,
+          0.3973333333333333,
+          0.10266666666666668
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6823809523809523,
+          0.02714285714285715,
+          0.03333333333333333
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7107936507936509,
+          0.23073015873015873,
+          0.05847619047619048
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6823809523809523,
+          0.02714285714285715,
+          0.03333333333333333
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7107936507936509,
+          0.28126984126984134,
+          0.007936507936507936
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6828571428571428,
+          0.04142857142857144,
+          0.018571428571428572
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7107936507936509,
+          0.2827301587301587,
+          0.006476190476190477
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.3612142857142857,
+          0.6387857142857142
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6828571428571428,
+          0.02714285714285715,
+          0.03285714285714286
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7107936507936509,
+          0.28126984126984134,
+          0.007936507936507936
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.2742142857142857,
+          0.7257857142857141
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6823809523809523,
+          0.02714285714285715,
+          0.03333333333333333
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7107936507936509,
+          0.23073015873015873,
+          0.05847619047619048
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.530952380952381,
+          0.13714285714285718,
+          0.07476190476190477
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5,
+          0.45219047619047625,
+          0.047809523809523816
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.530952380952381,
+          0.14314285714285716,
+          0.06876190476190476
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5,
+          0.45219047619047625,
+          0.047809523809523816
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6823809523809523,
+          0.02714285714285715,
+          0.03333333333333333
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7069841269841272,
+          0.2850793650793651,
+          0.007936507936507936
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6823809523809523,
+          0.02714285714285715,
+          0.03333333333333333
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7069841269841272,
+          0.23352380952380952,
+          0.0594920634920635
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.530952380952381,
+          0.03314285714285715,
+          0.17876190476190476
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5,
+          0.370920634920635,
+          0.1290793650793651
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6823809523809523,
+          0.02714285714285715,
+          0.03333333333333333
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7069841269841272,
+          0.23352380952380952,
+          0.0594920634920635
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6823809523809523,
+          0.02714285714285715,
+          0.03333333333333333
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7069841269841272,
+          0.2850793650793651,
+          0.007936507936507936
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6828571428571428,
+          0.04142857142857144,
+          0.018571428571428572
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7069841269841272,
+          0.28653968253968254,
+          0.006476190476190477
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.36057142857142854,
+          0.6394285714285713
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6828571428571428,
+          0.02714285714285715,
+          0.03285714285714286
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7069841269841272,
+          0.2850793650793651,
+          0.007936507936507936
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.2742142857142857,
+          0.7257857142857141
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6823809523809523,
+          0.02714285714285715,
+          0.03333333333333333
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7069841269841272,
+          0.23352380952380952,
+          0.0594920634920635
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.46342857142857147,
+          0.5365714285714286
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.38571428571428573,
+          0.19371428571428573,
+          0.16342857142857142
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.4053968253968254,
+          0.49219047619047623,
+          0.10241269841269843
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.4608571428571429,
+          0.5391428571428571
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.38571428571428573,
+          0.20028571428571434,
+          0.15685714285714286
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.4053968253968254,
+          0.493968253968254,
+          0.10063492063492065
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.4608571428571429,
+          0.5391428571428571
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6338095238095238,
+          0.05885714285714287,
+          0.05019047619047619
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.6403571428571427,
+          0.356,
+          0.0036428571428571426
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.4608571428571429,
+          0.5391428571428571
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6338095238095238,
+          0.053428571428571436,
+          0.05561904761904761
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.6403571428571427,
+          0.28185714285714286,
+          0.07778571428571428
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.4608571428571429,
+          0.5391428571428571
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.38571428571428573,
+          0.08085714285714288,
+          0.2762857142857143
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.4053968253968254,
+          0.4152380952380953,
+          0.1793650793650794
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.4608571428571429,
+          0.5391428571428571
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6338095238095238,
+          0.053714285714285714,
+          0.05533333333333333
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.6403571428571427,
+          0.28185714285714286,
+          0.07778571428571428
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.4608571428571429,
+          0.5391428571428571
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6338095238095238,
+          0.05885714285714287,
+          0.05019047619047619
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.6403571428571427,
+          0.356,
+          0.0036428571428571426
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.4608571428571429,
+          0.5391428571428571
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6342857142857143,
+          0.07314285714285713,
+          0.03542857142857143
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.6403571428571427,
+          0.356,
+          0.0036428571428571426
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.34785714285714286,
+          0.652142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6342857142857143,
+          0.05885714285714287,
+          0.04971428571428572
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.6403571428571427,
+          0.356,
+          0.0036428571428571426
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.26057142857142856,
+          0.7394285714285713
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6338095238095238,
+          0.053428571428571436,
+          0.05561904761904761
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.6403571428571427,
+          0.28185714285714286,
+          0.07778571428571428
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.4608571428571429,
+          0.5391428571428571
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.38571428571428573,
+          0.19114285714285717,
+          0.166
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.4053968253968254,
+          0.4784761904761905,
+          0.11612698412698413
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.3588571428571429,
+          0.6411428571428572
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.38571428571428573,
+          0.20028571428571434,
+          0.15685714285714286
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.4053968253968254,
+          0.48025396825396827,
+          0.11434920634920637
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.3588571428571429,
+          0.6411428571428572
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6209523809523809,
+          0.07171428571428573,
+          0.05019047619047619
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5615873015873016,
+          0.41498412698412696,
+          0.023428571428571434
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.3588571428571429,
+          0.6411428571428572
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6209523809523809,
+          0.053428571428571436,
+          0.06847619047619047
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5615873015873016,
+          0.358984126984127,
+          0.07942857142857145
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.3588571428571429,
+          0.6411428571428572
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.38571428571428573,
+          0.07685714285714287,
+          0.2802857142857143
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.4053968253968254,
+          0.3840000000000001,
+          0.21060317460317463
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.3588571428571429,
+          0.6411428571428572
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6209523809523809,
+          0.053714285714285714,
+          0.06819047619047618
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5615873015873016,
+          0.36000000000000004,
+          0.07841269841269842
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.3588571428571429,
+          0.6411428571428572
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6209523809523809,
+          0.07171428571428573,
+          0.05019047619047619
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5615873015873016,
+          0.41498412698412696,
+          0.023428571428571434
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.3588571428571429,
+          0.6411428571428572
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6214285714285714,
+          0.08557142857142858,
+          0.03585714285714286
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5615873015873016,
+          0.41644444444444445,
+          0.021968253968253974
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.2953571428571429,
+          0.704642857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6214285714285714,
+          0.07171428571428573,
+          0.04971428571428572
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5615873015873016,
+          0.41498412698412696,
+          0.023428571428571434
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.15342857142857141,
+          0.8465714285714285
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6209523809523809,
+          0.053428571428571436,
+          0.06847619047619047
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.5615873015873016,
+          0.358984126984127,
+          0.07942857142857145
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Body Slam",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.3588571428571429,
+          0.6411428571428572
+        ]
+      }
+    }
+  ]
+}

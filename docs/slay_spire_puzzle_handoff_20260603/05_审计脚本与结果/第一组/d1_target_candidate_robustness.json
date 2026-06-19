@@ -1,0 +1,1626 @@
+{
+  "family": "d1_target_candidate",
+  "card_pool": [
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Defend",
+    "Perfected Strike",
+    "Perfected Strike",
+    "Bash",
+    "Shrug It Off"
+  ],
+  "enemy_hps": [
+    54,
+    55,
+    56
+  ],
+  "player_hps": [
+    8,
+    9
+  ],
+  "damage_sequences": [
+    [
+      0,
+      9,
+      11,
+      13
+    ],
+    [
+      0,
+      8,
+      10,
+      12
+    ],
+    [
+      0,
+      9,
+      12,
+      14
+    ],
+    [
+      0,
+      8,
+      11,
+      13
+    ]
+  ],
+  "details": [
+    {
+      "enemy_hp": 54,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.951957671957672,
+          0.006772486772486774,
+          0.04126984126984127
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9259259259259258,
+          0.07407407407407407
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.951957671957672,
+          0.006772486772486774,
+          0.04126984126984127
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9259259259259258,
+          0.07407407407407407
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.951957671957672,
+          0.006772486772486773,
+          0.04126984126984127
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.8253968253968252,
+          0.1746031746031746
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.951957671957672,
+          0.006772486772486774,
+          0.04126984126984127
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9259259259259258,
+          0.07407407407407407
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.951957671957672,
+          0.006772486772486774,
+          0.04126984126984127
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9259259259259258,
+          0.07407407407407407
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.42857142857142844,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.951957671957672,
+          0.006772486772486774,
+          0.04126984126984127
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9259259259259258,
+          0.07407407407407407
+        ]
+      }
+    },
+    {
+      "enemy_hp": 54,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.42857142857142844,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 55,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.003333333333333334,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9126984126984126,
+          0.0873015873015873
+        ]
+      }
+    },
+    {
+      "enemy_hp": 55,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.003333333333333334,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9126984126984126,
+          0.0873015873015873
+        ]
+      }
+    },
+    {
+      "enemy_hp": 55,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.0033333333333333335,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.47619047619047616,
+          0.5238095238095237
+        ]
+      }
+    },
+    {
+      "enemy_hp": 55,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.003333333333333334,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9126984126984126,
+          0.0873015873015873
+        ]
+      }
+    },
+    {
+      "enemy_hp": 55,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.003333333333333334,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9126984126984126,
+          0.0873015873015873
+        ]
+      }
+    },
+    {
+      "enemy_hp": 55,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.42857142857142844,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9603174603174602,
+          0.03968253968253968
+        ]
+      }
+    },
+    {
+      "enemy_hp": 55,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.003333333333333334,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9126984126984126,
+          0.0873015873015873
+        ]
+      }
+    },
+    {
+      "enemy_hp": 55,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.42857142857142844,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9603174603174602,
+          0.03968253968253968
+        ]
+      }
+    },
+    {
+      "enemy_hp": 56,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.003333333333333334,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9126984126984126,
+          0.0873015873015873
+        ]
+      }
+    },
+    {
+      "enemy_hp": 56,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.003333333333333334,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9126984126984126,
+          0.0873015873015873
+        ]
+      }
+    },
+    {
+      "enemy_hp": 56,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.0033333333333333335,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.47619047619047616,
+          0.5238095238095237
+        ]
+      }
+    },
+    {
+      "enemy_hp": 56,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.003333333333333334,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9126984126984126,
+          0.0873015873015873
+        ]
+      }
+    },
+    {
+      "enemy_hp": 56,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.003333333333333334,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9126984126984126,
+          0.0873015873015873
+        ]
+      }
+    },
+    {
+      "enemy_hp": 56,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.42857142857142844,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9603174603174602,
+          0.03968253968253968
+        ]
+      }
+    },
+    {
+      "enemy_hp": 56,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.003333333333333334,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9126984126984126,
+          0.0873015873015873
+        ]
+      }
+    },
+    {
+      "enemy_hp": 56,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.42857142857142844,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.9603174603174602,
+          0.03968253968253968
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2889 @@
+{
+  "variant": {
+    "name": "difficulty2_burning_pact_hemo_stable_example",
+    "card_pool": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Burning Pact",
+      "Hemokinesis",
+      "Bash",
+      "Uppercut"
+    ],
+    "enemy_hp": 50,
+    "player_hp": 8,
+    "enemy_damage_by_turn": [
+      0,
+      9,
+      11,
+      13
+    ],
+    "min_deck_size": 7,
+    "max_deck_size": 9,
+    "draw_per_turn": 5
+  },
+  "solutions": [
+    {
+      "label": "stable_line",
+      "deck": [
+        "Bash",
+        "Burning Pact",
+        "Defend",
+        "Hemokinesis",
+        "Strike",
+        "Strike",
+        "Uppercut"
+      ],
+      "deck_display": "Bash, Burning Pact, Defend, Hemokinesis, Strike x2, Uppercut",
+      "exact_result": [
+        0.0,
+        0.9841269841269843,
+        0.015873015873015872,
+        0.0,
+        0.0
+      ],
+      "expected_kill_turn_if_success": 2.015873015873016,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 21,
+              "block": 0,
+              "prob": 0.23809523809523808
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 42,
+              "block": 5,
+              "prob": 0.14285714285714285
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 42,
+              "block": 0,
+              "prob": 0.09523809523809523
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 42,
+              "block": 0,
+              "prob": 0.09523809523809523
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Strike]",
+                "Uppercut"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 37,
+              "block": 0,
+              "prob": 0.09523809523809523
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Uppercut",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 16,
+              "block": 0,
+              "prob": 0.09523809523809523
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 42,
+              "block": 0,
+              "prob": 0.047619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 33,
+              "block": 0,
+              "prob": 0.047619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Uppercut]",
+                "Uppercut"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 37,
+              "block": 0,
+              "prob": 0.047619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 38,
+              "block": 5,
+              "prob": 0.047619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Uppercut",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 37,
+              "block": 5,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 42,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.38095238095238093
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.238095238095238
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 37,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.1904761904761905
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 16,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.09523809523809525
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.04761904761904763
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 38,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.04761904761904763
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.053968253968253964,
+          "cumulative_kill_prob": 0.053968253968253964,
+          "fail_prob_after_action": 0.8222222222222217,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 42,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.38095238095238093
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.238095238095238
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 37,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.1904761904761905
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 16,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.09523809523809525
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.04761904761904763
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 38,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.04761904761904763
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Bash, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.07936507936507936
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Bash, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 29,
+              "block": 0,
+              "prob": 0.047619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.04444444444444444
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 5,
+              "prob": 0.042857142857142864
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Bash, Hemokinesis]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.03968253968253968
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Bash, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.03968253968253968
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Burning Pact[exhaust Strike; draw Bash, Hemokinesis]",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.03968253968253968
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.028571428571428574
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Strike]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.028571428571428574
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.028571428571428574
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Burning Pact[exhaust Defend; draw Bash, Strike]",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 12,
+              "block": 0,
+              "prob": 0.028571428571428574
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Hemokinesis]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.02380952380952381
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Bash, Hemokinesis]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 29,
+              "block": 0,
+              "prob": 0.023809523809523808
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Bash, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 29,
+              "block": 0,
+              "prob": 0.023809523809523808
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 8,
+              "block": 0,
+              "prob": 0.023809523809523808
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Burning Pact[exhaust Strike; draw Bash, Strike]",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 17,
+              "block": 0,
+              "prob": 0.023809523809523808
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 8,
+              "block": 0,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 8,
+              "block": 0,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 8,
+              "block": 5,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Uppercut]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 5,
+              "prob": 0.014285714285714287
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 21,
+              "block": 5,
+              "prob": 0.014285714285714287
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 38,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 5,
+              "prob": 0.014285714285714287
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.014285714285714287
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Burning Pact[exhaust Strike; draw Bash, Defend]",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 21,
+              "block": 5,
+              "prob": 0.014285714285714287
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 8,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Strike]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 8,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Strike]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 8,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Hemokinesis; draw Defend, Strike]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Hemokinesis; draw Defend, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Hemokinesis]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Hemokinesis; draw Bash, Defend]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 21,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Strike]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 21,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 29,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 29,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 29,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 38,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 38,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 5,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Hemokinesis]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 8,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 16,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Uppercut]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 8,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 21,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Strike]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 21,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Uppercut]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 21,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Hemokinesis",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 3,
+              "block": 5,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 29,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 29,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Hemokinesis]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 29,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 29,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 38,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 38,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 38,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Hemokinesis]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Burning Pact[exhaust Defend; draw Bash, Uppercut]",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 12,
+              "block": 0,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 12,
+              "block": 5,
+              "prob": 0.004761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 42,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Uppercut",
+                "Burning Pact[exhaust Defend; draw Bash, Hemokinesis]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 23,
+              "block": 0,
+              "prob": 0.004761904761904762
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 2,
+              "enemy_hp": 9,
+              "vulnerable": 2,
+              "weak": 0,
+              "prob": 0.04285714285714285
+            },
+            {
+              "player_hp": 2,
+              "enemy_hp": 8,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.019047619047619053
+            },
+            {
+              "player_hp": 2,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.01428571428571429
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0,
+              "prob": 0.01428571428571429
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.01428571428571429
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 2,
+              "weak": 0,
+              "prob": 0.009523809523809526
+            },
+            {
+              "player_hp": 2,
+              "enemy_hp": 3,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.004761904761904763
+            },
+            {
+              "player_hp": 2,
+              "enemy_hp": 12,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.004761904761904763
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "start_mass": 0.12380952380952381,
+          "exact_kill_prob": 0.06666666666666671,
+          "cumulative_kill_prob": 0.12063492063492068,
+          "fail_prob_after_action": 0.05714285714285715,
+          "start_state_groups": [
+            {
+              "player_hp": 2,
+              "enemy_hp": 9,
+              "vulnerable": 2,
+              "weak": 0,
+              "prob": 0.04285714285714285
+            },
+            {
+              "player_hp": 2,
+              "enemy_hp": 8,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.019047619047619053
+            },
+            {
+              "player_hp": 2,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.01428571428571429
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0,
+              "prob": 0.01428571428571429
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.01428571428571429
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 2,
+              "weak": 0,
+              "prob": 0.009523809523809526
+            },
+            {
+              "player_hp": 2,
+              "enemy_hp": 3,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.004761904761904763
+            },
+            {
+              "player_hp": 2,
+              "enemy_hp": 12,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.004761904761904763
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 9,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -3,
+              "block": 0,
+              "prob": 0.025714285714285714
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 8,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.01142857142857143
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 9,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Strike]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -3,
+              "block": 0,
+              "prob": 0.006666666666666667
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 3,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -5,
+              "block": 0,
+              "prob": 0.004761904761904763
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 9,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Hemokinesis; draw Bash, Defend]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -3,
+              "block": 0,
+              "prob": 0.004285714285714286
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 9,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Uppercut]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -3,
+              "block": 0,
+              "prob": 0.0033333333333333335
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 8,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Strike]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.0028571428571428576
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 9,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Hemokinesis]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -3,
+              "block": 0,
+              "prob": 0.0028571428571428576
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Bash, Hemokinesis]"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 13,
+              "block": 0,
+              "prob": 0.002380952380952381
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Bash, Strike]"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 13,
+              "block": 0,
+              "prob": 0.002380952380952381
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Bash, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 13,
+              "block": 0,
+              "prob": 0.002380952380952381
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Hemokinesis; draw Bash, Defend]"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 13,
+              "block": 0,
+              "prob": 0.002380952380952381
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 13,
+              "block": 5,
+              "prob": 0.002380952380952381
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 13,
+              "block": 0,
+              "prob": 0.002380952380952381
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 8,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Hemokinesis; draw Bash, Defend]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Hemokinesis; draw Defend, Strike]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Strike]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Hemokinesis; draw Defend, Strike]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Strike]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 8,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Hemokinesis]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 8,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Uppercut]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Hemokinesis]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Hemokinesis]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Hemokinesis; draw Bash, Defend]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Hemokinesis]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Hemokinesis]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Strike; draw Bash, Defend]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0014285714285714288
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 4,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 4,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Hemokinesis; draw Defend, Strike]"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 4,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Hemokinesis; draw Defend, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Uppercut]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Hemokinesis; draw Defend, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Uppercut]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Hemokinesis; draw Defend, Strike]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Hemokinesis; draw Defend, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Hemokinesis]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Hemokinesis]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Strike]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Bash, Uppercut]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Strike; draw Bash, Defend]",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.0009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 4,
+              "block": 0,
+              "prob": 0.00047619047619047624
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Strike]"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 4,
+              "block": 0,
+              "prob": 0.00047619047619047624
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Hemokinesis; draw Defend, Uppercut]"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 4,
+              "block": 0,
+              "prob": 0.00047619047619047624
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Strike; draw Defend, Hemokinesis]"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 4,
+              "block": 0,
+              "prob": 0.00047619047619047624
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Strike]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 9,
+              "block": 0,
+              "prob": 0.00047619047619047624
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 30,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Burning Pact[exhaust Defend; draw Strike, Strike]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.00047619047619047624
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    }
+  ],
+  "audit_summary": {
+    "case_count": 55,
+    "stable_count": 10,
+    "top_rows": [
+      {
+        "deck": [
+          "Bash",
+          "Burning Pact",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9841269841269844,
+          0.0,
+          0.0,
+          0.015873015873015872
+        ],
+        "fail": 0.015873015873015872
+      },
+      {
+        "deck": [
+          "Bash",
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9841269841269843,
+          0.015873015873015872,
+          0.0,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9809523809523812,
+          0.01428571428571429,
+          0.0,
+          0.004761904761904762
+        ],
+        "fail": 0.004761904761904762
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9809523809523809,
+          0.01904761904761905,
+          0.0,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Bash",
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9539682539682539,
+          0.046031746031746035,
+          0.0,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Bash",
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.9527777777777781,
+          0.015873015873015872,
+          0.0,
+          0.03134920634920634
+        ],
+        "fail": 0.03134920634920634
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.9464285714285715,
+          0.048214285714285716,
+          0.0,
+          0.005357142857142857
+        ],
+        "fail": 0.005357142857142857
+      },
+      {
+        "deck": [
+          "Bash",
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9015873015873017,
+          0.09603174603174602,
+          0.002380952380952381,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Bash",
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.8966269841269842,
+          0.09119047619047617,
+          0.00666005291005291,
+          0.005522486772486771
+        ],
+        "fail": 0.005522486772486771
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8761904761904762,
+          0.11761904761904762,
+          0.0061904761904761916,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Bash",
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8634920634920634,
+          0.13650793650793652,
+          0.0,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.8589285714285713,
+          0.1182142857142857,
+          0.018428571428571433,
+          0.004428571428571429
+        ],
+        "fail": 0.004428571428571429
+      },
+      {
+        "deck": [
+          "Bash",
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.8579365079365078,
+          0.11589873603762492,
+          0.012974181853811481,
+          0.013190574172055653
+        ],
+        "fail": 0.013190574172055653
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8571428571428572,
+          0.1380952380952381,
+          0.0,
+          0.004761904761904762
+        ],
+        "fail": 0.004761904761904762
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8349206349206351,
+          0.16428571428571426,
+          0.0007936507936507935,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.8269841269841268,
+          0.1326984126984127,
+          0.02285714285714286,
+          0.01746031746031746
+        ],
+        "fail": 0.01746031746031746
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.819047619047619,
+          0.18095238095238092,
+          0.0,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8190476190476189,
+          0.1746031746031746,
+          0.006349206349206348,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.8095238095238095,
+          0.1904761904761905,
+          0.0,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Bash",
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.7904761904761904,
+          0.18476190476190474,
+          0.02412698412698413,
+          0.000634920634920635
+        ],
+        "fail": 0.000634920634920635
+      }
+    ],
+    "top_non_solution_rows": [
+      {
+        "deck": [
+          "Bash",
+          "Burning Pact",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9841269841269844,
+          0.0,
+          0.0,
+          0.015873015873015872
+        ],
+        "fail": 0.015873015873015872
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9809523809523812,
+          0.01428571428571429,
+          0.0,
+          0.004761904761904762
+        ],
+        "fail": 0.004761904761904762
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9809523809523809,
+          0.01904761904761905,
+          0.0,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Bash",
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9539682539682539,
+          0.046031746031746035,
+          0.0,
+          0.0
+        ],
+        "fail": 0.0
+      },
+      {
+        "deck": [
+          "Bash",
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.9527777777777781,
+          0.015873015873015872,
+          0.0,
+          0.03134920634920634
+        ],
+        "fail": 0.03134920634920634
+      }
+    ]
+  },
+  "export_meta": {
+    "script": "refresh_machine_export.py",
+    "variant_name": "difficulty2_burning_pact_hemo_stable_example",
+    "solution_labels": [
+      "stable_line"
+    ],
+    "turn_rows_precision": "authoritative",
+    "refreshed_from": "difficulty2_burning_pact_hemo_stable_example.json"
+  }
+}

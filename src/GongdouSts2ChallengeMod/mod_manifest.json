@@ -1,0 +1,10 @@
+{
+  "id": "Gongdou_STS2_Challenge",
+  "name": "GongDou STS2 Challenge",
+  "author": "x1a0reN",
+  "description": "GongDou challenge bridge for Slay the Spire 2.",
+  "version": "0.1.192",
+  "has_pck": false,
+  "has_dll": true,
+  "affects_gameplay": true
+}

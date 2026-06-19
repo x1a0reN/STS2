@@ -1,0 +1,1146 @@
+{
+  "variant": {
+    "name": "difficulty2_fire_potion_subset",
+    "card_pool": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Bash",
+      "Neutralize",
+      "Ball Lightning",
+      "Ball Lightning",
+      "Survivor",
+      "Quick Slash",
+      "Quick Slash"
+    ],
+    "enemy_hp": 102,
+    "player_hp": 14,
+    "enemy_damage_by_turn": [
+      0,
+      11,
+      15,
+      18
+    ],
+    "deck_size": [
+      7,
+      7
+    ],
+    "draw_per_turn": 5,
+    "potion": "Fire Potion: deal 20 damage once, no energy.",
+    "audit_note": "Per hand, all playable subsets are enumerated. Within a subset, Bash is resolved before other attacks because it is always damage-optimal for this card set."
+  },
+  "legal_deck_count": 149,
+  "perfect_success_count": 0,
+  "top20": [
+    {
+      "deck": [
+        "Ball Lightning",
+        "Ball Lightning",
+        "Bash",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash",
+        "Strike"
+      ],
+      "deck_display": "重击、中和、球状闪电 x2、快斩 x2、打击",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.8242857142857143,
+        0.0,
+        0.17571428571428574
+      ],
+      "success": 0.8242857142857143,
+      "fail": 0.17571428571428574
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Ball Lightning",
+        "Bash",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash",
+        "Survivor"
+      ],
+      "deck_display": "重击、中和、球状闪电 x2、生存者、快斩 x2",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.7380952380952381,
+        0.0857142857142857,
+        0.17619047619047623
+      ],
+      "success": 0.8238095238095239,
+      "fail": 0.17619047619047623
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Bash",
+        "Defend",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash",
+        "Survivor"
+      ],
+      "deck_display": "重击、中和、球状闪电、生存者、防御、快斩 x2",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.32,
+        0.48147619047619056,
+        0.19852380952380957
+      ],
+      "success": 0.8014761904761906,
+      "fail": 0.19852380952380957
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Bash",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash",
+        "Strike",
+        "Survivor"
+      ],
+      "deck_display": "重击、中和、球状闪电、生存者、快斩 x2、打击",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.6490476190476192,
+        0.11047619047619049,
+        0.2404761904761905
+      ],
+      "success": 0.7595238095238097,
+      "fail": 0.2404761904761905
+    },
+    {
+      "deck": [
+        "Bash",
+        "Defend",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash",
+        "Strike",
+        "Survivor"
+      ],
+      "deck_display": "重击、中和、生存者、防御、快斩 x2、打击",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.18952380952380957,
+        0.5518571428571428,
+        0.25861904761904764
+      ],
+      "success": 0.7413809523809524,
+      "fail": 0.25861904761904764
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Ball Lightning",
+        "Bash",
+        "Defend",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash"
+      ],
+      "deck_display": "重击、中和、球状闪电 x2、防御、快斩 x2",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.738095238095238,
+        0.0,
+        0.2619047619047619
+      ],
+      "success": 0.738095238095238,
+      "fail": 0.2619047619047619
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Bash",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash",
+        "Strike",
+        "Strike"
+      ],
+      "deck_display": "重击、中和、球状闪电、快斩 x2、打击 x2",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.7366666666666666,
+        0.0,
+        0.26333333333333336
+      ],
+      "success": 0.7366666666666666,
+      "fail": 0.26333333333333336
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Ball Lightning",
+        "Bash",
+        "Defend",
+        "Neutralize",
+        "Quick Slash",
+        "Survivor"
+      ],
+      "deck_display": "重击、中和、球状闪电 x2、生存者、防御、快斩",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.15047619047619046,
+        0.5770476190476189,
+        0.2724761904761905
+      ],
+      "success": 0.7275238095238094,
+      "fail": 0.2724761904761905
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Bash",
+        "Defend",
+        "Defend",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash"
+      ],
+      "deck_display": "重击、中和、球状闪电、防御 x2、快斩 x2",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.32,
+        0.40309523809523823,
+        0.2769047619047619
+      ],
+      "success": 0.7230952380952382,
+      "fail": 0.2769047619047619
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Bash",
+        "Defend",
+        "Neutralize",
+        "Quick Slash",
+        "Strike",
+        "Survivor"
+      ],
+      "deck_display": "重击、中和、球状闪电、生存者、防御、快斩、打击",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.05857142857142857,
+        0.6598095238095236,
+        0.28161904761904766
+      ],
+      "success": 0.7183809523809522,
+      "fail": 0.28161904761904766
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Bash",
+        "Defend",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash",
+        "Strike"
+      ],
+      "deck_display": "重击、中和、球状闪电、防御、快斩 x2、打击",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.649047619047619,
+        0.02285714285714286,
+        0.3280952380952381
+      ],
+      "success": 0.6719047619047619,
+      "fail": 0.3280952380952381
+    },
+    {
+      "deck": [
+        "Bash",
+        "Defend",
+        "Neutralize",
+        "Quick Slash",
+        "Strike",
+        "Strike",
+        "Survivor"
+      ],
+      "deck_display": "重击、中和、生存者、防御、快斩、打击 x2",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.05380952380952382,
+        0.6112857142857143,
+        0.334904761904762
+      ],
+      "success": 0.6650952380952382,
+      "fail": 0.334904761904762
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Ball Lightning",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash",
+        "Strike",
+        "Survivor"
+      ],
+      "deck_display": "中和、球状闪电 x2、生存者、快斩 x2、打击",
+      "first_turn": 4,
+      "result": [
+        0.0,
+        0.0,
+        0.0,
+        0.6552380952380954,
+        0.3447619047619048
+      ],
+      "success": 0.6552380952380954,
+      "fail": 0.3447619047619048
+    },
+    {
+      "deck": [
+        "Bash",
+        "Defend",
+        "Defend",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash",
+        "Strike"
+      ],
+      "deck_display": "重击、中和、防御 x2、快斩 x2、打击",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.18952380952380954,
+        0.46290476190476204,
+        0.34757142857142864
+      ],
+      "success": 0.6524285714285716,
+      "fail": 0.34757142857142864
+    },
+    {
+      "deck": [
+        "Bash",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash",
+        "Strike",
+        "Strike",
+        "Survivor"
+      ],
+      "deck_display": "重击、中和、生存者、快斩 x2、打击 x2",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.47238095238095235,
+        0.16709523809523813,
+        0.3605238095238096
+      ],
+      "success": 0.6394761904761905,
+      "fail": 0.3605238095238096
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Ball Lightning",
+        "Bash",
+        "Defend",
+        "Defend",
+        "Neutralize",
+        "Quick Slash"
+      ],
+      "deck_display": "重击、中和、球状闪电 x2、防御 x2、快斩",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.15047619047619046,
+        0.4787619047619048,
+        0.3707619047619048
+      ],
+      "success": 0.6292380952380953,
+      "fail": 0.3707619047619048
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Bash",
+        "Defend",
+        "Defend",
+        "Neutralize",
+        "Quick Slash",
+        "Strike"
+      ],
+      "deck_display": "重击、中和、球状闪电、防御 x2、快斩、打击",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.05857142857142858,
+        0.5475238095238095,
+        0.39390476190476187
+      ],
+      "success": 0.6060952380952381,
+      "fail": 0.39390476190476187
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Ball Lightning",
+        "Bash",
+        "Neutralize",
+        "Strike",
+        "Strike",
+        "Survivor"
+      ],
+      "deck_display": "重击、中和、球状闪电 x2、生存者、打击 x2",
+      "first_turn": 4,
+      "result": [
+        0.0,
+        0.0,
+        0.0,
+        0.6028571428571428,
+        0.3971428571428573
+      ],
+      "success": 0.6028571428571428,
+      "fail": 0.3971428571428573
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Bash",
+        "Neutralize",
+        "Quick Slash",
+        "Strike",
+        "Strike",
+        "Survivor"
+      ],
+      "deck_display": "重击、中和、球状闪电、生存者、快斩、打击 x2",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.13619047619047617,
+        0.46514285714285714,
+        0.3986666666666667
+      ],
+      "success": 0.6013333333333333,
+      "fail": 0.3986666666666667
+    },
+    {
+      "deck": [
+        "Ball Lightning",
+        "Ball Lightning",
+        "Defend",
+        "Neutralize",
+        "Quick Slash",
+        "Quick Slash",
+        "Survivor"
+      ],
+      "deck_display": "中和、球状闪电 x2、生存者、防御、快斩 x2",
+      "first_turn": 4,
+      "result": [
+        0.0,
+        0.0,
+        0.0,
+        0.5985714285714286,
+        0.4014285714285715
+      ],
+      "success": 0.5985714285714286,
+      "fail": 0.4014285714285715
+    }
+  ],
+  "best_by_turn": {
+    "3": [
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Neutralize",
+          "Quick Slash",
+          "Quick Slash",
+          "Strike"
+        ],
+        "deck_display": "重击、中和、球状闪电 x2、快斩 x2、打击",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.8242857142857143,
+          0.0,
+          0.17571428571428574
+        ],
+        "success": 0.8242857142857143,
+        "fail": 0.17571428571428574
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Neutralize",
+          "Quick Slash",
+          "Quick Slash",
+          "Survivor"
+        ],
+        "deck_display": "重击、中和、球状闪电 x2、生存者、快斩 x2",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7380952380952381,
+          0.0857142857142857,
+          0.17619047619047623
+        ],
+        "success": 0.8238095238095239,
+        "fail": 0.17619047619047623
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Neutralize",
+          "Quick Slash",
+          "Quick Slash",
+          "Survivor"
+        ],
+        "deck_display": "重击、中和、球状闪电、生存者、防御、快斩 x2",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.32,
+          0.48147619047619056,
+          0.19852380952380957
+        ],
+        "success": 0.8014761904761906,
+        "fail": 0.19852380952380957
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Bash",
+          "Neutralize",
+          "Quick Slash",
+          "Quick Slash",
+          "Strike",
+          "Survivor"
+        ],
+        "deck_display": "重击、中和、球状闪电、生存者、快斩 x2、打击",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6490476190476192,
+          0.11047619047619049,
+          0.2404761904761905
+        ],
+        "success": 0.7595238095238097,
+        "fail": 0.2404761904761905
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Neutralize",
+          "Quick Slash",
+          "Quick Slash",
+          "Strike",
+          "Survivor"
+        ],
+        "deck_display": "重击、中和、生存者、防御、快斩 x2、打击",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.18952380952380957,
+          0.5518571428571428,
+          0.25861904761904764
+        ],
+        "success": 0.7413809523809524,
+        "fail": 0.25861904761904764
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Neutralize",
+          "Quick Slash",
+          "Quick Slash"
+        ],
+        "deck_display": "重击、中和、球状闪电 x2、防御、快斩 x2",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.738095238095238,
+          0.0,
+          0.2619047619047619
+        ],
+        "success": 0.738095238095238,
+        "fail": 0.2619047619047619
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Bash",
+          "Neutralize",
+          "Quick Slash",
+          "Quick Slash",
+          "Strike",
+          "Strike"
+        ],
+        "deck_display": "重击、中和、球状闪电、快斩 x2、打击 x2",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7366666666666666,
+          0.0,
+          0.26333333333333336
+        ],
+        "success": 0.7366666666666666,
+        "fail": 0.26333333333333336
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Neutralize",
+          "Quick Slash",
+          "Survivor"
+        ],
+        "deck_display": "重击、中和、球状闪电 x2、生存者、防御、快斩",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.15047619047619046,
+          0.5770476190476189,
+          0.2724761904761905
+        ],
+        "success": 0.7275238095238094,
+        "fail": 0.2724761904761905
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Quick Slash",
+          "Quick Slash"
+        ],
+        "deck_display": "重击、中和、球状闪电、防御 x2、快斩 x2",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.32,
+          0.40309523809523823,
+          0.2769047619047619
+        ],
+        "success": 0.7230952380952382,
+        "fail": 0.2769047619047619
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Neutralize",
+          "Quick Slash",
+          "Strike",
+          "Survivor"
+        ],
+        "deck_display": "重击、中和、球状闪电、生存者、防御、快斩、打击",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.05857142857142857,
+          0.6598095238095236,
+          0.28161904761904766
+        ],
+        "success": 0.7183809523809522,
+        "fail": 0.28161904761904766
+      }
+    ],
+    "4": [
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Neutralize",
+          "Quick Slash",
+          "Quick Slash",
+          "Strike",
+          "Survivor"
+        ],
+        "deck_display": "中和、球状闪电 x2、生存者、快斩 x2、打击",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.6552380952380954,
+          0.3447619047619048
+        ],
+        "success": 0.6552380952380954,
+        "fail": 0.3447619047619048
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Survivor"
+        ],
+        "deck_display": "重击、中和、球状闪电 x2、生存者、打击 x2",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.6028571428571428,
+          0.3971428571428573
+        ],
+        "success": 0.6028571428571428,
+        "fail": 0.3971428571428573
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Defend",
+          "Neutralize",
+          "Quick Slash",
+          "Quick Slash",
+          "Survivor"
+        ],
+        "deck_display": "中和、球状闪电 x2、生存者、防御、快斩 x2",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.5985714285714286,
+          0.4014285714285715
+        ],
+        "success": 0.5985714285714286,
+        "fail": 0.4014285714285715
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Quick Slash",
+          "Quick Slash",
+          "Survivor"
+        ],
+        "deck_display": "重击、中和、生存者、防御 x2、快斩 x2",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.588952380952381,
+          0.4110476190476191
+        ],
+        "success": 0.588952380952381,
+        "fail": 0.4110476190476191
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Neutralize",
+          "Strike",
+          "Survivor"
+        ],
+        "deck_display": "重击、中和、球状闪电 x2、生存者、防御、打击",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.574190476190476,
+          0.4258095238095238
+        ],
+        "success": 0.574190476190476,
+        "fail": 0.4258095238095238
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Neutralize",
+          "Quick Slash",
+          "Quick Slash",
+          "Strike",
+          "Strike",
+          "Survivor"
+        ],
+        "deck_display": "中和、球状闪电、生存者、快斩 x2、打击 x2",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.571904761904762,
+          0.42809523809523814
+        ],
+        "success": 0.571904761904762,
+        "fail": 0.42809523809523814
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Bash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Survivor"
+        ],
+        "deck_display": "重击、中和、球状闪电、生存者、打击 x3",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.5684285714285715,
+          0.4315714285714287
+        ],
+        "success": 0.5684285714285715,
+        "fail": 0.4315714285714287
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Quick Slash",
+          "Survivor"
+        ],
+        "deck_display": "重击、中和、球状闪电、生存者、防御 x2、快斩",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.5345238095238096,
+          0.46547619047619054
+        ],
+        "success": 0.5345238095238096,
+        "fail": 0.46547619047619054
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Survivor"
+        ],
+        "deck_display": "重击、中和、球状闪电、生存者、防御、打击 x2",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.513952380952381,
+          0.48604761904761906
+        ],
+        "success": 0.513952380952381,
+        "fail": 0.48604761904761906
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Quick Slash",
+          "Quick Slash",
+          "Survivor"
+        ],
+        "deck_display": "重击、球状闪电 x2、生存者、防御、快斩 x2",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.5042857142857141,
+          0.4957142857142857
+        ],
+        "success": 0.5042857142857141,
+        "fail": 0.4957142857142857
+      }
+    ],
+    "None": [
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Quick Slash",
+          "Quick Slash"
+        ],
+        "deck_display": "重击、球状闪电 x2、防御 x2、快斩 x2",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Quick Slash",
+          "Strike"
+        ],
+        "deck_display": "重击、球状闪电 x2、防御 x2、快斩、打击",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.9999999999999998
+        ],
+        "success": 0.0,
+        "fail": 0.9999999999999998
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike"
+        ],
+        "deck_display": "重击、球状闪电 x2、防御 x2、打击 x2",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Survivor"
+        ],
+        "deck_display": "重击、球状闪电 x2、生存者、防御 x2、打击",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.9999999999999998
+        ],
+        "success": 0.0,
+        "fail": 0.9999999999999998
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Quick Slash",
+          "Quick Slash",
+          "Strike"
+        ],
+        "deck_display": "重击、球状闪电 x2、防御、快斩 x2、打击",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.9999999999999999
+        ],
+        "success": 0.0,
+        "fail": 0.9999999999999999
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Quick Slash",
+          "Strike",
+          "Strike"
+        ],
+        "deck_display": "重击、球状闪电 x2、防御、快斩、打击 x2",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_display": "重击、球状闪电 x2、防御、打击 x3",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Survivor"
+        ],
+        "deck_display": "重击、球状闪电 x2、生存者、防御、打击 x2",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.9999999999999999
+        ],
+        "success": 0.0,
+        "fail": 0.9999999999999999
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_display": "重击、中和、球状闪电 x2、打击 x3",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning",
+          "Ball Lightning",
+          "Bash",
+          "Quick Slash",
+          "Quick Slash",
+          "Strike",
+          "Strike"
+        ],
+        "deck_display": "重击、球状闪电 x2、快斩 x2、打击 x2",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      }
+    ]
+  }
+}

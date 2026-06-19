@@ -1,0 +1,1104 @@
+{
+  "enemy_hp": 78,
+  "player_hp": 19,
+  "incoming": [
+    6,
+    12,
+    18,
+    25,
+    33
+  ],
+  "legal_deck_count": 1522,
+  "legal_build_count": 9132,
+  "perfect_success_count": 8,
+  "top30": [
+    {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、触发斩（改）、重斩、打击 x2；护壳药水；留牌锚",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        6.6667,
+        93.3333,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、触发斩（改）、稳击、重斩、打击；护壳药水；留牌锚",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.3333,
+        98.6667,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、触发斩（改）、稳击、打击 x2；护壳药水；留牌锚",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.3333,
+        98.6667,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Defend",
+        "Heavy Slash",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "稳击、重斩、打击 x2、防御、空护；护壳药水；留牌锚",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Heavy Slash",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、稳击、重斩、打击 x2、空护；护壳药水；留牌锚",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "稳击、重斩、打击 x2、防御 x2；护壳药水；留牌锚",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、稳击、重斩、打击 x2、防御；护壳药水；留牌锚",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、稳击、重斩、打击 x2；护壳药水；留牌锚",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Heavy Slash",
+        "Plan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、触发斩（改）、重斩、打击 x2、空护；护壳药水；留牌锚",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        99.4667,
+        0.0,
+        0.5333
+      ],
+      "success": 99.4667
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Plan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、触发斩（改）、重斩、打击 x2、防御；护壳药水；留牌锚",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        99.4667,
+        0.0,
+        0.5333
+      ],
+      "success": 99.4667
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、触发斩（改）、稳击、重斩、打击 x2；护壳药水；留牌锚",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        99.4667,
+        0.0,
+        0.5333
+      ],
+      "success": 99.4667
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、触发斩（改）、稳击、打击 x2、空护；护壳药水；留牌锚",
+      "family": "基础留牌线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        99.3333,
+        0.0,
+        0.6667
+      ],
+      "success": 99.3333
+    },
+    {
+      "deck": [
+        "Defend",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、触发斩（改）、稳击、打击 x2、防御；护壳药水；留牌锚",
+      "family": "基础留牌线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        99.3333,
+        0.0,
+        0.6667
+      ],
+      "success": 99.3333
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、触发斩（改）、重斩、打击、防御；护壳药水；留牌锚",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.3333,
+        97.8667,
+        0.0,
+        0.8
+      ],
+      "success": 99.2
+    },
+    {
+      "deck": [
+        "Hold Guard",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、保留格挡（改）、触发斩（改）、稳击、打击；护壳药水；留牌锚",
+      "family": "触发斩线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        67.7333,
+        31.04,
+        1.2267
+      ],
+      "success": 98.7733
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、触发斩（改）、稳击、重斩、打击；护壳药水；预谋笔记",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        12.0,
+        86.6667,
+        0.0,
+        1.3333
+      ],
+      "success": 98.6667
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、触发斩（改）、重斩、打击、空护；护壳药水；留牌锚",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.3333,
+        96.2667,
+        0.0,
+        2.4
+      ],
+      "success": 97.6
+    },
+    {
+      "deck": [
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、触发斩（改）、稳击、打击 x2；护壳药水；预谋笔记",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        12.0,
+        84.6667,
+        0.0,
+        3.3333
+      ],
+      "success": 96.6667
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Defend",
+        "Heavy Slash",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "稳击、重斩、打击 x2、防御、空护；护壳药水；预谋笔记",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        96.6667,
+        0.0,
+        3.3333
+      ],
+      "success": 96.6667
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Heavy Slash",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "预谋（改）、稳击、重斩、打击 x2、空护；护壳药水；预谋笔记",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        96.6667,
+        0.0,
+        3.3333
+      ],
+      "success": 96.6667
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "预谋（改）、触发斩（改）、稳击、打击 x2、空护；护壳药水；预谋笔记",
+      "family": "基础留牌线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        96.6667,
+        0.0,
+        3.3333
+      ],
+      "success": 96.6667
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "稳击、重斩、打击 x2、防御 x2；护壳药水；预谋笔记",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        96.6667,
+        0.0,
+        3.3333
+      ],
+      "success": 96.6667
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "预谋（改）、稳击、重斩、打击 x2、防御；护壳药水；预谋笔记",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        96.6667,
+        0.0,
+        3.3333
+      ],
+      "success": 96.6667
+    },
+    {
+      "deck": [
+        "Defend",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "预谋（改）、触发斩（改）、稳击、打击 x2、防御；护壳药水；预谋笔记",
+      "family": "基础留牌线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        96.6667,
+        0.0,
+        3.3333
+      ],
+      "success": 96.6667
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "预谋（改）、触发斩（改）、稳击、重斩、打击 x2；护壳药水；预谋笔记",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        96.6667,
+        0.0,
+        3.3333
+      ],
+      "success": 96.6667
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Hold Guard",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、保留格挡（改）、触发斩（改）、稳击、打击、空护；护壳药水；留牌锚",
+      "family": "基础留牌线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        22.1333,
+        73.9733,
+        3.8933
+      ],
+      "success": 96.1067
+    },
+    {
+      "deck": [
+        "Defend",
+        "Hold Guard",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、保留格挡（改）、触发斩（改）、稳击、打击、防御；护壳药水；留牌锚",
+      "family": "基础留牌线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        22.1333,
+        73.9733,
+        3.8933
+      ],
+      "success": 96.1067
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Hold Guard",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、保留格挡（改）、触发斩（改）、稳击、重斩、打击；护壳药水；留牌锚",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        22.1333,
+        73.9733,
+        3.8933
+      ],
+      "success": 96.1067
+    },
+    {
+      "deck": [
+        "Hold Guard",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、保留格挡（改）、触发斩（改）、稳击、打击 x2；护壳药水；留牌锚",
+      "family": "基础留牌线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        22.1333,
+        73.9733,
+        3.8933
+      ],
+      "success": 96.1067
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、触发斩（改）、重斩、打击 x2；爆发药水；预谋笔记",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        95.3333,
+        0.0,
+        0.0,
+        4.6667
+      ],
+      "success": 95.3333
+    }
+  ],
+  "best_by_first_turn": {
+    "3": {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、触发斩（改）、重斩、打击 x2；护壳药水；留牌锚",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        6.6667,
+        93.3333,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    "4": {
+      "deck": [
+        "Blank Guard",
+        "Defend",
+        "Heavy Slash",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "稳击、重斩、打击 x2、防御、空护；护壳药水；留牌锚",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    "5": {
+      "deck": [
+        "Blank Guard",
+        "Defend",
+        "Hold Guard",
+        "Safe Hit",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "保留格挡（改）、触发斩（改）、稳击、打击、防御、空护；护壳药水；留牌锚",
+      "family": "基础留牌线",
+      "first_turn": 5,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        55.0933,
+        44.9067
+      ],
+      "success": 55.0933
+    },
+    "0": {
+      "deck": [
+        "Blank Guard",
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Hold Guard",
+        "Hold Guard"
+      ],
+      "potion": "Insight",
+      "relic": "Notebook",
+      "display": "保留格挡（改） x2、重斩、防御 x2、空护；洞察药水；预谋笔记",
+      "family": "重斩诱导线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  },
+  "best_by_family": {
+    "触发斩线": {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、触发斩（改）、重斩、打击 x2；护壳药水；留牌锚",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        6.6667,
+        93.3333,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    "重斩诱导线": {
+      "deck": [
+        "Blank Guard",
+        "Defend",
+        "Heavy Slash",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "稳击、重斩、打击 x2、防御、空护；护壳药水；留牌锚",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    "基础留牌线": {
+      "deck": [
+        "Blank Guard",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、触发斩（改）、稳击、打击 x2、空护；护壳药水；留牌锚",
+      "family": "基础留牌线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        99.3333,
+        0.0,
+        0.6667
+      ],
+      "success": 99.3333
+    },
+    "保留预谋线": {
+      "deck": [
+        "Hold Guard",
+        "Plan",
+        "Plan",
+        "Release",
+        "Safe Hit",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、保留格挡（改）、触发斩（改）、预谋释放（改）、稳击；护壳药水；预谋笔记",
+      "family": "保留预谋线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        67.1458,
+        17.1333,
+        15.7208
+      ],
+      "success": 84.2792
+    },
+    "爆发补刀线": {
+      "deck": [
+        "Hold Guard",
+        "Hold Guard",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Anchor",
+      "display": "预谋（改）、保留格挡（改） x2、触发斩（改）、蓄势击（改）、稳击；爆发药水；留牌锚",
+      "family": "爆发补刀线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        7.1875,
+        51.3021,
+        41.5104
+      ],
+      "success": 58.4896
+    },
+    "过度预谋陷阱线": {
+      "deck": [
+        "Heavy Slash",
+        "Overplan",
+        "Plan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "预谋（改）、过度预谋（改）、触发斩（改）、重斩、打击 x2；护壳药水；预谋笔记",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        33.3333,
+        0.0,
+        0.0,
+        66.6667
+      ],
+      "success": 33.3333
+    }
+  },
+  "best_by_potion": {
+    "Guard": {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、触发斩（改）、重斩、打击 x2；护壳药水；留牌锚",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        6.6667,
+        93.3333,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    "Burst": {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、触发斩（改）、重斩、打击 x2；爆发药水；预谋笔记",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        95.3333,
+        0.0,
+        0.0,
+        4.6667
+      ],
+      "success": 95.3333
+    },
+    "Insight": {
+      "deck": [
+        "Blank Guard",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Insight",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、触发斩（改）、稳击、打击、空护；洞察药水；留牌锚",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        6.6667,
+        68.8,
+        0.0,
+        24.5333
+      ],
+      "success": 75.4667
+    }
+  },
+  "best_by_relic": {
+    "Anchor": {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、触发斩（改）、重斩、打击 x2；护壳药水；留牌锚",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        6.6667,
+        93.3333,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    "Notebook": {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、触发斩（改）、稳击、重斩、打击；护壳药水；预谋笔记",
+      "family": "触发斩线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        12.0,
+        86.6667,
+        0.0,
+        1.3333
+      ],
+      "success": 98.6667
+    }
+  }
+}

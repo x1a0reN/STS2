@@ -1,0 +1,1697 @@
+{
+  "variant": {
+    "name": "difficulty2_burning_pact_drift",
+    "card_pool": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Defend",
+      "Burning Pact",
+      "Hemokinesis"
+    ],
+    "enemy_hp": 50,
+    "player_hp": 8,
+    "enemy_damage_by_turn": [
+      0,
+      9,
+      11,
+      13
+    ],
+    "min_deck_size": 7,
+    "max_deck_size": 9,
+    "draw_per_turn": 5
+  },
+  "solutions": [
+    {
+      "label": "fast_2_turn",
+      "deck": [
+        "Burning Pact",
+        "Defend",
+        "Hemokinesis",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "deck_display": "Burning Pact, Defend, Hemokinesis, Strike x4",
+      "exact_result": [
+        0.0,
+        0.4285714285714286,
+        0.5158730158730159,
+        0.03650793650793651,
+        0.01904761904761905
+      ],
+      "expected_kill_turn_if_success": 2.6003236245954695,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Strike; draw Strike, Strike]",
+                "Hemokinesis",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 36,
+              "block": 5,
+              "prob": 0.2857142857142857
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 24,
+              "block": 0,
+              "prob": 0.23809523809523808
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Strike; draw Hemokinesis, Strike]",
+                "Hemokinesis",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 36,
+              "block": 5,
+              "prob": 0.19047619047619047
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 30,
+              "block": 5,
+              "prob": 0.19047619047619047
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 38,
+              "block": 5,
+              "prob": 0.047619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 32,
+              "block": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 6,
+              "enemy_hp": 36,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.47619047619047616
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 24,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.23809523809523808
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 30,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.19047619047619047
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 32,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.047619047619047616
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 38,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.047619047619047616
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.9619047619047622,
+          "start_state_groups": [
+            {
+              "player_hp": 6,
+              "enemy_hp": 36,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.47619047619047616
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 24,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.23809523809523808
+            },
+            {
+              "player_hp": 6,
+              "enemy_hp": 30,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.19047619047619047
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 32,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.047619047619047616
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 38,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 36,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 8,
+              "block": 0,
+              "prob": 0.23809523809523808
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 24,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Strike, Strike]",
+                "Hemokinesis",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 4,
+              "block": 0,
+              "prob": 0.08571428571428572
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 36,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 36,
+              "block": 0,
+              "prob": 0.07936507936507936
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 36,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 24,
+              "block": 0,
+              "prob": 0.07936507936507936
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 36,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.07936507936507936
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 24,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]",
+                "Hemokinesis",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 4,
+              "block": 0,
+              "prob": 0.0761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 24,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Hemokinesis",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 4,
+              "block": 5,
+              "prob": 0.05714285714285715
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 30,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Hemokinesis; draw Strike, Strike]",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.05714285714285715
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 30,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Burning Pact[exhaust Strike; draw Defend, Strike]",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 16,
+              "block": 5,
+              "prob": 0.05714285714285715
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 30,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 10,
+              "block": 0,
+              "prob": 0.05714285714285715
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 32,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Burning Pact[exhaust Defend; draw Strike, Strike]",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 12,
+              "block": 0,
+              "prob": 0.028571428571428567
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 38,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Strike",
+                "Burning Pact[exhaust Defend; draw Strike, Strike]"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.028571428571428567
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 24,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 12,
+              "block": 5,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 6,
+                "enemy_hp": 30,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Strike; draw Defend, Hemokinesis]",
+                "Hemokinesis",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 16,
+              "block": 5,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 32,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 12,
+              "block": 5,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 38,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Strike; draw Defend, Strike]",
+                "Hemokinesis",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 18,
+              "block": 0,
+              "prob": 0.01904761904761905
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 2,
+              "enemy_hp": 12,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.0380952380952381
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "start_mass": 0.0380952380952381,
+          "exact_kill_prob": 0.02285714285714286,
+          "cumulative_kill_prob": 0.02285714285714286,
+          "fail_prob_after_action": 0.015238095238095242,
+          "start_state_groups": [
+            {
+              "player_hp": 2,
+              "enemy_hp": 12,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.0380952380952381
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Strike, Strike]",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.017142857142857144
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Hemokinesis; draw Defend, Strike]",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 6,
+              "block": 5,
+              "prob": 0.013333333333333336
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.005714285714285716
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 12,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Strike; draw Defend, Hemokinesis]",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 6,
+              "block": 5,
+              "prob": 0.001904761904761905
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    },
+    {
+      "label": "main_3_turn",
+      "deck": [
+        "Burning Pact",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Defend",
+        "Hemokinesis",
+        "Strike"
+      ],
+      "deck_display": "Burning Pact, Defend x4, Hemokinesis, Strike",
+      "exact_result": [
+        0.0,
+        0.0,
+        0.7876190476190477,
+        0.17422222222222222,
+        0.03815873015873016
+      ],
+      "expected_kill_turn_if_success": 3.1811340682553304,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Defend, Defend]",
+                "Defend",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 50,
+              "block": 10,
+              "prob": 0.2857142857142857
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Defend",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 50,
+              "block": 15,
+              "prob": 0.2857142857142857
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Defend, Hemokinesis]",
+                "Defend",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 50,
+              "block": 10,
+              "prob": 0.19047619047619047
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Defend, Strike]",
+                "Defend",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 50,
+              "block": 10,
+              "prob": 0.19047619047619047
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Burning Pact[exhaust Defend; draw Hemokinesis, Strike]",
+                "Defend",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 50,
+              "block": 10,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.7666666666666667,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 50,
+              "block": 0,
+              "prob": 0.4095238095238095
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Burning Pact[exhaust Defend; draw Defend, Hemokinesis]",
+                "Hemokinesis"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 22,
+              "block": 0,
+              "prob": 0.3571428571428571
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 30,
+              "block": 5,
+              "prob": 0.11904761904761904
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Hemokinesis",
+                "Burning Pact[exhaust Defend; draw Defend, Defend]",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 6,
+              "end_enemy_hp": 36,
+              "block": 5,
+              "prob": 0.11428571428571428
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 2,
+              "enemy_hp": 30,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.11904761904761904
+            },
+            {
+              "player_hp": 2,
+              "enemy_hp": 36,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.11428571428571427
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "start_mass": 0.2333333333333333,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.23333333333333336,
+          "start_state_groups": [
+            {
+              "player_hp": 2,
+              "enemy_hp": 30,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.11904761904761904
+            },
+            {
+              "player_hp": 2,
+              "enemy_hp": 36,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.11428571428571427
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 30,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 30,
+              "block": 0,
+              "prob": 0.11904761904761904
+            },
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 36,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": 36,
+              "block": 0,
+              "prob": 0.11428571428571427
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    },
+    {
+      "label": "slow_4_turn",
+      "deck": [
+        "Defend",
+        "Defend",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "deck_display": "Defend x2, Strike x5",
+      "exact_result": [
+        0.0,
+        0.0,
+        0.0,
+        0.7142857142857143,
+        0.2857142857142857
+      ],
+      "expected_kill_turn_if_success": 4.0,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 44,
+              "block": 10,
+              "prob": 0.47619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 38,
+              "block": 5,
+              "prob": 0.47619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 32,
+              "block": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 44,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.4761904761904762
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 38,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.47619047619047616
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 32,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.04761904761904761
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 0.9999999999999999,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.9523809523809523,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 44,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.4761904761904762
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 38,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.47619047619047616
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 32,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.04761904761904761
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 44,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 44,
+              "block": 0,
+              "prob": 0.4761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 38,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 20,
+              "block": 0,
+              "prob": 0.47619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 32,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 20,
+              "block": 5,
+              "prob": 0.04761904761904761
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 4,
+              "enemy_hp": 20,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.04761904761904761
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "start_mass": 0.04761904761904761,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.04761904761904761,
+          "start_state_groups": [
+            {
+              "player_hp": 4,
+              "enemy_hp": 20,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.04761904761904761
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 8,
+              "block": 5,
+              "prob": 0.028571428571428564
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 2,
+              "block": 0,
+              "prob": 0.019047619047619046
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    }
+  ],
+  "audit_summary": {
+    "case_count": 36,
+    "stable_count": 0,
+    "top_rows": [
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5523809523809525,
+          0.0,
+          0.01904761904761905
+        ],
+        "fail": 0.01904761904761905
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5158730158730159,
+          0.03650793650793651,
+          0.01904761904761905
+        ],
+        "fail": 0.01904761904761905
+      },
+      {
+        "deck": [
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.4285714285714286,
+          0.0,
+          0.14285714285714285
+        ],
+        "fail": 0.14285714285714285
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.0,
+          0.0,
+          0.5714285714285713
+        ],
+        "fail": 0.5714285714285713
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6547619047619047,
+          0.04047619047619047,
+          0.047619047619047616
+        ],
+        "fail": 0.047619047619047616
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.59,
+          0.15028571428571427,
+          0.002571428571428572
+        ],
+        "fail": 0.002571428571428572
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.24999999999999994,
+          0.6785714285714285,
+          0.0,
+          0.07142857142857141
+        ],
+        "fail": 0.07142857142857141
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.24999999999999994,
+          0.5833333333333334,
+          0.0,
+          0.1666666666666666
+        ],
+        "fail": 0.1666666666666666
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.1928571428571428,
+          0.7149999999999999,
+          0.015238095238095238,
+          0.07690476190476188
+        ],
+        "fail": 0.07690476190476188
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.1928571428571428,
+          0.6767857142857143,
+          0.11250000000000002,
+          0.017857142857142856
+        ],
+        "fail": 0.017857142857142856
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.09523809523809523,
+          0.8023148148148148,
+          0.0617283950617284,
+          0.04071869488536155
+        ],
+        "fail": 0.04071869488536155
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.09523809523809523,
+          0.7952380952380952,
+          0.06190476190476191,
+          0.047619047619047616
+        ],
+        "fail": 0.047619047619047616
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.06428571428571427,
+          0.6817857142857142,
+          0.23113095238095235,
+          0.022797619047619046
+        ],
+        "fail": 0.022797619047619046
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.06428571428571427,
+          0.5707142857142856,
+          0.3340714285714285,
+          0.030928571428571434
+        ],
+        "fail": 0.030928571428571434
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.05714285714285714,
+          0.7546031746031746,
+          0.13595238095238096,
+          0.05230158730158731
+        ],
+        "fail": 0.05230158730158731
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.05714285714285712,
+          0.677142857142857,
+          0.2565079365079366,
+          0.009206349206349206
+        ],
+        "fail": 0.009206349206349206
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.02857142857142857,
+          0.8480952380952381,
+          0.12209523809523809,
+          0.0012380952380952382
+        ],
+        "fail": 0.0012380952380952382
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.02857142857142857,
+          0.4771428571428572,
+          0.4148571428571429,
+          0.07942857142857143
+        ],
+        "fail": 0.07942857142857143
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.17422222222222222,
+          0.03815873015873016
+        ],
+        "fail": 0.03815873015873016
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.0,
+          0.5929960317460318,
+          0.37453769841269846,
+          0.032466269841269844
+        ],
+        "fail": 0.032466269841269844
+      }
+    ],
+    "top_non_solution_rows": [
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5523809523809525,
+          0.0,
+          0.01904761904761905
+        ],
+        "fail": 0.01904761904761905
+      },
+      {
+        "deck": [
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.4285714285714286,
+          0.0,
+          0.14285714285714285
+        ],
+        "fail": 0.14285714285714285
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.0,
+          0.0,
+          0.5714285714285713
+        ],
+        "fail": 0.5714285714285713
+      },
+      {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.6547619047619047,
+          0.04047619047619047,
+          0.047619047619047616
+        ],
+        "fail": 0.047619047619047616
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.2571428571428571,
+          0.59,
+          0.15028571428571427,
+          0.002571428571428572
+        ],
+        "fail": 0.002571428571428572
+      }
+    ]
+  },
+  "export_meta": {
+    "script": "refresh_machine_export.py",
+    "variant_name": "difficulty2_burning_pact_drift",
+    "solution_labels": [
+      "fast_2_turn",
+      "main_3_turn",
+      "slow_4_turn"
+    ],
+    "turn_rows_precision": "authoritative",
+    "refreshed_from": "difficulty2_burning_pact_drift_machine_export.json"
+  }
+}

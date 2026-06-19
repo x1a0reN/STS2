@@ -1,0 +1,53 @@
+{
+  "fetched_at_utc": "2026-05-17T08:49:48.916628+00:00",
+  "cards_primary_count_sts2wiki": 566,
+  "cards_primary_unique_names": 558,
+  "cards_crosscheck_count_stratgg": 575,
+  "cards_crosscheck_unique_names": 567,
+  "cards_stratgg_only_names": [
+    "Caltrops",
+    "Clash",
+    "Distraction",
+    "Dual Wield",
+    "Entrench",
+    "Hello World",
+    "Outmaneuver",
+    "Rebound",
+    "Stack"
+  ],
+  "enemy_count": 115,
+  "enemy_errors": [],
+  "enemy_category_counts": {
+    "": 1,
+    "boss": 19,
+    "elite": 14,
+    "monster": 81
+  },
+  "enemy_act_counts": {
+    "The Overgrowth": 29,
+    "The Underdocks": 22,
+    "The Hive": 21,
+    "The Glory": 24,
+    "Event encounters": 6
+  },
+  "sources": [
+    "https://sts2.wiki/cards/data.json",
+    "https://sts2.wiki/enemies/",
+    "https://www.stratgg.com/cards/",
+    "https://www.stratgg.com/enemies/",
+    "https://sts2.wiki/potions/",
+    "https://sts2.wiki/relics/"
+  ],
+  "potions_count_sts2wiki": 63,
+  "relics_count_sts2wiki": 278,
+  "potions_local_files": [
+    "slay_the_spire_2_potions_sts2wiki.csv",
+    "slay_the_spire_2_potions_sts2wiki.json"
+  ],
+  "relics_local_files": [
+    "slay_the_spire_2_relics_sts2wiki.csv",
+    "slay_the_spire_2_relics_sts2wiki.json"
+  ],
+  "potions_snapshot_file": "sts2wiki_potions_snapshot.html",
+  "relics_snapshot_file": "sts2wiki_relics_snapshot.html"
+}

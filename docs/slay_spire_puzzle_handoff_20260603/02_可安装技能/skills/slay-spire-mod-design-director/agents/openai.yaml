@@ -1,0 +1,4 @@
+name: slay-spire-mod-design-director
+display_name: Slay Spire Mod Design Director
+short_description: Player/designer/mod-maker workflow for Slay-style puzzles, resources, balance, and implementation handoff.
+default_prompt: Use the Slay Spire Mod Design Director skill to design, audit, or implement a Slay the Spire-style puzzle or mod mechanic.

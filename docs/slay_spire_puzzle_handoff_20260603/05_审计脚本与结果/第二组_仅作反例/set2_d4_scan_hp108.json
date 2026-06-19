@@ -1,0 +1,1054 @@
+{
+  "enemy_hp": 108,
+  "player_hp": 18,
+  "incoming": [
+    6,
+    12,
+    18,
+    24,
+    30
+  ],
+  "legal_deck_count": 988,
+  "legal_build_count": 2964,
+  "perfect_success_count": 0,
+  "top30": [
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Heavy Slash",
+        "Safe Jab",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、重斩、打击、防御；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        80.0
+      ],
+      "success": 20.0
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Safe Jab",
+        "Strike",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、打击 x2、防御；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        19.619,
+        0.0,
+        0.0,
+        80.381
+      ],
+      "success": 19.619
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Heavy Slash",
+        "Safe Jab",
+        "Strike",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、重斩、打击 x2；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        18.5714,
+        0.0,
+        0.0,
+        81.4286
+      ],
+      "success": 18.5714
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Defend",
+        "Defend",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、转伤斩（改）、稳刺、防御 x2；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        17.0,
+        0.0,
+        0.0,
+        83.0
+      ],
+      "success": 17.0
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、重斩、防御 x2；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        16.3333,
+        0.0,
+        0.0,
+        83.6667
+      ],
+      "success": 16.3333
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "False Blood",
+        "Heavy Slash",
+        "Safe Jab",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、伪血印（改）、转伤斩（改）、稳刺、重斩、打击；狂血药水",
+      "family": "伪血印陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        15.4762,
+        0.0,
+        0.0,
+        84.5238
+      ],
+      "success": 15.4762
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Defend",
+        "Safe Jab",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、转伤斩（改）、稳刺、打击、防御；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        15.381,
+        0.0,
+        0.0,
+        84.619
+      ],
+      "success": 15.381
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Defend",
+        "Heavy Slash",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、转伤斩（改）、稳刺、重斩、防御；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        15.3333,
+        0.0,
+        0.0,
+        84.6667
+      ],
+      "success": 15.3333
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Defend",
+        "Safe Jab",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、打击、防御 x2；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        13.0952,
+        0.0,
+        0.0,
+        86.9048
+      ],
+      "success": 13.0952
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、转伤斩（改）、重斩、防御 x2；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        9.2857,
+        0.0,
+        0.0,
+        90.7143
+      ],
+      "success": 9.2857
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、转伤斩（改）、重斩、打击、防御 x2；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.7143,
+        0.0,
+        0.0,
+        91.2857
+      ],
+      "success": 8.7143
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "False Blood",
+        "Heavy Slash",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、伪血印（改）、转伤斩（改）、稳刺、重斩；狂血药水",
+      "family": "伪血印陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.3333,
+        0.0,
+        0.0,
+        91.6667
+      ],
+      "success": 8.3333
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "False Blood",
+        "Safe Jab",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、伪血印（改）、转伤斩（改）、稳刺、打击；狂血药水",
+      "family": "伪血印陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        7.7619,
+        0.0,
+        0.0,
+        92.2381
+      ],
+      "success": 7.7619
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Guard",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、重斩、防御 x2；护壳药水",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        7.1048,
+        0.0,
+        92.8952
+      ],
+      "success": 7.1048
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Heavy Slash",
+        "Safe Jab",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、转伤斩（改）、稳刺、重斩、打击；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        6.8571,
+        0.0,
+        0.0,
+        93.1429
+      ],
+      "success": 6.8571
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Safe Jab",
+        "Strike",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、转伤斩（改）、稳刺、打击 x2；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        6.7619,
+        0.0,
+        0.0,
+        93.2381
+      ],
+      "success": 6.7619
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "False Blood",
+        "Safe Jab",
+        "Strike",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、伪血印（改）、转伤斩（改）、稳刺、打击 x2；狂血药水",
+      "family": "伪血印陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        5.9524,
+        0.0,
+        0.0,
+        94.0476
+      ],
+      "success": 5.9524
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "False Blood",
+        "Heavy Slash",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、伪血印（改）、转伤斩（改）、稳刺、重斩、防御；狂血药水",
+      "family": "伪血印陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        5.8095,
+        0.0,
+        0.0,
+        94.1905
+      ],
+      "success": 5.8095
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Defend",
+        "Defend",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、转伤斩（改）、打击、防御 x2；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        5.0952,
+        0.0,
+        0.0,
+        94.9048
+      ],
+      "success": 5.0952
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "False Blood",
+        "Heavy Slash",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Guard",
+      "display": "血价（改） x2、伪血印（改）、转伤斩（改）、稳刺、重斩、防御；护壳药水",
+      "family": "伪血印陷阱线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        4.881,
+        0.0,
+        95.119
+      ],
+      "success": 4.881
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Defend",
+        "False Blood",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、伪血印（改）、转伤斩（改）、稳刺、防御 x2；狂血药水",
+      "family": "伪血印陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.1905,
+        4.4476,
+        0.0,
+        95.3619
+      ],
+      "success": 4.6381
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Defend",
+        "Defend",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Guard",
+      "display": "血价（改） x2、裂创（改）、转伤斩（改）、稳刺、防御 x2；护壳药水",
+      "family": "基础伤口线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        4.4524,
+        0.0,
+        95.5476
+      ],
+      "success": 4.4524
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "False Blood",
+        "Heavy Slash",
+        "Safe Jab",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Guard",
+      "display": "血价（改） x2、伪血印（改）、转伤斩（改）、稳刺、重斩、打击；护壳药水",
+      "family": "伪血印陷阱线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        4.2857,
+        0.0,
+        95.7143
+      ],
+      "success": 4.2857
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cauterize",
+        "Cut",
+        "Defend",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、烙止（改）、转伤斩（改）、稳刺、防御；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        4.0952,
+        0.0,
+        0.0,
+        95.9048
+      ],
+      "success": 4.0952
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Defend",
+        "Strike",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、转伤斩（改）、打击 x2、防御；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        4.0476,
+        0.0,
+        0.0,
+        95.9524
+      ],
+      "success": 4.0476
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Defend",
+        "False Blood",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、伪血印（改）、转伤斩（改）、稳刺、防御；狂血药水",
+      "family": "伪血印陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        3.9048,
+        0.0,
+        0.0,
+        96.0952
+      ],
+      "success": 3.9048
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Defend",
+        "Safe Jab",
+        "Suture",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、缝合（改）、转伤斩（改）、稳刺、防御；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.0,
+        2.5619,
+        0.0114,
+        96.4267
+      ],
+      "success": 3.5733
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Cut",
+        "Defend",
+        "Defend",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改） x2、转伤斩（改）、防御 x2；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        3.5238,
+        0.0,
+        0.0,
+        96.4762
+      ],
+      "success": 3.5238
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cauterize",
+        "False Blood",
+        "Heavy Slash",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、伪血印（改）、烙止（改）、转伤斩（改）、稳刺、重斩；狂血药水",
+      "family": "伪血印陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        3.381,
+        0.0,
+        0.0,
+        96.619
+      ],
+      "success": 3.381
+    },
+    {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Safe Jab",
+        "Strike",
+        "Suture",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、裂创（改）、缝合（改）、转伤斩（改）、稳刺、打击；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.4286,
+        1.3619,
+        0.0,
+        97.2095
+      ],
+      "success": 2.7905
+    }
+  ],
+  "best_by_first_turn": {
+    "3": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Heavy Slash",
+        "Safe Jab",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、重斩、打击、防御；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        80.0
+      ],
+      "success": 20.0
+    },
+    "4": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Guard",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、重斩、防御 x2；护壳药水",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        7.1048,
+        0.0,
+        92.8952
+      ],
+      "success": 7.1048
+    },
+    "5": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "False Blood",
+        "Heavy Slash",
+        "Strike",
+        "Suture"
+      ],
+      "potion": "Guard",
+      "display": "血价（改） x2、伪血印（改）、缝合（改）、重斩、打击、防御；护壳药水",
+      "family": "伪血印陷阱线",
+      "first_turn": 5,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6876,
+        99.3124
+      ],
+      "success": 0.6876
+    },
+    "0": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cauterize",
+        "Cut",
+        "Cut",
+        "Defend",
+        "Defend"
+      ],
+      "potion": "Hemostasis",
+      "display": "血价（改） x2、裂创（改） x2、烙止（改）、防御 x2；止血药水",
+      "family": "基础伤口线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  },
+  "best_by_family": {
+    "狂血抢杀线": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Heavy Slash",
+        "Safe Jab",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、重斩、打击、防御；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        80.0
+      ],
+      "success": 20.0
+    },
+    "伪血印陷阱线": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "False Blood",
+        "Heavy Slash",
+        "Safe Jab",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、伪血印（改）、转伤斩（改）、稳刺、重斩、打击；狂血药水",
+      "family": "伪血印陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        15.4762,
+        0.0,
+        0.0,
+        84.5238
+      ],
+      "success": 15.4762
+    },
+    "重斩诱导线": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Guard",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、重斩、防御 x2；护壳药水",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        7.1048,
+        0.0,
+        92.8952
+      ],
+      "success": 7.1048
+    },
+    "基础伤口线": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Defend",
+        "Defend",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Guard",
+      "display": "血价（改） x2、裂创（改）、转伤斩（改）、稳刺、防御 x2；护壳药水",
+      "family": "基础伤口线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        4.4524,
+        0.0,
+        95.5476
+      ],
+      "success": 4.4524
+    },
+    "护壳缝合线": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cut",
+        "Cut",
+        "Safe Jab",
+        "Suture",
+        "Transfuse"
+      ],
+      "potion": "Guard",
+      "display": "血价（改） x2、裂创（改） x2、缝合（改）、转伤斩（改）、稳刺；护壳药水",
+      "family": "护壳缝合线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.5238,
+        0.0,
+        99.4762
+      ],
+      "success": 0.5238
+    },
+    "止血转伤线": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Cauterize",
+        "Cut",
+        "Cut",
+        "Defend",
+        "Transfuse"
+      ],
+      "potion": "Hemostasis",
+      "display": "血价（改） x2、裂创（改） x2、烙止（改）、转伤斩（改）、防御；止血药水",
+      "family": "止血转伤线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  },
+  "best_by_potion": {
+    "Rage": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Heavy Slash",
+        "Safe Jab",
+        "Strike",
+        "Transfuse"
+      ],
+      "potion": "Rage",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、重斩、打击、防御；狂血药水",
+      "family": "狂血抢杀线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        80.0
+      ],
+      "success": 20.0
+    },
+    "Guard": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Guard",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、重斩、防御 x2；护壳药水",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        7.1048,
+        0.0,
+        92.8952
+      ],
+      "success": 7.1048
+    },
+    "Hemostasis": {
+      "deck": [
+        "Blood Price",
+        "Blood Price",
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Safe Jab",
+        "Transfuse"
+      ],
+      "potion": "Hemostasis",
+      "display": "血价（改） x2、转伤斩（改）、稳刺、重斩、防御 x2；止血药水",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0238,
+        0.0,
+        99.9762
+      ],
+      "success": 0.0238
+    }
+  }
+}

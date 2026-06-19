@@ -1,0 +1,1150 @@
+{
+  "body_hp": 68,
+  "shadow_hp": 64,
+  "player_hp": 22,
+  "incoming": [
+    6,
+    12,
+    18,
+    26,
+    35
+  ],
+  "legal_deck_count": 1380,
+  "legal_build_count": 8280,
+  "perfect_success_count": 0,
+  "top30": [
+    {
+      "deck": [
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、打击 x2；护壳药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        17.5286,
+        0.0,
+        82.4714
+      ],
+      "success": 17.5286
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、防御 x2；横扫药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        15.819,
+        0.0,
+        84.181
+      ],
+      "success": 15.819
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、校准击（改）、镜像收束（改）、护扫、打击；护壳药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        15.6143,
+        0.0,
+        84.3857
+      ],
+      "success": 15.6143
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、打击、防御；护壳药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        14.6857,
+        0.0,
+        85.3143
+      ],
+      "success": 14.6857
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、防御 x2；横扫药水；双生印",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        13.9238,
+        0.0,
+        86.0762
+      ],
+      "success": 13.9238
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、校准击（改）、镜像收束（改）、护扫、防御；护壳药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        12.8762,
+        0.0,
+        87.1238
+      ],
+      "success": 12.8762
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Equalize",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改）、校准击（改）、镜像收束（改）、护扫、防御 x2；均衡药水；利刃环",
+      "family": "均衡校准线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        12.3,
+        0.0,
+        87.7
+      ],
+      "success": 12.3
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Equalize",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、防御 x2；均衡药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        12.3,
+        0.0,
+        87.7
+      ],
+      "success": 12.3
+    },
+    {
+      "deck": [
+        "Guard Sweep",
+        "Left Cut",
+        "Mirror Finish",
+        "Right Cut",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改）、本体切（改）、影子切（改）、镜像收束（改）、护扫、打击；护壳药水；利刃环",
+      "family": "左右同步线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        10.4619,
+        0.0,
+        89.5381
+      ],
+      "success": 10.4619
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Left Cut",
+        "Mirror Finish",
+        "Right Cut",
+        "Sync Mark"
+      ],
+      "potion": "Sweep",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、本体切（改）、影子切（改）、镜像收束（改）、护扫、防御 x2；横扫药水；双生印",
+      "family": "左右同步线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        9.7952,
+        0.0,
+        90.2048
+      ],
+      "success": 9.7952
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、双切（改）、校准击（改）、镜像收束（改）、护扫、防御 x2；横扫药水；双生印",
+      "family": "基础同步线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        9.2762,
+        0.0,
+        90.7238
+      ],
+      "success": 9.2762
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改）、校准击（改）、镜像收束（改）、护扫、防御 x2；横扫药水；利刃环",
+      "family": "单点诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        8.6381,
+        0.0,
+        91.3619
+      ],
+      "success": 8.6381
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Equalize",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、双切（改）、校准击（改）、镜像收束（改）、护扫、防御 x2；均衡药水；双生印",
+      "family": "均衡校准线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        8.5857,
+        0.0,
+        91.4143
+      ],
+      "success": 8.5857
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Equalize",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、防御 x2；均衡药水；双生印",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        8.5857,
+        0.0,
+        91.4143
+      ],
+      "success": 8.5857
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Sweep",
+        "Left Cut",
+        "Mirror Finish",
+        "Right Cut",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改）、本体切（改）、影子切（改）、镜像收束（改）、护扫、防御；护壳药水；利刃环",
+      "family": "左右同步线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        7.7095,
+        0.0,
+        92.2905
+      ],
+      "success": 7.7095
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、打击、防御；横扫药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        6.9381,
+        0.0,
+        93.0619
+      ],
+      "success": 6.9381
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Left Cut",
+        "Mirror Finish",
+        "Right Cut",
+        "Sync Mark"
+      ],
+      "potion": "Sweep",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、本体切（改）、影子切（改）、镜像收束（改）、护扫、防御 x2；横扫药水；利刃环",
+      "family": "左右同步线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        6.8429,
+        0.0,
+        93.1571
+      ],
+      "success": 6.8429
+    },
+    {
+      "deck": [
+        "Guard Sweep",
+        "Left Cut",
+        "Mirror Finish",
+        "Right Cut",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、双切（改）、本体切（改）、影子切（改）、镜像收束（改）、护扫、打击；护壳药水；双生印",
+      "family": "左右同步线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        6.6429,
+        0.0,
+        93.3571
+      ],
+      "success": 6.6429
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、双切（改） x2、校准击（改）、镜像收束（改）、护扫、打击；护壳药水；双生印",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        6.3333,
+        0.0,
+        93.6667
+      ],
+      "success": 6.3333
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Guard Sweep",
+        "Left Cut",
+        "Mirror Finish",
+        "Right Cut",
+        "Strike",
+        "Sync Mark"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、校准击（改）、本体切（改）、影子切（改）、镜像收束（改）、护扫、打击；护壳药水；利刃环",
+      "family": "左右同步线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        6.3238,
+        0.0,
+        93.6762
+      ],
+      "success": 6.3238
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Guard Sweep",
+        "Left Cut",
+        "Mirror Finish",
+        "Right Cut",
+        "Strike",
+        "Sync Mark"
+      ],
+      "potion": "Guard",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、校准击（改）、本体切（改）、影子切（改）、镜像收束（改）、护扫、打击；护壳药水；双生印",
+      "family": "左右同步线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        6.2714,
+        0.0,
+        93.7286
+      ],
+      "success": 6.2714
+    },
+    {
+      "deck": [
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、打击 x2；护壳药水；双生印",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        6.1429,
+        0.0,
+        93.8571
+      ],
+      "success": 6.1429
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、打击、防御；横扫药水；双生印",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        6.0714,
+        0.0,
+        93.9286
+      ],
+      "success": 6.0714
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、防御 x2；护壳药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        5.6333,
+        0.2514,
+        94.1152
+      ],
+      "success": 5.8848
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、校准击（改）、镜像收束（改）、护扫、防御；横扫药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        5.8571,
+        0.0,
+        94.1429
+      ],
+      "success": 5.8571
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Sweep",
+        "Left Cut",
+        "Mirror Finish",
+        "Right Cut",
+        "Strike",
+        "Sync Mark"
+      ],
+      "potion": "Sweep",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、本体切（改）、影子切（改）、镜像收束（改）、护扫、打击、防御；横扫药水；双生印",
+      "family": "左右同步线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        5.3667,
+        0.0,
+        94.6333
+      ],
+      "success": 5.3667
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Right Cut",
+        "Sync Mark"
+      ],
+      "potion": "Equalize",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、校准击（改）、影子切（改）、镜像收束（改）、护扫、防御 x2；均衡药水；双生印",
+      "family": "均衡校准线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        5.3381,
+        0.0,
+        94.6619
+      ],
+      "success": 5.3381
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Equalize",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、打击、防御；均衡药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        5.281,
+        0.0,
+        94.719
+      ],
+      "success": 5.281
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Strike",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Sharp Ring",
+      "display": "双切（改） x2、校准击（改）、护扫、打击、防御 x2；横扫药水；利刃环",
+      "family": "单点诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        5.2286,
+        0.0,
+        94.7714
+      ],
+      "success": 5.2286
+    },
+    {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、双切（改）、校准击（改）、镜像收束（改）、护扫、打击、防御；横扫药水；双生印",
+      "family": "基础同步线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        5.2286,
+        0.0,
+        94.7714
+      ],
+      "success": 5.2286
+    }
+  ],
+  "best_by_first_turn": {
+    "4": {
+      "deck": [
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、打击 x2；护壳药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        17.5286,
+        0.0,
+        82.4714
+      ],
+      "success": 17.5286
+    },
+    "3": {
+      "deck": [
+        "Guard Sweep",
+        "Left Cut",
+        "Mirror Finish",
+        "Right Cut",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改）、本体切（改）、影子切（改）、镜像收束（改）、护扫、打击；横扫药水；利刃环",
+      "family": "左右同步线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0476,
+        2.9143,
+        0.0,
+        97.0381
+      ],
+      "success": 2.9619
+    },
+    "5": {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Sync Mark"
+      ],
+      "potion": "Guard",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、校准击（改）、镜像收束（改）、护扫、打击、防御 x2；护壳药水；双生印",
+      "family": "基础同步线",
+      "first_turn": 5,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0114,
+        99.9886
+      ],
+      "success": 0.0114
+    },
+    "0": {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Left Cut",
+        "Left Cut",
+        "Mirror Finish"
+      ],
+      "potion": "Equalize",
+      "relic": "Twin Seal",
+      "display": "校准击（改）、本体切（改） x2、镜像收束（改）、护扫、防御 x2；均衡药水；双生印",
+      "family": "均衡校准线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  },
+  "best_by_family": {
+    "双切收束线": {
+      "deck": [
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、打击 x2；护壳药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        17.5286,
+        0.0,
+        82.4714
+      ],
+      "success": 17.5286
+    },
+    "均衡校准线": {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Equalize",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改）、校准击（改）、镜像收束（改）、护扫、防御 x2；均衡药水；利刃环",
+      "family": "均衡校准线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        12.3,
+        0.0,
+        87.7
+      ],
+      "success": 12.3
+    },
+    "左右同步线": {
+      "deck": [
+        "Guard Sweep",
+        "Left Cut",
+        "Mirror Finish",
+        "Right Cut",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改）、本体切（改）、影子切（改）、镜像收束（改）、护扫、打击；护壳药水；利刃环",
+      "family": "左右同步线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        10.4619,
+        0.0,
+        89.5381
+      ],
+      "success": 10.4619
+    },
+    "基础同步线": {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、双切（改）、校准击（改）、镜像收束（改）、护扫、防御 x2；横扫药水；双生印",
+      "family": "基础同步线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        9.2762,
+        0.0,
+        90.7238
+      ],
+      "success": 9.2762
+    },
+    "单点诱导线": {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改）、校准击（改）、镜像收束（改）、护扫、防御 x2；横扫药水；利刃环",
+      "family": "单点诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        8.6381,
+        0.0,
+        91.3619
+      ],
+      "success": 8.6381
+    },
+    "贪单陷阱线": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Single Greed",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Sharp Ring",
+      "display": "双切（改） x2、贪单斩（改）、镜像收束（改）、护扫、防御 x2；横扫药水；利刃环",
+      "family": "贪单陷阱线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.3429,
+        0.0,
+        99.6571
+      ],
+      "success": 0.3429
+    }
+  },
+  "best_by_potion": {
+    "Guard": {
+      "deck": [
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、打击 x2；护壳药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        17.5286,
+        0.0,
+        82.4714
+      ],
+      "success": 17.5286
+    },
+    "Sweep": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、防御 x2；横扫药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        15.819,
+        0.0,
+        84.181
+      ],
+      "success": 15.819
+    },
+    "Equalize": {
+      "deck": [
+        "Balance Hit",
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut"
+      ],
+      "potion": "Equalize",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改）、校准击（改）、镜像收束（改）、护扫、防御 x2；均衡药水；利刃环",
+      "family": "均衡校准线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        12.3,
+        0.0,
+        87.7
+      ],
+      "success": 12.3
+    }
+  },
+  "best_by_relic": {
+    "Sharp Ring": {
+      "deck": [
+        "Guard Sweep",
+        "Mirror Finish",
+        "Strike",
+        "Strike",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Sharp Ring",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、打击 x2；护壳药水；利刃环",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        17.5286,
+        0.0,
+        82.4714
+      ],
+      "success": 17.5286
+    },
+    "Twin Seal": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Sweep",
+        "Mirror Finish",
+        "Sync Mark",
+        "Twin Cut",
+        "Twin Cut"
+      ],
+      "potion": "Sweep",
+      "relic": "Twin Seal",
+      "display": "同步标记（改）、双切（改） x2、镜像收束（改）、护扫、防御 x2；横扫药水；双生印",
+      "family": "双切收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        13.9238,
+        0.0,
+        86.0762
+      ],
+      "success": 13.9238
+    }
+  }
+}

@@ -1,0 +1,1149 @@
+{
+  "enemy_hp": 92,
+  "player_hp": 28,
+  "incoming": [
+    8,
+    16,
+    25,
+    35,
+    46
+  ],
+  "legal_deck_count": 1874,
+  "legal_build_count": 11244,
+  "perfect_success_count": 0,
+  "top30": [
+    {
+      "deck": [
+        "Blank",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、打击 x2、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        43.9143,
+        0.0,
+        56.0857
+      ],
+      "success": 43.9143
+    },
+    {
+      "deck": [
+        "Blank",
+        "Dual Bid",
+        "Final Lot",
+        "Right Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "右价码（改）、双价码（改）、终局拍品（改）、稳击、打击 x2、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        43.9143,
+        0.0,
+        56.0857
+      ],
+      "success": 43.9143
+    },
+    {
+      "deck": [
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、打击 x2、防御；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        43.9143,
+        0.0,
+        56.0857
+      ],
+      "success": 43.9143
+    },
+    {
+      "deck": [
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Right Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "右价码（改）、双价码（改）、终局拍品（改）、稳击、打击 x2、防御；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        43.9143,
+        0.0,
+        56.0857
+      ],
+      "success": 43.9143
+    },
+    {
+      "deck": [
+        "Dual Bid",
+        "Final Lot",
+        "Heavy Slash",
+        "Left Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、重斩、打击 x2；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        43.9143,
+        0.0,
+        56.0857
+      ],
+      "success": 43.9143
+    },
+    {
+      "deck": [
+        "Dual Bid",
+        "Final Lot",
+        "Heavy Slash",
+        "Right Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "右价码（改）、双价码（改）、终局拍品（改）、稳击、重斩、打击 x2；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        43.9143,
+        0.0,
+        56.0857
+      ],
+      "success": 43.9143
+    },
+    {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、打击、防御、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        42.5238,
+        0.0,
+        57.4762
+      ],
+      "success": 42.5238
+    },
+    {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Right Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "右价码（改）、双价码（改）、终局拍品（改）、稳击、打击、防御、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        42.5238,
+        0.0,
+        57.4762
+      ],
+      "success": 42.5238
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、打击、防御 x2；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        42.5238,
+        0.0,
+        57.4762
+      ],
+      "success": 42.5238
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Right Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "右价码（改）、双价码（改）、终局拍品（改）、稳击、打击、防御 x2；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        42.5238,
+        0.0,
+        57.4762
+      ],
+      "success": 42.5238
+    },
+    {
+      "deck": [
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Heavy Slash",
+        "Left Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、重斩、打击、防御；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        42.5238,
+        0.0,
+        57.4762
+      ],
+      "success": 42.5238
+    },
+    {
+      "deck": [
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Heavy Slash",
+        "Right Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "右价码（改）、双价码（改）、终局拍品（改）、稳击、重斩、打击、防御；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        42.5238,
+        0.0,
+        57.4762
+      ],
+      "success": 42.5238
+    },
+    {
+      "deck": [
+        "Blank",
+        "Dual Bid",
+        "Final Lot",
+        "Heavy Slash",
+        "Left Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、重斩、打击、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        42.1238,
+        0.0,
+        57.8762
+      ],
+      "success": 42.1238
+    },
+    {
+      "deck": [
+        "Blank",
+        "Dual Bid",
+        "Final Lot",
+        "Heavy Slash",
+        "Right Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "右价码（改）、双价码（改）、终局拍品（改）、稳击、重斩、打击、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        42.1238,
+        0.0,
+        57.8762
+      ],
+      "success": 42.1238
+    },
+    {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、防御 x2、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        33.1429,
+        0.0,
+        66.8571
+      ],
+      "success": 33.1429
+    },
+    {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Right Bid",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "右价码（改）、双价码（改）、终局拍品（改）、稳击、防御 x2、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        33.1429,
+        0.0,
+        66.8571
+      ],
+      "success": 33.1429
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Heavy Slash",
+        "Left Bid",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、重斩、防御 x2；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        33.1429,
+        0.0,
+        66.8571
+      ],
+      "success": 33.1429
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Heavy Slash",
+        "Right Bid",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "右价码（改）、双价码（改）、终局拍品（改）、稳击、重斩、防御 x2；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        33.1429,
+        0.0,
+        66.8571
+      ],
+      "success": 33.1429
+    },
+    {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Heavy Slash",
+        "Left Bid",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、重斩、防御、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        33.1238,
+        0.0,
+        66.8762
+      ],
+      "success": 33.1238
+    },
+    {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Heavy Slash",
+        "Right Bid",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "右价码（改）、双价码（改）、终局拍品（改）、稳击、重斩、防御、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        33.1238,
+        0.0,
+        66.8762
+      ],
+      "success": 33.1238
+    },
+    {
+      "deck": [
+        "Blank",
+        "Final Lot",
+        "Left Bid",
+        "Right Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、右价码（改）、终局拍品（改）、稳击、打击 x2、空牌；护壳药水；保险契约",
+      "family": "双价终局线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        33.0,
+        0.0,
+        67.0
+      ],
+      "success": 33.0
+    },
+    {
+      "deck": [
+        "Defend",
+        "Final Lot",
+        "Left Bid",
+        "Right Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、右价码（改）、终局拍品（改）、稳击、打击 x2、防御；护壳药水；保险契约",
+      "family": "双价终局线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        33.0,
+        0.0,
+        67.0
+      ],
+      "success": 33.0
+    },
+    {
+      "deck": [
+        "Final Lot",
+        "Heavy Slash",
+        "Left Bid",
+        "Right Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、右价码（改）、终局拍品（改）、稳击、重斩、打击 x2；护壳药水；保险契约",
+      "family": "双价终局线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        33.0,
+        0.0,
+        67.0
+      ],
+      "success": 33.0
+    },
+    {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Final Lot",
+        "Left Bid",
+        "Right Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、右价码（改）、终局拍品（改）、稳击、打击、防御、空牌；护壳药水；保险契约",
+      "family": "双价终局线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        30.7238,
+        0.0,
+        69.2762
+      ],
+      "success": 30.7238
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Final Lot",
+        "Left Bid",
+        "Right Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、右价码（改）、终局拍品（改）、稳击、打击、防御 x2；护壳药水；保险契约",
+      "family": "双价终局线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        30.7238,
+        0.0,
+        69.2762
+      ],
+      "success": 30.7238
+    },
+    {
+      "deck": [
+        "Defend",
+        "Final Lot",
+        "Heavy Slash",
+        "Left Bid",
+        "Right Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、右价码（改）、终局拍品（改）、稳击、重斩、打击、防御；护壳药水；保险契约",
+      "family": "双价终局线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        30.7238,
+        0.0,
+        69.2762
+      ],
+      "success": 30.7238
+    },
+    {
+      "deck": [
+        "Blank",
+        "Final Lot",
+        "Heavy Slash",
+        "Left Bid",
+        "Right Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、右价码（改）、终局拍品（改）、稳击、重斩、打击、空牌；护壳药水；保险契约",
+      "family": "双价终局线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        30.381,
+        0.0,
+        69.619
+      ],
+      "success": 30.381
+    },
+    {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Left Bid",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改） x2、双价码（改）、终局拍品（改）、稳击、防御、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.8571,
+        21.3,
+        0.0,
+        77.8429
+      ],
+      "success": 22.1571
+    },
+    {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Right Bid",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、右价码（改）、双价码（改）、终局拍品（改）、稳击、防御、空牌；护壳药水；保险契约",
+      "family": "双价终局线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.8571,
+        21.3,
+        0.0,
+        77.8429
+      ],
+      "success": 22.1571
+    },
+    {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Right Bid",
+        "Right Bid",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "右价码（改） x2、双价码（改）、终局拍品（改）、稳击、防御、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.8571,
+        21.3,
+        0.0,
+        77.8429
+      ],
+      "success": 22.1571
+    }
+  ],
+  "best_by_first_turn": {
+    "4": {
+      "deck": [
+        "Blank",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、打击 x2、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        43.9143,
+        0.0,
+        56.0857
+      ],
+      "success": 43.9143
+    },
+    "3": {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Left Bid",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改） x2、双价码（改）、终局拍品（改）、稳击、防御、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.8571,
+        21.3,
+        0.0,
+        77.8429
+      ],
+      "success": 22.1571
+    },
+    "5": {
+      "deck": [
+        "Auction Guard",
+        "Blank",
+        "Defend",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "双价码（改）、拍卖护栏（改）、终局拍品（改）、稳击、防御 x2、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 5,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1343,
+        99.8657
+      ],
+      "success": 0.1343
+    },
+    "0": {
+      "deck": [
+        "Auction Guard",
+        "Blank",
+        "Defend",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Heavy Slash"
+      ],
+      "potion": "Left Fund",
+      "relic": "Ledger",
+      "display": "双价码（改）、拍卖护栏（改）、终局拍品（改）、重斩、防御 x2、空牌；左筹码药水；拍卖账本",
+      "family": "双价码线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  },
+  "best_by_family": {
+    "双价码线": {
+      "deck": [
+        "Blank",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、打击 x2、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        43.9143,
+        0.0,
+        56.0857
+      ],
+      "success": 43.9143
+    },
+    "双价终局线": {
+      "deck": [
+        "Blank",
+        "Final Lot",
+        "Left Bid",
+        "Right Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、右价码（改）、终局拍品（改）、稳击、打击 x2、空牌；护壳药水；保险契约",
+      "family": "双价终局线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        33.0,
+        0.0,
+        67.0
+      ],
+      "success": 33.0
+    },
+    "单侧筹码线": {
+      "deck": [
+        "Blank",
+        "Final Lot",
+        "Left Bid",
+        "Left Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Right Fund",
+      "relic": "Ledger",
+      "display": "左价码（改） x2、终局拍品（改）、稳击、打击 x2、空牌；右筹码药水；拍卖账本",
+      "family": "单侧筹码线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        10.5714,
+        0.0,
+        0.0,
+        89.4286
+      ],
+      "success": 10.5714
+    },
+    "基础拍卖线": {
+      "deck": [
+        "Auction Guard",
+        "Blank",
+        "Final Lot",
+        "Left Bid",
+        "Left Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ledger",
+      "display": "左价码（改） x2、拍卖护栏（改）、终局拍品（改）、稳击、打击、空牌；护壳药水；拍卖账本",
+      "family": "基础拍卖线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        6.3857,
+        0.0,
+        93.6143
+      ],
+      "success": 6.3857
+    },
+    "重斩诱导线": {
+      "deck": [
+        "Auction Guard",
+        "Final Lot",
+        "Heavy Slash",
+        "Left Bid",
+        "Left Bid",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Ledger",
+      "display": "左价码（改） x2、拍卖护栏（改）、终局拍品（改）、稳击、重斩、打击；护壳药水；拍卖账本",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        6.3857,
+        0.0,
+        93.6143
+      ],
+      "success": 6.3857
+    },
+    "压价陷阱线": {
+      "deck": [
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike",
+        "Underbid"
+      ],
+      "potion": "Right Fund",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、压价（改）、终局拍品（改）、稳击、打击 x2；右筹码药水；保险契约",
+      "family": "压价陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        3.7143,
+        0.0,
+        0.0,
+        96.2857
+      ],
+      "success": 3.7143
+    }
+  },
+  "best_by_potion": {
+    "Guard": {
+      "deck": [
+        "Blank",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、打击 x2、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        43.9143,
+        0.0,
+        56.0857
+      ],
+      "success": 43.9143
+    },
+    "Left Fund": {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Left Bid",
+        "Safe Hit"
+      ],
+      "potion": "Left Fund",
+      "relic": "Ledger",
+      "display": "左价码（改） x2、双价码（改）、终局拍品（改）、稳击、防御、空牌；左筹码药水；拍卖账本",
+      "family": "双价码线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        13.7143,
+        0.0,
+        0.0,
+        86.2857
+      ],
+      "success": 13.7143
+    },
+    "Right Fund": {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Left Bid",
+        "Safe Hit"
+      ],
+      "potion": "Right Fund",
+      "relic": "Ledger",
+      "display": "左价码（改） x2、双价码（改）、终局拍品（改）、稳击、防御、空牌；右筹码药水；拍卖账本",
+      "family": "双价码线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        13.7143,
+        0.0,
+        0.0,
+        86.2857
+      ],
+      "success": 13.7143
+    }
+  },
+  "best_by_relic": {
+    "Insurance": {
+      "deck": [
+        "Blank",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Insurance",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、打击 x2、空牌；护壳药水；保险契约",
+      "family": "双价码线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        43.9143,
+        0.0,
+        56.0857
+      ],
+      "success": 43.9143
+    },
+    "Ledger": {
+      "deck": [
+        "Blank",
+        "Defend",
+        "Defend",
+        "Dual Bid",
+        "Final Lot",
+        "Left Bid",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Ledger",
+      "display": "左价码（改）、双价码（改）、终局拍品（改）、稳击、防御 x2、空牌；护壳药水；拍卖账本",
+      "family": "双价码线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.4286,
+        17.4,
+        0.0,
+        81.1714
+      ],
+      "success": 18.8286
+    }
+  }
+}

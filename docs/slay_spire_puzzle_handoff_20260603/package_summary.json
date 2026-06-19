@@ -1,0 +1,16 @@
+﻿{
+    "generated_at":  "2026-06-03",
+    "package_path":  "C:\\Users\\Administrator\\Documents\\New project 2\\slay_spire_puzzle_handoff_20260603",
+    "file_count":  391,
+    "key_files":  [
+                      "README.md",
+                      "00_先读交接说明/承接者先读.md",
+                      "01_框架要义与规则/尖塔残局出题框架要义.md",
+                      "02_可安装技能/install_skills.ps1",
+                      "02_可安装技能/skills/slay-spire-mod-design-director/SKILL.md",
+                      "02_可安装技能/skills/slay-spire-puzzle-control-skill/SKILL.md",
+                      "04_当前题目/第一组D1-D10/difficulty4_final_puzzle.md",
+                      "04_当前题目/第二组_已作废/set2_D1-D10_final_puzzles.md",
+                      "MANIFEST.txt"
+                  ]
+}

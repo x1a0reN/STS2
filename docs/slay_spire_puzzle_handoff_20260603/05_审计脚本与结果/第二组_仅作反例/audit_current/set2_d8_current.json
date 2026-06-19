@@ -1,0 +1,1149 @@
+{
+  "enemy_hp": 96,
+  "player_hp": 18,
+  "incoming": [
+    7,
+    14,
+    22,
+    30,
+    39
+  ],
+  "legal_deck_count": 1380,
+  "legal_build_count": 8280,
+  "perfect_success_count": 0,
+  "top30": [
+    {
+      "deck": [
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改） x2、矩阵切（改）、三色收束（改）；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        56.0952,
+        0.0,
+        0.0,
+        43.9048
+      ],
+      "success": 56.0952
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Red Rune",
+        "Red Rune",
+        "Strike",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改） x2、三色收束（改）、打击；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        33.2381,
+        0.0,
+        0.0,
+        66.7619
+      ],
+      "success": 33.2381
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "White",
+      "relic": "Stabilizer",
+      "display": "赤符文（改） x2、蓝符文（改） x2、白符文（改）、矩阵切（改）、三色收束（改）；白药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        32.0,
+        0.0,
+        0.0,
+        68.0
+      ],
+      "success": 32.0
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Red",
+      "relic": "Stabilizer",
+      "display": "赤符文（改）、蓝符文（改） x2、白符文（改） x2、矩阵切（改）、三色收束（改）；赤药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        32.0,
+        0.0,
+        0.0,
+        68.0
+      ],
+      "success": 32.0
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Stabilizer",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改） x2、矩阵切（改）、三色收束（改）；蓝药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        32.0,
+        0.0,
+        0.0,
+        68.0
+      ],
+      "success": 32.0
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Color Guard",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改） x2、色盾（改）、三色收束（改）；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        13.0476,
+        14.7619,
+        0.0,
+        72.1905
+      ],
+      "success": 27.8095
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Color Guard",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "White",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改） x2、白符文（改）、色盾（改）、三色收束（改）；白药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        13.0476,
+        12.2762,
+        0.0,
+        74.6762
+      ],
+      "success": 25.3238
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Color Guard",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Stabilizer",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改） x2、色盾（改）、三色收束（改）；蓝药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.5714,
+        23.3048,
+        0.4,
+        75.7238
+      ],
+      "success": 24.2762
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Color Guard",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Red",
+      "relic": "Prism",
+      "display": "赤符文（改）、蓝符文（改） x2、白符文（改） x2、色盾（改）、三色收束（改）；赤药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        13.0476,
+        10.1143,
+        0.0,
+        76.8381
+      ],
+      "success": 23.1619
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Color Guard",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "White",
+      "relic": "Stabilizer",
+      "display": "赤符文（改） x2、蓝符文（改） x2、白符文（改）、色盾（改）、三色收束（改）；白药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.5714,
+        19.5333,
+        0.0,
+        79.8952
+      ],
+      "success": 20.1048
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Heavy Slash",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改） x2、三色收束（改）、重斩；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        19.8095,
+        0.0,
+        0.0,
+        80.1905
+      ],
+      "success": 19.8095
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、白符文（改） x2、矩阵切（改）、三色收束（改）、重斩；蓝药水；棱镜",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        18.2857,
+        0.0,
+        0.0,
+        81.7143
+      ],
+      "success": 18.2857
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改） x2、白符文（改） x2、三色收束（改）；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        16.381,
+        0.0,
+        0.0,
+        83.619
+      ],
+      "success": 16.381
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Heavy Slash",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改）、矩阵切（改）、三色收束（改）、重斩；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        16.2857,
+        0.0,
+        0.0,
+        83.7143
+      ],
+      "success": 16.2857
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Heavy Slash",
+        "Matrix Cut",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改）、蓝符文（改）、白符文（改） x2、矩阵切（改）、三色收束（改）、重斩；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        16.2857,
+        0.0,
+        0.0,
+        83.7143
+      ],
+      "success": 16.2857
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Red Rune",
+        "Red Rune",
+        "Strike",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "White",
+      "relic": "Stabilizer",
+      "display": "赤符文（改） x2、蓝符文（改） x2、白符文（改）、三色收束（改）、打击；白药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        15.2381,
+        0.0,
+        0.0,
+        84.7619
+      ],
+      "success": 15.2381
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Red Rune",
+        "Strike",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Red",
+      "relic": "Stabilizer",
+      "display": "赤符文（改）、蓝符文（改） x2、白符文（改） x2、三色收束（改）、打击；赤药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        15.2381,
+        0.0,
+        0.0,
+        84.7619
+      ],
+      "success": 15.2381
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Red Rune",
+        "Red Rune",
+        "Strike",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Stabilizer",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改） x2、三色收束（改）、打击；蓝药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        15.2381,
+        0.0,
+        0.0,
+        84.7619
+      ],
+      "success": 15.2381
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Color Guard",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Red",
+      "relic": "Stabilizer",
+      "display": "赤符文（改）、蓝符文（改） x2、白符文（改） x2、色盾（改）、三色收束（改）；赤药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.5714,
+        14.2952,
+        0.0,
+        85.1333
+      ],
+      "success": 14.8667
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Defend",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "White",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改） x2、白符文（改）、三色收束（改）、防御；白药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        13.0476,
+        0.0,
+        0.0,
+        86.9524
+      ],
+      "success": 13.0476
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Defend",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Red",
+      "relic": "Prism",
+      "display": "赤符文（改）、蓝符文（改） x2、白符文（改） x2、三色收束（改）、防御；赤药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        13.0476,
+        0.0,
+        0.0,
+        86.9524
+      ],
+      "success": 13.0476
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Defend",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改） x2、三色收束（改）、防御；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        13.0476,
+        0.0,
+        0.0,
+        86.9524
+      ],
+      "success": 13.0476
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Strike",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改）、矩阵切（改）、三色收束（改）、打击；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        10.8571,
+        0.0,
+        0.0,
+        89.1429
+      ],
+      "success": 10.8571
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Strike",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改）、蓝符文（改）、白符文（改） x2、矩阵切（改）、三色收束（改）、打击；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        10.8571,
+        0.0,
+        0.0,
+        89.1429
+      ],
+      "success": 10.8571
+    },
+    {
+      "deck": [
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Strike",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、白符文（改） x2、矩阵切（改）、三色收束（改）、打击；蓝药水；棱镜",
+      "family": "基础符文线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        10.5714,
+        0.0,
+        0.0,
+        89.4286
+      ],
+      "success": 10.5714
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Strike",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、白符文（改）、矩阵切（改）、三色收束（改）、重斩、打击；蓝药水；棱镜",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.8095,
+        0.0,
+        0.0,
+        91.1905
+      ],
+      "success": 8.8095
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Matrix Cut",
+        "Red Rune",
+        "Strike",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改）、白符文（改） x2、矩阵切（改）、三色收束（改）、重斩、打击；蓝药水；棱镜",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.8095,
+        0.0,
+        0.0,
+        91.1905
+      ],
+      "success": 8.8095
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、白符文（改）、矩阵切（改）、三色收束（改）、重斩、防御；蓝药水；棱镜",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        7.1429,
+        0.0,
+        0.0,
+        92.8571
+      ],
+      "success": 7.1429
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Matrix Cut",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改）、白符文（改） x2、矩阵切（改）、三色收束（改）、重斩、防御；蓝药水；棱镜",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        7.1429,
+        0.0,
+        0.0,
+        92.8571
+      ],
+      "success": 7.1429
+    },
+    {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Heavy Slash",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "White",
+      "relic": "Stabilizer",
+      "display": "赤符文（改） x2、蓝符文（改） x2、白符文（改）、三色收束（改）、重斩；白药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        6.4762,
+        0.0,
+        0.0,
+        93.5238
+      ],
+      "success": 6.4762
+    }
+  ],
+  "best_by_first_turn": {
+    "3": {
+      "deck": [
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改） x2、矩阵切（改）、三色收束（改）；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        56.0952,
+        0.0,
+        0.0,
+        43.9048
+      ],
+      "success": 56.0952
+    },
+    "4": {
+      "deck": [
+        "Blue Rune",
+        "Color Guard",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Stabilizer",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改）、色盾（改）、矩阵切（改）、三色收束（改）；蓝药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        3.3333,
+        0.0176,
+        96.649
+      ],
+      "success": 3.351
+    },
+    "5": {
+      "deck": [
+        "Blue Rune",
+        "Color Guard",
+        "Defend",
+        "Heavy Slash",
+        "Matrix Cut",
+        "Red Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Stabilizer",
+      "display": "赤符文（改）、蓝符文（改）、白符文（改）、色盾（改）、矩阵切（改）、重斩、防御；蓝药水；稳符器",
+      "family": "矩阵切线",
+      "first_turn": 5,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0038,
+        99.9962
+      ],
+      "success": 0.0038
+    },
+    "0": {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Color Guard",
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Matrix Cut"
+      ],
+      "potion": "Red",
+      "relic": "Prism",
+      "display": "蓝符文（改） x2、色盾（改）、矩阵切（改）、重斩、防御 x2；赤药水；棱镜",
+      "family": "重斩诱导线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  },
+  "best_by_family": {
+    "三色收束线": {
+      "deck": [
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改） x2、矩阵切（改）、三色收束（改）；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        56.0952,
+        0.0,
+        0.0,
+        43.9048
+      ],
+      "success": 56.0952
+    },
+    "重斩诱导线": {
+      "deck": [
+        "Heavy Slash",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、白符文（改） x2、矩阵切（改）、三色收束（改）、重斩；蓝药水；棱镜",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        18.2857,
+        0.0,
+        0.0,
+        81.7143
+      ],
+      "success": 18.2857
+    },
+    "基础符文线": {
+      "deck": [
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Strike",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、白符文（改） x2、矩阵切（改）、三色收束（改）、打击；蓝药水；棱镜",
+      "family": "基础符文线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        10.5714,
+        0.0,
+        0.0,
+        89.4286
+      ],
+      "success": 10.5714
+    },
+    "白符补窗线": {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Heavy Slash",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal"
+      ],
+      "potion": "White",
+      "relic": "Stabilizer",
+      "display": "赤符文（改） x2、蓝符文（改） x2、矩阵切（改）、三色收束（改）、重斩；白药水；稳符器",
+      "family": "白符补窗线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        3.4286,
+        0.0,
+        0.0,
+        96.5714
+      ],
+      "success": 3.4286
+    },
+    "单色陷阱线": {
+      "deck": [
+        "Blue Rune",
+        "Heavy Slash",
+        "Matrix Cut",
+        "Mono Red",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Stabilizer",
+      "display": "蓝符文（改）、白符文（改） x2、偏赤术（改）、矩阵切（改）、三色收束（改）、重斩；蓝药水；稳符器",
+      "family": "单色陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.8095,
+        0.0,
+        0.0,
+        98.1905
+      ],
+      "success": 1.8095
+    },
+    "矩阵切线": {
+      "deck": [
+        "Color Guard",
+        "Defend",
+        "Heavy Slash",
+        "Matrix Cut",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改）、白符文（改）、色盾（改）、矩阵切（改）、三色收束（改）、重斩、防御；蓝药水；棱镜",
+      "family": "矩阵切线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.2857,
+        0.5571,
+        0.0,
+        99.1571
+      ],
+      "success": 0.8429
+    }
+  },
+  "best_by_potion": {
+    "Blue": {
+      "deck": [
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改） x2、矩阵切（改）、三色收束（改）；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        56.0952,
+        0.0,
+        0.0,
+        43.9048
+      ],
+      "success": 56.0952
+    },
+    "White": {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "White",
+      "relic": "Stabilizer",
+      "display": "赤符文（改） x2、蓝符文（改） x2、白符文（改）、矩阵切（改）、三色收束（改）；白药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        32.0,
+        0.0,
+        0.0,
+        68.0
+      ],
+      "success": 32.0
+    },
+    "Red": {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Red",
+      "relic": "Stabilizer",
+      "display": "赤符文（改）、蓝符文（改） x2、白符文（改） x2、矩阵切（改）、三色收束（改）；赤药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        32.0,
+        0.0,
+        0.0,
+        68.0
+      ],
+      "success": 32.0
+    }
+  },
+  "best_by_relic": {
+    "Prism": {
+      "deck": [
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune",
+        "White Rune"
+      ],
+      "potion": "Blue",
+      "relic": "Prism",
+      "display": "赤符文（改） x2、蓝符文（改）、白符文（改） x2、矩阵切（改）、三色收束（改）；蓝药水；棱镜",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        56.0952,
+        0.0,
+        0.0,
+        43.9048
+      ],
+      "success": 56.0952
+    },
+    "Stabilizer": {
+      "deck": [
+        "Blue Rune",
+        "Blue Rune",
+        "Matrix Cut",
+        "Red Rune",
+        "Red Rune",
+        "Tricolor Seal",
+        "White Rune"
+      ],
+      "potion": "White",
+      "relic": "Stabilizer",
+      "display": "赤符文（改） x2、蓝符文（改） x2、白符文（改）、矩阵切（改）、三色收束（改）；白药水；稳符器",
+      "family": "三色收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        32.0,
+        0.0,
+        0.0,
+        68.0
+      ],
+      "success": 32.0
+    }
+  }
+}

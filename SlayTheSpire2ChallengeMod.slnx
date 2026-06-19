@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GongdouSts2ChallengeMod/GongdouSts2ChallengeMod.csproj" />
+    <Project Path="src/GongdouSts2FrierenMod/GongdouSts2FrierenMod.csproj" />
+  </Folder>
+</Solution>

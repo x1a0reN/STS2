@@ -1,0 +1,1104 @@
+{
+  "enemy_hp": 96,
+  "player_hp": 19,
+  "incoming": [
+    6,
+    12,
+    18,
+    25,
+    33
+  ],
+  "legal_deck_count": 1522,
+  "legal_build_count": 9132,
+  "perfect_success_count": 14,
+  "top30": [
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、稳击；爆发药水；预谋笔记",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、稳击；爆发药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Stored Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、打击；爆发药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、重斩；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        40.0,
+        60.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、稳击；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        32.6667,
+        67.3333,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Stored Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、打击；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        25.3333,
+        74.6667,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Release",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、预谋释放（改）、重斩；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        18.0,
+        82.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Release",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、预谋释放（改）、蓄势击（改）；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        9.8333,
+        90.1667,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、蓄势击（改）、稳击、重斩；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.6667,
+        91.3333,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Release",
+        "Safe Hit",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、预谋释放（改）、稳击；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        5.3333,
+        94.6667,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Release",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、预谋释放（改）、打击；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        5.3333,
+        94.6667,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Release",
+        "Safe Hit",
+        "Stored Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、预谋释放（改）、蓄势击（改）、稳击；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.3333,
+        98.6667,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Release",
+        "Stored Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、预谋释放（改）、蓄势击（改）、打击；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.3333,
+        98.6667,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Hold Guard",
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Release",
+        "Stored Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、过度预谋（改）、保留格挡（改）、预谋释放（改）、蓄势击（改）；护壳药水；预谋笔记",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.6667,
+        99.3333,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    {
+      "deck": [
+        "Hold Guard",
+        "Overplan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、过度预谋（改）、保留格挡（改）、触发斩（改）、蓄势击（改）、稳击；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        84.8542,
+        14.9375,
+        0.2083
+      ],
+      "success": 99.7917
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Heavy Slash",
+        "Hold Guard",
+        "Overplan",
+        "Plan",
+        "Stored Strike"
+      ],
+      "potion": "Burst",
+      "relic": "Notebook",
+      "display": "预谋（改）、过度预谋（改）、保留格挡（改）、蓄势击（改）、重斩、空护；爆发药水；预谋笔记",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        9.3333,
+        90.4,
+        0.0,
+        0.2667
+      ],
+      "success": 99.7333
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Heavy Slash",
+        "Hold Guard",
+        "Overplan",
+        "Plan",
+        "Stored Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、过度预谋（改）、保留格挡（改）、蓄势击（改）、重斩、空护；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        47.6,
+        52.1333,
+        0.2667
+      ],
+      "success": 99.7333
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Release",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、预谋释放（改）、稳击、重斩；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        15.3333,
+        84.2667,
+        0.0,
+        0.4
+      ],
+      "success": 99.6
+    },
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、蓄势击（改）、稳击、打击；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.3333,
+        98.1333,
+        0.0,
+        0.5333
+      ],
+      "success": 99.4667
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、重斩；爆发药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        99.3333,
+        0.0,
+        0.0,
+        0.6667
+      ],
+      "success": 99.3333
+    },
+    {
+      "deck": [
+        "Defend",
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、防御；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.0,
+        91.3333,
+        0.0,
+        0.6667
+      ],
+      "success": 99.3333
+    },
+    {
+      "deck": [
+        "Hold Guard",
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Release",
+        "Safe Hit"
+      ],
+      "potion": "Burst",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、保留格挡（改）、预谋释放（改）、稳击；爆发药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        52.0,
+        47.0667,
+        0.0,
+        0.9333
+      ],
+      "success": 99.0667
+    },
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、过度预谋（改）、触发斩（改）、蓄势击（改）、稳击、打击；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        4.0,
+        94.8,
+        0.0,
+        1.2
+      ],
+      "success": 98.8
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Heavy Slash",
+        "Overplan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "过度预谋（改）、触发斩（改）、重斩、打击 x2、空护；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        98.8,
+        0.0,
+        1.2
+      ],
+      "success": 98.8
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Overplan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "过度预谋（改）、触发斩（改）、重斩、打击 x2、防御；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        98.8,
+        0.0,
+        1.2
+      ],
+      "success": 98.8
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Overplan",
+        "Safe Hit",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "过度预谋（改）、触发斩（改）、稳击、重斩、打击 x2；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        98.8,
+        0.0,
+        1.2
+      ],
+      "success": 98.8
+    },
+    {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Release",
+        "Safe Hit",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、预谋释放（改）、稳击；爆发药水；预谋笔记",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        98.6667,
+        0.0,
+        0.0,
+        1.3333
+      ],
+      "success": 98.6667
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Overplan",
+        "Plan",
+        "Stored Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、过度预谋（改）、触发斩（改）、蓄势击（改）、重斩、打击；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        5.3333,
+        93.3333,
+        0.0,
+        1.3333
+      ],
+      "success": 98.6667
+    },
+    {
+      "deck": [
+        "Hold Guard",
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Release",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、保留格挡（改）、预谋释放（改）、稳击；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.6667,
+        83.4667,
+        14.5333,
+        1.3333
+      ],
+      "success": 98.6667
+    },
+    {
+      "deck": [
+        "Blank Guard",
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、空护；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.0,
+        89.7333,
+        0.6667,
+        1.6
+      ],
+      "success": 98.4
+    }
+  ],
+  "best_by_first_turn": {
+    "3": {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、稳击；爆发药水；预谋笔记",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    "4": {
+      "deck": [
+        "Hold Guard",
+        "Overplan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、过度预谋（改）、保留格挡（改）、触发斩（改）、蓄势击（改）、稳击；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        84.8542,
+        14.9375,
+        0.2083
+      ],
+      "success": 99.7917
+    },
+    "5": {
+      "deck": [
+        "Defend",
+        "Hold Guard",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、保留格挡（改）、蓄势击（改）、稳击、防御；护壳药水；留牌锚",
+      "family": "基础留牌线",
+      "first_turn": 5,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        55.0133,
+        44.9867
+      ],
+      "success": 55.0133
+    },
+    "0": {
+      "deck": [
+        "Blank Guard",
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Hold Guard",
+        "Hold Guard"
+      ],
+      "potion": "Insight",
+      "relic": "Notebook",
+      "display": "保留格挡（改） x2、重斩、防御 x2、空护；洞察药水；预谋笔记",
+      "family": "重斩诱导线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  },
+  "best_by_family": {
+    "过度预谋陷阱线": {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、稳击；爆发药水；预谋笔记",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    "触发斩线": {
+      "deck": [
+        "Heavy Slash",
+        "Plan",
+        "Plan",
+        "Strike",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、触发斩（改）、重斩、打击 x2；护壳药水；留牌锚",
+      "family": "触发斩线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        98.4,
+        0.0,
+        1.6
+      ],
+      "success": 98.4
+    },
+    "保留预谋线": {
+      "deck": [
+        "Hold Guard",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、保留格挡（改）、触发斩（改）、蓄势击（改）、稳击；护壳药水；预谋笔记",
+      "family": "保留预谋线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        68.625,
+        23.6,
+        7.775
+      ],
+      "success": 92.225
+    },
+    "基础留牌线": {
+      "deck": [
+        "Blank Guard",
+        "Hold Guard",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、保留格挡（改）、触发斩（改）、稳击、打击、空护；护壳药水；留牌锚",
+      "family": "基础留牌线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        86.5867,
+        11.4133
+      ],
+      "success": 88.5867
+    },
+    "重斩诱导线": {
+      "deck": [
+        "Heavy Slash",
+        "Hold Guard",
+        "Plan",
+        "Safe Hit",
+        "Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改）、保留格挡（改）、触发斩（改）、稳击、重斩、打击；护壳药水；留牌锚",
+      "family": "重斩诱导线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        86.5867,
+        11.4133
+      ],
+      "success": 88.5867
+    },
+    "爆发补刀线": {
+      "deck": [
+        "Hold Guard",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Strike"
+      ],
+      "potion": "Burst",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、保留格挡（改）、蓄势击（改）、稳击、打击；爆发药水；留牌锚",
+      "family": "爆发补刀线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        78.9333,
+        0.0,
+        21.0667
+      ],
+      "success": 78.9333
+    }
+  },
+  "best_by_potion": {
+    "Burst": {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、稳击；爆发药水；预谋笔记",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    "Guard": {
+      "deck": [
+        "Heavy Slash",
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Guard",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、重斩；护壳药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        40.0,
+        60.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    "Insight": {
+      "deck": [
+        "Hold Guard",
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Release",
+        "Safe Hit"
+      ],
+      "potion": "Insight",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、保留格挡（改）、预谋释放（改）、稳击；洞察药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        22.0,
+        70.4,
+        0.0,
+        7.6
+      ],
+      "success": 92.4
+    }
+  },
+  "best_by_relic": {
+    "Notebook": {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Notebook",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、稳击；爆发药水；预谋笔记",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    },
+    "Anchor": {
+      "deck": [
+        "Overplan",
+        "Plan",
+        "Plan",
+        "Safe Hit",
+        "Stored Strike",
+        "Trigger"
+      ],
+      "potion": "Burst",
+      "relic": "Anchor",
+      "display": "预谋（改） x2、过度预谋（改）、触发斩（改）、蓄势击（改）、稳击；爆发药水；留牌锚",
+      "family": "过度预谋陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success": 100.0
+    }
+  }
+}

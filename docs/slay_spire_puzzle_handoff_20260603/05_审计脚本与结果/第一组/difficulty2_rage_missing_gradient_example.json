@@ -1,0 +1,557 @@
+{
+  "variant": "rage_missing_example",
+  "deck": [
+    "Bash",
+    "Hemokinesis",
+    "Rage",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike"
+  ],
+  "deck_display": "Bash, Hemokinesis, Rage, Strike x6",
+  "exact_result": [
+    0.0,
+    0.6111111111111112,
+    0.1984126984126984,
+    0.0,
+    0.19047619047619047
+  ],
+  "expected_kill_turn_if_success": 2.2450980392156863,
+  "turn_rows": [
+    {
+      "turn": 1,
+      "start_mass": 1.0,
+      "exact_kill_prob": 0.0,
+      "cumulative_kill_prob": 0.0,
+      "fail_prob_after_action": 0.0,
+      "start_state_groups": [
+        {
+          "player_hp": 8,
+          "enemy_hp": 50,
+          "vulnerable": 0,
+          "weak": 0,
+          "prob": 1.0
+        }
+      ],
+      "chosen_action_groups": [
+        {
+          "start_state": {
+            "player_hp": 8,
+            "enemy_hp": 50,
+            "vulnerable": 0,
+            "weak": 0
+          },
+          "actions": [
+            "Bash",
+            "Hemokinesis"
+          ],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": 21,
+          "block": 0,
+          "prob": 0.2777777777777778
+        },
+        {
+          "start_state": {
+            "player_hp": 8,
+            "enemy_hp": 50,
+            "vulnerable": 0,
+            "weak": 0
+          },
+          "actions": [],
+          "end_player_hp_before_enemy": 8,
+          "end_enemy_hp": 50,
+          "block": 0,
+          "prob": 0.16666666666666666
+        },
+        {
+          "start_state": {
+            "player_hp": 8,
+            "enemy_hp": 50,
+            "vulnerable": 0,
+            "weak": 0
+          },
+          "actions": [
+            "Bash",
+            "Rage",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 8,
+          "end_enemy_hp": 33,
+          "block": 3,
+          "prob": 0.15873015873015872
+        },
+        {
+          "start_state": {
+            "player_hp": 8,
+            "enemy_hp": 50,
+            "vulnerable": 0,
+            "weak": 0
+          },
+          "actions": [
+            "Hemokinesis",
+            "Rage",
+            "Strike",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": 24,
+          "block": 6,
+          "prob": 0.15873015873015872
+        },
+        {
+          "start_state": {
+            "player_hp": 8,
+            "enemy_hp": 50,
+            "vulnerable": 0,
+            "weak": 0
+          },
+          "actions": [
+            "Bash",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 8,
+          "end_enemy_hp": 33,
+          "block": 0,
+          "prob": 0.11904761904761904
+        },
+        {
+          "start_state": {
+            "player_hp": 8,
+            "enemy_hp": 50,
+            "vulnerable": 0,
+            "weak": 0
+          },
+          "actions": [
+            "Hemokinesis",
+            "Strike",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": 24,
+          "block": 0,
+          "prob": 0.11904761904761904
+        }
+      ],
+      "next_state_groups": [
+        {
+          "player_hp": 6,
+          "enemy_hp": 21,
+          "vulnerable": 1,
+          "weak": 0,
+          "prob": 0.2777777777777778
+        },
+        {
+          "player_hp": 6,
+          "enemy_hp": 24,
+          "vulnerable": 0,
+          "weak": 0,
+          "prob": 0.2777777777777778
+        },
+        {
+          "player_hp": 8,
+          "enemy_hp": 33,
+          "vulnerable": 1,
+          "weak": 0,
+          "prob": 0.2777777777777778
+        },
+        {
+          "player_hp": 8,
+          "enemy_hp": 50,
+          "vulnerable": 0,
+          "weak": 0,
+          "prob": 0.16666666666666666
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "start_mass": 1.0,
+      "exact_kill_prob": 0.6111111111111112,
+      "cumulative_kill_prob": 0.6111111111111112,
+      "fail_prob_after_action": 0.19047619047619047,
+      "start_state_groups": [
+        {
+          "player_hp": 6,
+          "enemy_hp": 21,
+          "vulnerable": 1,
+          "weak": 0,
+          "prob": 0.2777777777777778
+        },
+        {
+          "player_hp": 6,
+          "enemy_hp": 24,
+          "vulnerable": 0,
+          "weak": 0,
+          "prob": 0.2777777777777778
+        },
+        {
+          "player_hp": 8,
+          "enemy_hp": 33,
+          "vulnerable": 1,
+          "weak": 0,
+          "prob": 0.2777777777777778
+        },
+        {
+          "player_hp": 8,
+          "enemy_hp": 50,
+          "vulnerable": 0,
+          "weak": 0,
+          "prob": 0.16666666666666666
+        }
+      ],
+      "chosen_action_groups": [
+        {
+          "start_state": {
+            "player_hp": 6,
+            "enemy_hp": 24,
+            "vulnerable": 0,
+            "weak": 0
+          },
+          "actions": [
+            "Rage",
+            "Bash",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": 7,
+          "block": 6,
+          "prob": 0.12698412698412698
+        },
+        {
+          "start_state": {
+            "player_hp": 8,
+            "enemy_hp": 33,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Hemokinesis",
+            "Rage",
+            "Strike",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": -6,
+          "block": 6,
+          "prob": 0.12698412698412698
+        },
+        {
+          "start_state": {
+            "player_hp": 6,
+            "enemy_hp": 21,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Rage",
+            "Strike",
+            "Strike",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": -6,
+          "block": 9,
+          "prob": 0.11904761904761905
+        },
+        {
+          "start_state": {
+            "player_hp": 6,
+            "enemy_hp": 24,
+            "vulnerable": 0,
+            "weak": 0
+          },
+          "actions": [],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": 24,
+          "block": 0,
+          "prob": 0.09523809523809525
+        },
+        {
+          "start_state": {
+            "player_hp": 8,
+            "enemy_hp": 33,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Hemokinesis",
+            "Strike",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": -6,
+          "block": 0,
+          "prob": 0.09523809523809525
+        },
+        {
+          "start_state": {
+            "player_hp": 8,
+            "enemy_hp": 50,
+            "vulnerable": 0,
+            "weak": 0
+          },
+          "actions": [],
+          "end_player_hp_before_enemy": 8,
+          "end_enemy_hp": 50,
+          "block": 0,
+          "prob": 0.09523809523809523
+        },
+        {
+          "start_state": {
+            "player_hp": 8,
+            "enemy_hp": 50,
+            "vulnerable": 0,
+            "weak": 0
+          },
+          "actions": [
+            "Rage",
+            "Bash",
+            "Hemokinesis"
+          ],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": 21,
+          "block": 6,
+          "prob": 0.07142857142857142
+        },
+        {
+          "start_state": {
+            "player_hp": 6,
+            "enemy_hp": 21,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Hemokinesis"
+          ],
+          "end_player_hp_before_enemy": 4,
+          "end_enemy_hp": 0,
+          "block": 0,
+          "prob": 0.05555555555555555
+        },
+        {
+          "start_state": {
+            "player_hp": 6,
+            "enemy_hp": 24,
+            "vulnerable": 0,
+            "weak": 0
+          },
+          "actions": [
+            "Bash",
+            "Hemokinesis"
+          ],
+          "end_player_hp_before_enemy": 4,
+          "end_enemy_hp": -5,
+          "block": 0,
+          "prob": 0.05555555555555555
+        },
+        {
+          "start_state": {
+            "player_hp": 8,
+            "enemy_hp": 33,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Bash",
+            "Hemokinesis"
+          ],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": 0,
+          "block": 0,
+          "prob": 0.05555555555555555
+        },
+        {
+          "start_state": {
+            "player_hp": 6,
+            "enemy_hp": 21,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Strike",
+            "Strike",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": -6,
+          "block": 0,
+          "prob": 0.047619047619047616
+        },
+        {
+          "start_state": {
+            "player_hp": 6,
+            "enemy_hp": 21,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Bash",
+            "Rage",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": 0,
+          "block": 3,
+          "prob": 0.031746031746031744
+        },
+        {
+          "start_state": {
+            "player_hp": 6,
+            "enemy_hp": 21,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Bash",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 6,
+          "end_enemy_hp": 0,
+          "block": 0,
+          "prob": 0.023809523809523808
+        }
+      ],
+      "next_state_groups": [
+        {
+          "player_hp": 3,
+          "enemy_hp": 7,
+          "vulnerable": 1,
+          "weak": 0,
+          "prob": 0.12698412698412698
+        },
+        {
+          "player_hp": 3,
+          "enemy_hp": 21,
+          "vulnerable": 1,
+          "weak": 0,
+          "prob": 0.07142857142857144
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "start_mass": 0.19841269841269843,
+      "exact_kill_prob": 0.19841269841269843,
+      "cumulative_kill_prob": 0.8095238095238095,
+      "fail_prob_after_action": 0.0,
+      "start_state_groups": [
+        {
+          "player_hp": 3,
+          "enemy_hp": 7,
+          "vulnerable": 1,
+          "weak": 0,
+          "prob": 0.12698412698412698
+        },
+        {
+          "player_hp": 3,
+          "enemy_hp": 21,
+          "vulnerable": 1,
+          "weak": 0,
+          "prob": 0.07142857142857144
+        }
+      ],
+      "chosen_action_groups": [
+        {
+          "start_state": {
+            "player_hp": 3,
+            "enemy_hp": 7,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Hemokinesis"
+          ],
+          "end_player_hp_before_enemy": 1,
+          "end_enemy_hp": -14,
+          "block": 0,
+          "prob": 0.10158730158730159
+        },
+        {
+          "start_state": {
+            "player_hp": 3,
+            "enemy_hp": 21,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Strike",
+            "Strike",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 3,
+          "end_enemy_hp": -6,
+          "block": 0,
+          "prob": 0.028571428571428574
+        },
+        {
+          "start_state": {
+            "player_hp": 3,
+            "enemy_hp": 7,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Bash"
+          ],
+          "end_player_hp_before_enemy": 3,
+          "end_enemy_hp": -5,
+          "block": 0,
+          "prob": 0.025396825396825397
+        },
+        {
+          "start_state": {
+            "player_hp": 3,
+            "enemy_hp": 21,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Bash",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 3,
+          "end_enemy_hp": 0,
+          "block": 0,
+          "prob": 0.014285714285714287
+        },
+        {
+          "start_state": {
+            "player_hp": 3,
+            "enemy_hp": 21,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Hemokinesis"
+          ],
+          "end_player_hp_before_enemy": 1,
+          "end_enemy_hp": 0,
+          "block": 0,
+          "prob": 0.014285714285714287
+        },
+        {
+          "start_state": {
+            "player_hp": 3,
+            "enemy_hp": 21,
+            "vulnerable": 1,
+            "weak": 0
+          },
+          "actions": [
+            "Rage",
+            "Strike",
+            "Strike",
+            "Strike"
+          ],
+          "end_player_hp_before_enemy": 3,
+          "end_enemy_hp": -6,
+          "block": 9,
+          "prob": 0.014285714285714287
+        }
+      ],
+      "next_state_groups": []
+    }
+  ]
+}

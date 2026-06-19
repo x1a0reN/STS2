@@ -1,0 +1,2563 @@
+{
+  "family": "hemokinesis_bash_trimmed",
+  "card_pool": [
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Defend",
+    "Defend",
+    "Bash",
+    "Hemokinesis"
+  ],
+  "enemy_hps": [
+    49,
+    50,
+    51,
+    52
+  ],
+  "player_hps": [
+    8,
+    9
+  ],
+  "damage_sequences": [
+    [
+      0,
+      9,
+      11,
+      13
+    ],
+    [
+      0,
+      9,
+      10,
+      12
+    ],
+    [
+      0,
+      8,
+      10,
+      12
+    ],
+    [
+      0,
+      8,
+      11,
+      13
+    ],
+    [
+      0,
+      9,
+      12,
+      14
+    ]
+  ],
+  "details": [
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.12380952380952383,
+          0.0,
+          0.01904761904761905
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.12380952380952383,
+          0.0,
+          0.01904761904761905
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.12380952380952383,
+          0.0,
+          0.01904761904761905
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.12380952380952383,
+          0.0,
+          0.01904761904761905
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.12380952380952383,
+          0.0,
+          0.01904761904761905
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.12380952380952383,
+          0.0,
+          0.01904761904761905
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.12380952380952383,
+          0.0,
+          0.01904761904761905
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": false,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.12380952380952383,
+          0.0,
+          0.01904761904761905
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": null
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.8571428571428573,
+          0.10476190476190478,
+          0.0,
+          0.0380952380952381
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8952380952380955,
+          0.05714285714285715,
+          0.047619047619047616
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    }
+  ]
+}

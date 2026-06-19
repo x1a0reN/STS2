@@ -1,0 +1,3003 @@
+{
+  "enemy_hp": 78,
+  "legal_deck_count": 1201,
+  "legal_build_count": 500,
+  "strategy_templates": [
+    "fast",
+    "main",
+    "stable"
+  ],
+  "perfect_success_count": 0,
+  "top30": [
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Neutralize",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击；狡黠药水；锋利骰子",
+      "family": "锋利骰子狡黠爆发线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        33.75,
+        43.7679,
+        0.0,
+        22.4821
+      ],
+      "success": 77.5179,
+      "fail": 22.4821
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "Neutralize",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x2；狡黠药水；锋利骰子",
+      "family": "锋利骰子狡黠爆发线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        32.8571,
+        42.6429,
+        0.0,
+        24.5
+      ],
+      "success": 75.5,
+      "fail": 24.5
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Neutralize",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "ReturnHolster",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击；狡黠药水；折返皮套",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        40.0,
+        29.4107,
+        0.0,
+        30.5893
+      ],
+      "success": 69.4107,
+      "fail": 30.5893
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "Neutralize",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3；狡黠药水；锋利骰子",
+      "family": "锋利骰子狡黠爆发线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        32.1429,
+        36.6964,
+        0.0,
+        31.1607
+      ],
+      "success": 68.8393,
+      "fail": 31.1607
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Neutralize",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "HollowAmulet",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击；狡黠药水；空心护符",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        28.9286,
+        36.8036,
+        0.0,
+        34.2679
+      ],
+      "success": 65.7321,
+      "fail": 34.2679
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "Neutralize",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "ReturnHolster",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x2；狡黠药水；折返皮套",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        33.2143,
+        30.2143,
+        0.0,
+        36.5714
+      ],
+      "success": 63.4286,
+      "fail": 36.5714
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "Neutralize",
+        "Strike",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击、防御；狡黠药水；锋利骰子",
+      "family": "锋利骰子狡黠爆发线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        22.3214,
+        40.5536,
+        0.0,
+        37.125
+      ],
+      "success": 62.875,
+      "fail": 37.125
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Neutralize",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、防御；狡黠药水；锋利骰子",
+      "family": "锋利骰子狡黠爆发线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        19.8214,
+        42.3393,
+        0.0,
+        37.8393
+      ],
+      "success": 62.1607,
+      "fail": 37.8393
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "Neutralize",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "HollowAmulet",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x2；狡黠药水；空心护符",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        21.25,
+        38.8929,
+        0.0,
+        39.8571
+      ],
+      "success": 60.1429,
+      "fail": 39.8571
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "Neutralize",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "ReturnHolster",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3；狡黠药水；折返皮套",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        16.7857,
+        39.7321,
+        0.0,
+        43.4821
+      ],
+      "success": 56.5179,
+      "fail": 43.4821
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "HollowAmulet",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、打击 x2；狡黠药水；空心护符",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        5.0,
+        47.3393,
+        0.0,
+        47.6607
+      ],
+      "success": 52.3393,
+      "fail": 47.6607
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "Neutralize",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "HollowAmulet",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3；狡黠药水；空心护符",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        1.25,
+        46.3571,
+        0.0,
+        52.3929
+      ],
+      "success": 47.6071,
+      "fail": 52.3929
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Neutralize",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "ReturnHolster",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、防御；狡黠药水；折返皮套",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        21.7857,
+        24.4821,
+        0.0,
+        53.7321
+      ],
+      "success": 46.2679,
+      "fail": 53.7321
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "Neutralize",
+        "Strike",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "ReturnHolster",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击、防御；狡黠药水；折返皮套",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        19.2857,
+        26.5536,
+        0.0,
+        54.1607
+      ],
+      "success": 45.8393,
+      "fail": 54.1607
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "Neutralize",
+        "Strike",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "HollowAmulet",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击、防御；狡黠药水；空心护符",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        14.2857,
+        29.3571,
+        1.6357,
+        54.7214
+      ],
+      "success": 45.2786,
+      "fail": 54.7214
+    },
+    {
+      "deck": [
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Neutralize",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "fast",
+      "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击 x2；狡黠药水；锋利骰子",
+      "family": "药水狡黠快线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        44.5179,
+        0.0,
+        55.4821
+      ],
+      "success": 44.5179,
+      "fail": 55.4821
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Neutralize",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "HollowAmulet",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、防御；狡黠药水；空心护符",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        13.2143,
+        26.2679,
+        3.5839,
+        56.9339
+      ],
+      "success": 43.0661,
+      "fail": 56.9339
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "Neutralize",
+        "Defend",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、防御 x2；狡黠药水；锋利骰子",
+      "family": "锋利骰子狡黠爆发线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        6.4286,
+        32.1964,
+        2.4821,
+        58.8929
+      ],
+      "success": 41.1071,
+      "fail": 58.8929
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "Neutralize",
+        "Strike",
+        "Strike",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x2、防御；狡黠药水；锋利骰子",
+      "family": "锋利骰子狡黠爆发线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        13.9286,
+        26.9643,
+        0.0,
+        59.1071
+      ],
+      "success": 40.8929,
+      "fail": 59.1071
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Strike",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "HollowAmulet",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、打击、防御；狡黠药水；空心护符",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        5.0,
+        35.8571,
+        0.0,
+        59.1429
+      ],
+      "success": 40.8571,
+      "fail": 59.1429
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "QuickSlash",
+        "Neutralize",
+        "Strike",
+        "Strike",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、快斩（改）、中和、打击 x2、防御；狡黠药水；锋利骰子",
+      "family": "锋利骰子狡黠爆发线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        13.3929,
+        26.25,
+        0.0,
+        60.3571
+      ],
+      "success": 39.6429,
+      "fail": 60.3571
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Strike",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "ReturnHolster",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、打击、防御；狡黠药水；折返皮套",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        20.5357,
+        17.7679,
+        0.0,
+        61.6964
+      ],
+      "success": 38.3036,
+      "fail": 61.6964
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Strike",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、打击、防御；狡黠药水；锋利骰子",
+      "family": "锋利骰子狡黠爆发线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        28.75,
+        8.0357,
+        0.0,
+        63.2143
+      ],
+      "success": 36.7857,
+      "fail": 63.2143
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "HollowAmulet",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、打击 x3；狡黠药水；空心护符",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        1.0714,
+        34.8214,
+        0.0,
+        64.1071
+      ],
+      "success": 35.8929,
+      "fail": 64.1071
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "ReturnHolster",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、打击 x2；狡黠药水；折返皮套",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        34.6429,
+        0.0,
+        0.0,
+        65.3571
+      ],
+      "success": 34.6429,
+      "fail": 65.3571
+    },
+    {
+      "deck": [
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Neutralize",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "fast",
+      "build_display": "背刺（改，狡黠）、投掷匕首（改）、快斩（改） x2、中和、打击 x3；狡黠药水；锋利骰子",
+      "family": "混合线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        33.3214,
+        0.0,
+        66.6786
+      ],
+      "success": 33.3214,
+      "fail": 66.6786
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "Strike",
+        "Strike",
+        "Defend"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、打击 x2、防御；狡黠药水；锋利骰子",
+      "family": "锋利骰子狡黠爆发线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        28.75,
+        3.8393,
+        0.0,
+        67.4107
+      ],
+      "success": 32.5893,
+      "fail": 67.4107
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "ReturnHolster",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、打击 x3；狡黠药水；折返皮套",
+      "family": "混合线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        32.5,
+        0.0,
+        0.0,
+        67.5
+      ],
+      "success": 32.5,
+      "fail": 67.5
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "QuickSlash",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、打击 x2；狡黠药水；锋利骰子",
+      "family": "锋利骰子狡黠爆发线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        32.1429,
+        0.0,
+        0.0,
+        67.8571
+      ],
+      "success": 32.1429,
+      "fail": 67.8571
+    },
+    {
+      "deck": [
+        "Bash",
+        "Backstab",
+        "Backstab",
+        "DaggerThrow",
+        "QuickSlash",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "SlyBrew",
+      "relic": "SharpDice",
+      "plan": "main",
+      "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、打击 x3；狡黠药水；锋利骰子",
+      "family": "锋利骰子狡黠爆发线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        31.9643,
+        0.0,
+        0.0,
+        68.0357
+      ],
+      "success": 31.9643,
+      "fail": 68.0357
+    }
+  ],
+  "best_by_turn": {
+    "2": [
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          33.75,
+          43.7679,
+          0.0,
+          22.4821
+        ],
+        "success": 77.5179,
+        "fail": 22.4821
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x2；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          32.8571,
+          42.6429,
+          0.0,
+          24.5
+        ],
+        "success": 75.5,
+        "fail": 24.5
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "ReturnHolster",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击；狡黠药水；折返皮套",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          40.0,
+          29.4107,
+          0.0,
+          30.5893
+        ],
+        "success": 69.4107,
+        "fail": 30.5893
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          32.1429,
+          36.6964,
+          0.0,
+          31.1607
+        ],
+        "success": 68.8393,
+        "fail": 31.1607
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          28.9286,
+          36.8036,
+          0.0,
+          34.2679
+        ],
+        "success": 65.7321,
+        "fail": 34.2679
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "ReturnHolster",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x2；狡黠药水；折返皮套",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          33.2143,
+          30.2143,
+          0.0,
+          36.5714
+        ],
+        "success": 63.4286,
+        "fail": 36.5714
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击、防御；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          22.3214,
+          40.5536,
+          0.0,
+          37.125
+        ],
+        "success": 62.875,
+        "fail": 37.125
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、防御；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          19.8214,
+          42.3393,
+          0.0,
+          37.8393
+        ],
+        "success": 62.1607,
+        "fail": 37.8393
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x2；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          21.25,
+          38.8929,
+          0.0,
+          39.8571
+        ],
+        "success": 60.1429,
+        "fail": 39.8571
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "ReturnHolster",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3；狡黠药水；折返皮套",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          16.7857,
+          39.7321,
+          0.0,
+          43.4821
+        ],
+        "success": 56.5179,
+        "fail": 43.4821
+      }
+    ],
+    "3": [
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击 x2；狡黠药水；锋利骰子",
+        "family": "药水狡黠快线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          44.5179,
+          0.0,
+          55.4821
+        ],
+        "success": 44.5179,
+        "fail": 55.4821
+      },
+      {
+        "deck": [
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠）、投掷匕首（改）、快斩（改） x2、中和、打击 x3；狡黠药水；锋利骰子",
+        "family": "混合线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          33.3214,
+          0.0,
+          66.6786
+        ],
+        "success": 33.3214,
+        "fail": 66.6786
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、中和、打击、防御 x2；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          10.9286,
+          6.3607,
+          82.7107
+        ],
+        "success": 17.2893,
+        "fail": 82.7107
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x3；狡黠药水；锋利骰子",
+        "family": "药水狡黠快线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          17.0893,
+          0.0,
+          82.9107
+        ],
+        "success": 17.0893,
+        "fail": 82.9107
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击、防御；狡黠药水；锋利骰子",
+        "family": "药水狡黠快线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          14.7143,
+          0.1929,
+          85.0929
+        ],
+        "success": 14.9071,
+        "fail": 85.0929
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、防御 x2；狡黠药水；锋利骰子",
+        "family": "药水狡黠快线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          2.3214,
+          10.9643,
+          86.7143
+        ],
+        "success": 13.2857,
+        "fail": 86.7143
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、快斩（改）、中和、打击、防御 x2；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          6.6429,
+          6.3179,
+          87.0393
+        ],
+        "success": 12.9607,
+        "fail": 87.0393
+      },
+      {
+        "deck": [
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠）、投掷匕首（改）、快斩（改） x2、中和、打击 x2、防御；狡黠药水；锋利骰子",
+        "family": "混合线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          9.6429,
+          0.1625,
+          90.1946
+        ],
+        "success": 9.8054,
+        "fail": 90.1946
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、中和、打击 x2、防御 x2；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.5,
+          8.6429,
+          90.8571
+        ],
+        "success": 9.1429,
+        "fail": 90.8571
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、中和、打击 x3、防御；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          2.9107,
+          6.1286,
+          90.9607
+        ],
+        "success": 9.0393,
+        "fail": 90.9607
+      }
+    ],
+    "4": [
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、防御 x2；狡黠药水；空心护符",
+        "family": "药水狡黠快线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          13.5821,
+          86.4179
+        ],
+        "success": 13.5821,
+        "fail": 86.4179
+      },
+      {
+        "deck": [
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠）、投掷匕首（改）、快斩（改） x2、中和、打击、防御 x2；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          10.4,
+          89.6
+        ],
+        "success": 10.4,
+        "fail": 89.6
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击、防御 x2；狡黠药水；空心护符",
+        "family": "药水狡黠快线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          9.4446,
+          90.5554
+        ],
+        "success": 9.4446,
+        "fail": 90.5554
+      },
+      {
+        "deck": [
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠）、投掷匕首（改）、快斩（改）、中和、打击 x2、防御 x2；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          6.7893,
+          93.2107
+        ],
+        "success": 6.7893,
+        "fail": 93.2107
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x2、防御；狡黠药水；空心护符",
+        "family": "药水狡黠快线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          6.4536,
+          93.5464
+        ],
+        "success": 6.4536,
+        "fail": 93.5464
+      },
+      {
+        "deck": [
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠）、投掷匕首（改）、快斩（改）、中和、打击 x3、防御；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          6.1268,
+          93.8732
+        ],
+        "success": 6.1268,
+        "fail": 93.8732
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3、防御；狡黠药水；空心护符",
+        "family": "药水狡黠快线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          5.6196,
+          94.3804
+        ],
+        "success": 5.6196,
+        "fail": 94.3804
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、快斩（改） x2、中和、打击 x2、防御；狡黠药水；空心护符",
+        "family": "药水狡黠快线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          5.35,
+          94.65
+        ],
+        "success": 5.35,
+        "fail": 94.65
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "ReturnHolster",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、防御 x2；狡黠药水；折返皮套",
+        "family": "药水狡黠快线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          4.9536,
+          95.0464
+        ],
+        "success": 4.9536,
+        "fail": 95.0464
+      },
+      {
+        "deck": [
+          "Backstab",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠）、快斩（改） x2、中和、打击 x3、防御；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          4.8018,
+          95.1982
+        ],
+        "success": 4.8018,
+        "fail": 95.1982
+      }
+    ],
+    "None": [
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "Vulnerable",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x2、防御 x2；破甲药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": null,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        "success": 0.0,
+        "fail": 100.0
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "Vulnerable",
+        "relic": "ReturnHolster",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x2、防御 x2；破甲药水；折返皮套",
+        "family": "易伤攻击线",
+        "first_turn": null,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        "success": 0.0,
+        "fail": 100.0
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "Vulnerable",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x2、防御 x2；破甲药水；空心护符",
+        "family": "易伤攻击线",
+        "first_turn": null,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        "success": 0.0,
+        "fail": 100.0
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "Fire",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x2、防御 x2；火焰药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": null,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        "success": 0.0,
+        "fail": 100.0
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "Fire",
+        "relic": "ReturnHolster",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x2、防御 x2；火焰药水；折返皮套",
+        "family": "混合线",
+        "first_turn": null,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        "success": 0.0,
+        "fail": 100.0
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "Fire",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x2、防御 x2；火焰药水；空心护符",
+        "family": "混合线",
+        "first_turn": null,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        "success": 0.0,
+        "fail": 100.0
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "ReturnHolster",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3、防御；狡黠药水；折返皮套",
+        "family": "药水狡黠快线",
+        "first_turn": null,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        "success": 0.0,
+        "fail": 100.0
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "Vulnerable",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3、防御；破甲药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": null,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        "success": 0.0,
+        "fail": 100.0
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "Vulnerable",
+        "relic": "ReturnHolster",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3、防御；破甲药水；折返皮套",
+        "family": "易伤攻击线",
+        "first_turn": null,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        "success": 0.0,
+        "fail": 100.0
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "Vulnerable",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3、防御；破甲药水；空心护符",
+        "family": "易伤攻击线",
+        "first_turn": null,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        "success": 0.0,
+        "fail": 100.0
+      }
+    ]
+  },
+  "best_by_family": {
+    "锋利骰子狡黠爆发线": [
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          33.75,
+          43.7679,
+          0.0,
+          22.4821
+        ],
+        "success": 77.5179,
+        "fail": 22.4821
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x2；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          32.8571,
+          42.6429,
+          0.0,
+          24.5
+        ],
+        "success": 75.5,
+        "fail": 24.5
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          32.1429,
+          36.6964,
+          0.0,
+          31.1607
+        ],
+        "success": 68.8393,
+        "fail": 31.1607
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击、防御；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          22.3214,
+          40.5536,
+          0.0,
+          37.125
+        ],
+        "success": 62.875,
+        "fail": 37.125
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、防御；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          19.8214,
+          42.3393,
+          0.0,
+          37.8393
+        ],
+        "success": 62.1607,
+        "fail": 37.8393
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、防御 x2；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          6.4286,
+          32.1964,
+          2.4821,
+          58.8929
+        ],
+        "success": 41.1071,
+        "fail": 58.8929
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x2、防御；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          13.9286,
+          26.9643,
+          0.0,
+          59.1071
+        ],
+        "success": 40.8929,
+        "fail": 59.1071
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、快斩（改）、中和、打击 x2、防御；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          13.3929,
+          26.25,
+          0.0,
+          60.3571
+        ],
+        "success": 39.6429,
+        "fail": 60.3571
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、打击、防御；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          28.75,
+          8.0357,
+          0.0,
+          63.2143
+        ],
+        "success": 36.7857,
+        "fail": 63.2143
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、打击 x2、防御；狡黠药水；锋利骰子",
+        "family": "锋利骰子狡黠爆发线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          28.75,
+          3.8393,
+          0.0,
+          67.4107
+        ],
+        "success": 32.5893,
+        "fail": 67.4107
+      }
+    ],
+    "混合线": [
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "ReturnHolster",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击；狡黠药水；折返皮套",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          40.0,
+          29.4107,
+          0.0,
+          30.5893
+        ],
+        "success": 69.4107,
+        "fail": 30.5893
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          28.9286,
+          36.8036,
+          0.0,
+          34.2679
+        ],
+        "success": 65.7321,
+        "fail": 34.2679
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "ReturnHolster",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x2；狡黠药水；折返皮套",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          33.2143,
+          30.2143,
+          0.0,
+          36.5714
+        ],
+        "success": 63.4286,
+        "fail": 36.5714
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x2；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          21.25,
+          38.8929,
+          0.0,
+          39.8571
+        ],
+        "success": 60.1429,
+        "fail": 39.8571
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "ReturnHolster",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3；狡黠药水；折返皮套",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          16.7857,
+          39.7321,
+          0.0,
+          43.4821
+        ],
+        "success": 56.5179,
+        "fail": 43.4821
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、打击 x2；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          5.0,
+          47.3393,
+          0.0,
+          47.6607
+        ],
+        "success": 52.3393,
+        "fail": 47.6607
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          1.25,
+          46.3571,
+          0.0,
+          52.3929
+        ],
+        "success": 47.6071,
+        "fail": 52.3929
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "ReturnHolster",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、防御；狡黠药水；折返皮套",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          21.7857,
+          24.4821,
+          0.0,
+          53.7321
+        ],
+        "success": 46.2679,
+        "fail": 53.7321
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "ReturnHolster",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击、防御；狡黠药水；折返皮套",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          19.2857,
+          26.5536,
+          0.0,
+          54.1607
+        ],
+        "success": 45.8393,
+        "fail": 54.1607
+      },
+      {
+        "deck": [
+          "Bash",
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "重击、背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击、防御；狡黠药水；空心护符",
+        "family": "混合线",
+        "first_turn": 2,
+        "kill_vector": [
+          0.0,
+          14.2857,
+          29.3571,
+          1.6357,
+          54.7214
+        ],
+        "success": 45.2786,
+        "fail": 54.7214
+      }
+    ],
+    "药水狡黠快线": [
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击 x2；狡黠药水；锋利骰子",
+        "family": "药水狡黠快线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          44.5179,
+          0.0,
+          55.4821
+        ],
+        "success": 44.5179,
+        "fail": 55.4821
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x3；狡黠药水；锋利骰子",
+        "family": "药水狡黠快线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          17.0893,
+          0.0,
+          82.9107
+        ],
+        "success": 17.0893,
+        "fail": 82.9107
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击、防御；狡黠药水；锋利骰子",
+        "family": "药水狡黠快线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          14.7143,
+          0.1929,
+          85.0929
+        ],
+        "success": 14.9071,
+        "fail": 85.0929
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、防御 x2；狡黠药水；空心护符",
+        "family": "药水狡黠快线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          13.5821,
+          86.4179
+        ],
+        "success": 13.5821,
+        "fail": 86.4179
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、防御 x2；狡黠药水；锋利骰子",
+        "family": "药水狡黠快线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          2.3214,
+          10.9643,
+          86.7143
+        ],
+        "success": 13.2857,
+        "fail": 86.7143
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击、防御 x2；狡黠药水；空心护符",
+        "family": "药水狡黠快线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          9.4446,
+          90.5554
+        ],
+        "success": 9.4446,
+        "fail": 90.5554
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击、防御；狡黠药水；空心护符",
+        "family": "药水狡黠快线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          1.5714,
+          7.2893,
+          91.1393
+        ],
+        "success": 8.8607,
+        "fail": 91.1393
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击 x2、防御；狡黠药水；空心护符",
+        "family": "药水狡黠快线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          6.4536,
+          93.5464
+        ],
+        "success": 6.4536,
+        "fail": 93.5464
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "SharpDice",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改）、中和、打击、防御 x2；狡黠药水；锋利骰子",
+        "family": "药水狡黠快线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0536,
+          6.2107,
+          93.7357
+        ],
+        "success": 6.2643,
+        "fail": 93.7357
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "SlyBrew",
+        "relic": "HollowAmulet",
+        "plan": "fast",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、中和、打击 x3、防御；狡黠药水；空心护符",
+        "family": "药水狡黠快线",
+        "first_turn": 4,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.0,
+          5.6196,
+          94.3804
+        ],
+        "success": 5.6196,
+        "fail": 94.3804
+      }
+    ],
+    "易伤攻击线": [
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "Vulnerable",
+        "relic": "ReturnHolster",
+        "plan": "main",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击、防御；破甲药水；折返皮套",
+        "family": "易伤攻击线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.2143,
+          0.0,
+          99.7857
+        ],
+        "success": 0.2143,
+        "fail": 99.7857
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "Vulnerable",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击、防御；破甲药水；空心护符",
+        "family": "易伤攻击线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.2143,
+          0.0,
+          99.7857
+        ],
+        "success": 0.2143,
+        "fail": 99.7857
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "Vulnerable",
+        "relic": "ReturnHolster",
+        "plan": "main",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击 x2；破甲药水；折返皮套",
+        "family": "易伤攻击线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.2143,
+          0.0,
+          99.7857
+        ],
+        "success": 0.2143,
+        "fail": 99.7857
+      },
+      {
+        "deck": [
+          "Backstab",
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "Vulnerable",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "背刺（改，狡黠） x2、投掷匕首（改）、快斩（改） x2、中和、打击 x2；破甲药水；空心护符",
+        "family": "易伤攻击线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.2143,
+          0.0,
+          99.7857
+        ],
+        "success": 0.2143,
+        "fail": 99.7857
+      },
+      {
+        "deck": [
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "Vulnerable",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "背刺（改，狡黠）、投掷匕首（改）、快斩（改） x2、中和、打击 x2、防御；破甲药水；锋利骰子",
+        "family": "易伤攻击线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.2143,
+          0.0,
+          99.7857
+        ],
+        "success": 0.2143,
+        "fail": 99.7857
+      },
+      {
+        "deck": [
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "Vulnerable",
+        "relic": "ReturnHolster",
+        "plan": "main",
+        "build_display": "背刺（改，狡黠）、投掷匕首（改）、快斩（改） x2、中和、打击 x2、防御；破甲药水；折返皮套",
+        "family": "易伤攻击线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.2143,
+          0.0,
+          99.7857
+        ],
+        "success": 0.2143,
+        "fail": 99.7857
+      },
+      {
+        "deck": [
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Defend"
+        ],
+        "potion": "Vulnerable",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "背刺（改，狡黠）、投掷匕首（改）、快斩（改） x2、中和、打击 x2、防御；破甲药水；空心护符",
+        "family": "易伤攻击线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.2143,
+          0.0,
+          99.7857
+        ],
+        "success": 0.2143,
+        "fail": 99.7857
+      },
+      {
+        "deck": [
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "Vulnerable",
+        "relic": "SharpDice",
+        "plan": "main",
+        "build_display": "背刺（改，狡黠）、投掷匕首（改）、快斩（改） x2、中和、打击 x3；破甲药水；锋利骰子",
+        "family": "易伤攻击线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.2143,
+          0.0,
+          99.7857
+        ],
+        "success": 0.2143,
+        "fail": 99.7857
+      },
+      {
+        "deck": [
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "Vulnerable",
+        "relic": "ReturnHolster",
+        "plan": "main",
+        "build_display": "背刺（改，狡黠）、投掷匕首（改）、快斩（改） x2、中和、打击 x3；破甲药水；折返皮套",
+        "family": "易伤攻击线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.2143,
+          0.0,
+          99.7857
+        ],
+        "success": 0.2143,
+        "fail": 99.7857
+      },
+      {
+        "deck": [
+          "Backstab",
+          "DaggerThrow",
+          "QuickSlash",
+          "QuickSlash",
+          "Neutralize",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "potion": "Vulnerable",
+        "relic": "HollowAmulet",
+        "plan": "main",
+        "build_display": "背刺（改，狡黠）、投掷匕首（改）、快斩（改） x2、中和、打击 x3；破甲药水；空心护符",
+        "family": "易伤攻击线",
+        "first_turn": 3,
+        "kill_vector": [
+          0.0,
+          0.0,
+          0.2143,
+          0.0,
+          99.7857
+        ],
+        "success": 0.2143,
+        "fail": 99.7857
+      }
+    ]
+  }
+}

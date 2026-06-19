@@ -1,0 +1,898 @@
+{
+  "enemy_hp": 82,
+  "player_hp": 12,
+  "incoming": [
+    7,
+    12,
+    16,
+    21
+  ],
+  "legal_deck_count": 274,
+  "perfect_success_count": 0,
+  "top30": [
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、佯动（改）、护身 x3",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        31.5714,
+        51.2,
+        17.2286
+      ],
+      "success": 82.7714
+    },
+    {
+      "deck": [
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、快刺（改）、护身 x3",
+      "family": "连击终结线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        37.8571,
+        42.7429,
+        19.4
+      ],
+      "success": 80.6
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、快刺（改）、佯动（改）、护身 x2",
+      "family": "连击终结线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        1.9048,
+        66.9524,
+        5.9619,
+        25.181
+      ],
+      "success": 74.819
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Heavy Slash",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、佯动（改）、重斩、护身 x2",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        70.5238,
+        3.6095,
+        25.8667
+      ],
+      "success": 74.1333
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Setup",
+        "Strike",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、佯动（改）、打击、护身 x2",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        66.2381,
+        6.1095,
+        27.6524
+      ],
+      "success": 72.3476
+    },
+    {
+      "deck": [
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Quick Stab",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、快刺（改） x2、护身 x2",
+      "family": "连击终结线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        62.9524,
+        4.7905,
+        32.2571
+      ],
+      "success": 67.7429
+    },
+    {
+      "deck": [
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Setup",
+        "Strike",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、打击、护身 x3",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        22.8571,
+        43.9,
+        33.2429
+      ],
+      "success": 66.7571
+    },
+    {
+      "deck": [
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Heavy Slash",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、重斩、护身 x3",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        23.0,
+        42.7857,
+        34.2143
+      ],
+      "success": 65.7857
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、双切（改）、快刺（改）、佯动（改）、护身 x3",
+      "family": "连击终结线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        17.8571,
+        42.6714,
+        39.4714
+      ],
+      "success": 60.5286
+    },
+    {
+      "deck": [
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Heavy Slash",
+        "Quick Stab",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、快刺（改）、重斩、护身 x2",
+      "family": "连击终结线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        56.0,
+        4.1714,
+        39.8286
+      ],
+      "success": 60.1714
+    },
+    {
+      "deck": [
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Setup",
+        "Strike",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、快刺（改）、打击、护身 x2",
+      "family": "连击终结线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        55.8095,
+        3.2476,
+        40.9429
+      ],
+      "success": 59.0571
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Quick Stab",
+        "Setup"
+      ],
+      "display": "短刀终结（改）、架势（改）、快刺（改） x2、佯动（改）、护身 x2",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        52.0,
+        5.3286,
+        42.6714
+      ],
+      "success": 57.3286
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Setup"
+      ],
+      "display": "短刀终结（改）、架势（改）、快刺（改）、佯动（改）、护身 x3",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        5.7143,
+        47.4,
+        46.8857
+      ],
+      "success": 53.1143
+    },
+    {
+      "deck": [
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Setup",
+        "Strike",
+        "Strike",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、打击 x2、护身 x2",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        51.5238,
+        0.6524,
+        47.8238
+      ],
+      "success": 52.1762
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Heavy Slash",
+        "Setup"
+      ],
+      "display": "短刀终结（改）、架势（改）、佯动（改）、重斩、护身 x3",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        14.7143,
+        36.1714,
+        49.1143
+      ],
+      "success": 50.8857
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Quick Stab",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、双切（改）、快刺（改） x2、佯动（改）、护身 x2",
+      "family": "连击终结线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        50.0952,
+        0.6048,
+        49.3
+      ],
+      "success": 50.7
+    },
+    {
+      "deck": [
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Heavy Slash",
+        "Setup",
+        "Strike",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、重斩、打击、护身 x2",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        45.2381,
+        2.8667,
+        51.8952
+      ],
+      "success": 48.1048
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Strike",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、双切（改）、快刺（改）、佯动（改）、打击、护身 x2",
+      "family": "连击终结线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        47.1429,
+        0.8619,
+        51.9952
+      ],
+      "success": 48.0048
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Strike",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、双切（改）、佯动（改）、打击、护身 x3",
+      "family": "护身慢线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.5714,
+        38.3857,
+        53.0429
+      ],
+      "success": 46.9571
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Heavy Slash",
+        "Quick Stab",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、双切（改）、快刺（改）、佯动（改）、重斩、护身 x2",
+      "family": "连击终结线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        41.2381,
+        3.0571,
+        55.7048
+      ],
+      "success": 44.2952
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Heavy Slash",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、双切（改）、佯动（改）、重斩、护身 x3",
+      "family": "重斩混合线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        3.1429,
+        41.1429,
+        55.7143
+      ],
+      "success": 44.2857
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Heavy Slash",
+        "Quick Stab",
+        "Setup"
+      ],
+      "display": "短刀终结（改）、架势（改）、快刺（改）、佯动（改）、重斩、护身 x2",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        40.1905,
+        3.4714,
+        56.3381
+      ],
+      "success": 43.6619
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Quick Stab",
+        "Quick Stab",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、快刺（改） x2、佯动（改）、护身",
+      "family": "连击终结线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        8.5714,
+        32.1905,
+        0.0,
+        59.2381
+      ],
+      "success": 40.7619
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Heavy Slash",
+        "Quick Stab",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、快刺（改）、佯动（改）、重斩、护身",
+      "family": "连击终结线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        3.3333,
+        37.4286,
+        0.0,
+        59.2381
+      ],
+      "success": 40.7619
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Heavy Slash",
+        "Setup",
+        "Strike",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、佯动（改）、重斩、打击、护身",
+      "family": "架势蓄力线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        1.9048,
+        37.1429,
+        0.0,
+        60.9524
+      ],
+      "success": 39.0476
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Heavy Slash",
+        "Setup",
+        "Strike"
+      ],
+      "display": "短刀终结（改）、架势（改）、佯动（改）、重斩、打击、护身 x2",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        35.4286,
+        3.1476,
+        61.4238
+      ],
+      "success": 38.5762
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Quick Stab",
+        "Setup",
+        "Strike",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、快刺（改）、佯动（改）、打击、护身",
+      "family": "连击终结线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        3.3333,
+        33.9524,
+        0.0,
+        62.7143
+      ],
+      "success": 37.2857
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Setup",
+        "Strike",
+        "Strike",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、佯动（改）、打击 x2、护身",
+      "family": "架势蓄力线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        1.9048,
+        34.619,
+        0.0,
+        63.4762
+      ],
+      "success": 36.5238
+    },
+    {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Setup",
+        "Strike"
+      ],
+      "display": "短刀终结（改）、架势（改）、快刺（改）、佯动（改）、打击、护身 x2",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        27.7143,
+        6.7952,
+        65.4905
+      ],
+      "success": 34.5095
+    },
+    {
+      "deck": [
+        "Finisher",
+        "Guard",
+        "Heavy Slash",
+        "Quick Stab",
+        "Quick Stab",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、快刺（改） x2、重斩、护身",
+      "family": "连击终结线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        0.9524,
+        30.7143,
+        0.0,
+        68.3333
+      ],
+      "success": 31.6667
+    }
+  ],
+  "best_by_first_turn": {
+    "3": {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、佯动（改）、护身 x3",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        31.5714,
+        51.2,
+        17.2286
+      ],
+      "success": 82.7714
+    },
+    "2": {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、快刺（改）、佯动（改）、护身 x2",
+      "family": "连击终结线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        1.9048,
+        66.9524,
+        5.9619,
+        25.181
+      ],
+      "success": 74.819
+    },
+    "4": {
+      "deck": [
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Quick Stab",
+        "Setup"
+      ],
+      "display": "短刀终结（改）、架势（改）、快刺（改） x2、护身 x3",
+      "family": "架势蓄力线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        16.9,
+        83.1
+      ],
+      "success": 16.9
+    },
+    "0": {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Heavy Slash",
+        "Strike"
+      ],
+      "display": "短刀终结（改）、佯动（改）、重斩、打击、护身 x3",
+      "family": "重斩混合线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  },
+  "best_by_family": {
+    "架势蓄力线": {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、佯动（改）、护身 x3",
+      "family": "架势蓄力线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        31.5714,
+        51.2,
+        17.2286
+      ],
+      "success": 82.7714
+    },
+    "连击终结线": {
+      "deck": [
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Quick Stab",
+        "Setup",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、架势（改）、双切（改）、快刺（改）、护身 x3",
+      "family": "连击终结线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        37.8571,
+        42.7429,
+        19.4
+      ],
+      "success": 80.6
+    },
+    "护身慢线": {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Strike",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、双切（改）、佯动（改）、打击、护身 x3",
+      "family": "护身慢线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.5714,
+        38.3857,
+        53.0429
+      ],
+      "success": 46.9571
+    },
+    "重斩混合线": {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Heavy Slash",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、双切（改）、佯动（改）、重斩、护身 x3",
+      "family": "重斩混合线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        3.1429,
+        41.1429,
+        55.7143
+      ],
+      "success": 44.2857
+    },
+    "基础混合线": {
+      "deck": [
+        "Feint",
+        "Finisher",
+        "Guard",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Twin Cut"
+      ],
+      "display": "短刀终结（改）、双切（改）、佯动（改）、打击 x3、护身",
+      "family": "基础混合线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        8.8571,
+        0.0,
+        91.1429
+      ],
+      "success": 8.8571
+    },
+    "重斩诱导线": {
+      "deck": [
+        "Feint",
+        "Guard",
+        "Guard",
+        "Guard",
+        "Heavy Slash",
+        "Quick Stab",
+        "Quick Stab"
+      ],
+      "display": "快刺（改） x2、佯动（改）、重斩、护身 x3",
+      "family": "重斩诱导线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  }
+}

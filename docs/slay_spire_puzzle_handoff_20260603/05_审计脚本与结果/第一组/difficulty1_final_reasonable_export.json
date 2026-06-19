@@ -1,0 +1,1631 @@
+{
+  "variant": {
+    "name": "d1_final_reasonable",
+    "card_pool": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Perfected Strike",
+      "Perfected Strike",
+      "Bash",
+      "Shrug It Off"
+    ],
+    "enemy_hp": 55,
+    "player_hp": 8,
+    "enemy_damage_by_turn": [
+      0,
+      9,
+      11,
+      13
+    ],
+    "min_deck_size": 7,
+    "max_deck_size": 9,
+    "draw_per_turn": 5
+  },
+  "solutions": [
+    {
+      "label": "fast_2_turn",
+      "deck": [
+        "Bash",
+        "Perfected Strike",
+        "Perfected Strike",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "deck_display": "Bash, Perfected Strike x2, Strike x5",
+      "exact_result": [
+        0.0,
+        0.5714285714285713,
+        0.0,
+        0.0,
+        0.42857142857142844
+      ],
+      "expected_kill_turn_if_success": 2.0,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 0.9999999999999998,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 55,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.9999999999999998
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 55,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 38,
+              "block": 0,
+              "prob": 0.6249999999999999
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 55,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 55,
+              "block": 0,
+              "prob": 0.3749999999999999
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 38,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.6249999999999999
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 55,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.3749999999999999
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 0.9999999999999998,
+          "exact_kill_prob": 0.5714285714285713,
+          "cumulative_kill_prob": 0.5714285714285713,
+          "fail_prob_after_action": 0.42857142857142844,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 38,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.6249999999999999
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 55,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.3749999999999999
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 38,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": -1,
+              "block": 0,
+              "prob": 0.5714285714285713
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 55,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 55,
+              "block": 0,
+              "prob": 0.3749999999999999
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 38,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 38,
+              "block": 0,
+              "prob": 0.05357142857142856
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    },
+    {
+      "label": "main_3_turn",
+      "deck": [
+        "Defend",
+        "Perfected Strike",
+        "Perfected Strike",
+        "Shrug It Off",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "deck_display": "Defend, Perfected Strike x2, Shrug It Off, Strike x3",
+      "exact_result": [
+        0.0,
+        0.0,
+        0.949047619047619,
+        0.003333333333333334,
+        0.047619047619047616
+      ],
+      "expected_kill_turn_if_success": 3.0035,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 0.9999999999999999,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 55,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.9999999999999999
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 55,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 33,
+              "block": 0,
+              "prob": 0.9523809523809524
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 55,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 37,
+              "block": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.9523809523809523
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 37,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.047619047619047616
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.047619047619047616,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.9523809523809523
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 37,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Perfected Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 17,
+              "block": 5,
+              "prob": 0.638095238095238
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Shrug It Off[draw Defend]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 17,
+              "block": 8,
+              "prob": 0.11190476190476191
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Shrug It Off[draw Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 17,
+              "block": 8,
+              "prob": 0.0642857142857143
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 21,
+              "block": 5,
+              "prob": 0.047619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Shrug It Off[draw Perfected Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 17,
+              "block": 8,
+              "prob": 0.047619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 33,
+              "block": 0,
+              "prob": 0.04285714285714286
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Shrug It Off[draw Strike]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 21,
+              "block": 8,
+              "prob": 0.02142857142857143
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Perfected Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 21,
+              "block": 5,
+              "prob": 0.014285714285714287
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Shrug It Off[draw Defend]"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 21,
+              "block": 8,
+              "prob": 0.0071428571428571435
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 37,
+              "block": 0,
+              "prob": 0.004761904761904762
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 4,
+              "enemy_hp": 17,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.6380952380952386
+            },
+            {
+              "player_hp": 7,
+              "enemy_hp": 17,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.22380952380952407
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.06190476190476193
+            },
+            {
+              "player_hp": 7,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.028571428571428574
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "start_mass": 0.9523809523809531,
+          "exact_kill_prob": 0.9490476190476189,
+          "cumulative_kill_prob": 0.9490476190476189,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 4,
+              "enemy_hp": 17,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.6380952380952386
+            },
+            {
+              "player_hp": 7,
+              "enemy_hp": 17,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.22380952380952407
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.06190476190476193
+            },
+            {
+              "player_hp": 7,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.028571428571428574
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 17,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -5,
+              "block": 0,
+              "prob": 0.6123809523809526
+            },
+            {
+              "start_state": {
+                "player_hp": 7,
+                "enemy_hp": 17,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 7,
+              "end_enemy_hp": -5,
+              "block": 0,
+              "prob": 0.21206349206349226
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -1,
+              "block": 0,
+              "prob": 0.060476190476190496
+            },
+            {
+              "start_state": {
+                "player_hp": 7,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 7,
+              "end_enemy_hp": -1,
+              "block": 0,
+              "prob": 0.026666666666666665
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 17,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -1,
+              "block": 0,
+              "prob": 0.025714285714285714
+            },
+            {
+              "start_state": {
+                "player_hp": 7,
+                "enemy_hp": 17,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 7,
+              "end_enemy_hp": -1,
+              "block": 0,
+              "prob": 0.011746031746031747
+            },
+            {
+              "start_state": {
+                "player_hp": 7,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 7,
+              "end_enemy_hp": 21,
+              "block": 5,
+              "prob": 0.001904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Shrug It Off[draw Perfected Strike]"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 21,
+              "block": 13,
+              "prob": 0.0014285714285714288
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 1,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.0019047619047619054
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.001428571428571429
+            }
+          ]
+        },
+        {
+          "turn": 4,
+          "start_mass": 0.0033333333333333344,
+          "exact_kill_prob": 0.0033333333333333344,
+          "cumulative_kill_prob": 0.9523809523809522,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 1,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.0019047619047619054
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.001428571428571429
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 1,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 1,
+              "end_enemy_hp": -1,
+              "block": 0,
+              "prob": 0.0019047619047619054
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Perfected Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -1,
+              "block": 0,
+              "prob": 0.001428571428571429
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    },
+    {
+      "label": "stable_4_turn",
+      "deck": [
+        "Defend",
+        "Shrug It Off",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "deck_display": "Defend, Shrug It Off, Strike x5",
+      "exact_result": [
+        0.0,
+        0.0,
+        0.0,
+        0.9126984126984126,
+        0.0873015873015873
+      ],
+      "expected_kill_turn_if_success": 4.0,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 55,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 55,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 37,
+              "block": 0,
+              "prob": 1.0
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 37,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.047619047619047616,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 37,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Shrug It Off[draw Strike]",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 25,
+              "block": 8,
+              "prob": 0.5952380952380952
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 25,
+              "block": 5,
+              "prob": 0.2380952380952381
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Shrug It Off[draw Defend]",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 25,
+              "block": 8,
+              "prob": 0.11904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 37,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 37,
+              "block": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 7,
+              "enemy_hp": 25,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.7142857142857143
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 25,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2380952380952381
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "start_mass": 0.9523809523809524,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.03968253968253968,
+          "start_state_groups": [
+            {
+              "player_hp": 7,
+              "enemy_hp": 25,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.7142857142857143
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 25,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2380952380952381
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 7,
+                "enemy_hp": 25,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 7,
+              "end_enemy_hp": 13,
+              "block": 5,
+              "prob": 0.5158730158730158
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 25,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Shrug It Off[draw Strike]",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 13,
+              "block": 8,
+              "prob": 0.19047619047619047
+            },
+            {
+              "start_state": {
+                "player_hp": 7,
+                "enemy_hp": 25,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Shrug It Off[draw Defend]",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 7,
+              "end_enemy_hp": 13,
+              "block": 8,
+              "prob": 0.07936507936507936
+            },
+            {
+              "start_state": {
+                "player_hp": 7,
+                "enemy_hp": 25,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Shrug It Off[draw Strike]",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 7,
+              "end_enemy_hp": 13,
+              "block": 8,
+              "prob": 0.07936507936507936
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 25,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Shrug It Off[draw Defend]",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 13,
+              "block": 8,
+              "prob": 0.04761904761904763
+            },
+            {
+              "start_state": {
+                "player_hp": 7,
+                "enemy_hp": 25,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 7,
+              "end_enemy_hp": 25,
+              "block": 0,
+              "prob": 0.03968253968253968
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 1,
+              "enemy_hp": 13,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.753968253968254
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 13,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.15873015873015872
+            }
+          ]
+        },
+        {
+          "turn": 4,
+          "start_mass": 0.9126984126984127,
+          "exact_kill_prob": 0.9126984126984127,
+          "cumulative_kill_prob": 0.9126984126984127,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 1,
+              "enemy_hp": 13,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.753968253968254
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 13,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.15873015873015872
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 1,
+                "enemy_hp": 13,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 1,
+              "end_enemy_hp": -5,
+              "block": 0,
+              "prob": 0.753968253968254
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 13,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -5,
+              "block": 0,
+              "prob": 0.15873015873015872
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    }
+  ],
+  "audit_summary": {
+    "case_count": 36,
+    "stable_count": 0,
+    "top_rows": [
+      {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.5714285714285713,
+          0.0,
+          0.0,
+          0.42857142857142844
+        ],
+        "fail": 0.42857142857142844
+      },
+      {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.4841269841269841,
+          0.3134920634920635,
+          0.0006613756613756613,
+          0.20171957671957672
+        ],
+        "fail": 0.20171957671957672
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.4841269841269841,
+          0.2777777777777778,
+          0.0,
+          0.23809523809523808
+        ],
+        "fail": 0.23809523809523808
+      },
+      {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.949047619047619,
+          0.003333333333333334,
+          0.047619047619047616
+        ],
+        "fail": 0.047619047619047616
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.9152380952380954,
+          0.03714285714285715,
+          0.047619047619047616
+        ],
+        "fail": 0.047619047619047616
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.0,
+          0.8813988095238096,
+          0.012708333333333335,
+          0.10589285714285714
+        ],
+        "fail": 0.10589285714285714
+      },
+      {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.0,
+          0.8772486772486773,
+          0.011287477954144622,
+          0.11146384479717812
+        ],
+        "fail": 0.11146384479717812
+      },
+      {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.0,
+          0.8724999999999998,
+          0.02035714285714286,
+          0.10714285714285715
+        ],
+        "fail": 0.10714285714285715
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.8674603174603173,
+          0.08481481481481482,
+          0.04772486772486773
+        ],
+        "fail": 0.04772486772486773
+      },
+      {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.8584126984126986,
+          0.09396825396825398,
+          0.047619047619047616
+        ],
+        "fail": 0.047619047619047616
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.0,
+          0.851005291005291,
+          0.03584656084656085,
+          0.11314814814814814
+        ],
+        "fail": 0.11314814814814814
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.0,
+          0.8467857142857141,
+          0.04446428571428571,
+          0.10875000000000001
+        ],
+        "fail": 0.10875000000000001
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.0,
+          0.7637125220458553,
+          0.08840388007054674,
+          0.14788359788359787
+        ],
+        "fail": 0.14788359788359787
+      },
+      {
+        "deck": [
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.7407407407407406,
+          0.021164021164021163,
+          0.23809523809523814
+        ],
+        "fail": 0.23809523809523814
+      },
+      {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.0,
+          0.7214285714285713,
+          0.16428571428571428,
+          0.11428571428571425
+        ],
+        "fail": 0.11428571428571425
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.7142857142857144,
+          0.0,
+          0.2857142857142857
+        ],
+        "fail": 0.2857142857142857
+      },
+      {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.0,
+          0.2857142857142857
+        ],
+        "fail": 0.2857142857142857
+      },
+      {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.7114285714285714,
+          0.0,
+          0.2885714285714286
+        ],
+        "fail": 0.2885714285714286
+      },
+      {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.704761904761905,
+          0.007619047619047619,
+          0.2876190476190476
+        ],
+        "fail": 0.2876190476190476
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.7028571428571431,
+          0.0,
+          0.29714285714285715
+        ],
+        "fail": 0.29714285714285715
+      }
+    ],
+    "top_non_solution_rows": [
+      {
+        "deck": [
+          "Bash",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.4841269841269841,
+          0.3134920634920635,
+          0.0006613756613756613,
+          0.20171957671957672
+        ],
+        "fail": 0.20171957671957672
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.4841269841269841,
+          0.2777777777777778,
+          0.0,
+          0.23809523809523808
+        ],
+        "fail": 0.23809523809523808
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.0,
+          0.9152380952380954,
+          0.03714285714285715,
+          0.047619047619047616
+        ],
+        "fail": 0.047619047619047616
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.0,
+          0.8813988095238096,
+          0.012708333333333335,
+          0.10589285714285714
+        ],
+        "fail": 0.10589285714285714
+      },
+      {
+        "deck": [
+          "Defend",
+          "Perfected Strike",
+          "Perfected Strike",
+          "Shrug It Off",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.0,
+          0.8772486772486773,
+          0.011287477954144622,
+          0.11146384479717812
+        ],
+        "fail": 0.11146384479717812
+      }
+    ]
+  },
+  "export_meta": {
+    "script": "difficulty1_formal_draft_export.py",
+    "variant_name": "d1_final_reasonable",
+    "solution_labels": [
+      "fast_2_turn",
+      "main_3_turn",
+      "stable_4_turn"
+    ],
+    "turn_rows_precision": "authoritative"
+  }
+}

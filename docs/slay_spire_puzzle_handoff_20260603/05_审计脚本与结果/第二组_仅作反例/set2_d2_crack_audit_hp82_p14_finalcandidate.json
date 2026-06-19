@@ -1,0 +1,1010 @@
+{
+  "enemy_hp": 82,
+  "player_hp": 14,
+  "incoming": [
+    7,
+    15,
+    22,
+    30
+  ],
+  "legal_deck_count": 886,
+  "legal_build_count": 2658,
+  "perfect_success_count": 0,
+  "top30": [
+    {
+      "deck": [
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、打击；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        60.8571,
+        0.0,
+        39.1429
+      ],
+      "success": 60.8571
+    },
+    {
+      "deck": [
+        "Guard Thrust",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、护身刺击；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        60.4286,
+        0.0,
+        39.5714
+      ],
+      "success": 60.4286
+    },
+    {
+      "deck": [
+        "Defend",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、防御；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        57.381,
+        0.0,
+        42.619
+      ],
+      "success": 57.381
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、重斩；稳固药水",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        57.381,
+        0.0,
+        42.619
+      ],
+      "success": 57.381
+    },
+    {
+      "deck": [
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Strike",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、打击 x2；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        54.5714,
+        0.0,
+        45.4286
+      ],
+      "success": 54.5714
+    },
+    {
+      "deck": [
+        "Guard Thrust",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、护身刺击、打击；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        54.0,
+        0.0,
+        46.0
+      ],
+      "success": 54.0
+    },
+    {
+      "deck": [
+        "False Mark",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、假弱点（改）、裂甲收束（改）、穿刺（改） x2；稳固药水",
+      "family": "假弱点陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        53.619,
+        0.0,
+        46.381
+      ],
+      "success": 53.619
+    },
+    {
+      "deck": [
+        "Defend",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、打击、防御；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        51.7143,
+        0.0,
+        48.2857
+      ],
+      "success": 51.7143
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、重斩、打击；稳固药水",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        51.7143,
+        0.0,
+        48.2857
+      ],
+      "success": 51.7143
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Thrust",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、护身刺击、防御；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        50.1905,
+        0.219,
+        49.5905
+      ],
+      "success": 50.4095
+    },
+    {
+      "deck": [
+        "Guard Thrust",
+        "Heavy Slash",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、护身刺击、重斩；稳固药水",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        50.1905,
+        0.0,
+        49.8095
+      ],
+      "success": 50.1905
+    },
+    {
+      "deck": [
+        "False Mark",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、假弱点（改）、裂甲收束（改）、穿刺（改）、打击；稳固药水",
+      "family": "假弱点陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        48.9048,
+        0.0,
+        51.0952
+      ],
+      "success": 48.9048
+    },
+    {
+      "deck": [
+        "False Mark",
+        "Guard Thrust",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、假弱点（改）、裂甲收束（改）、穿刺（改）、护身刺击；稳固药水",
+      "family": "假弱点陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        46.5238,
+        0.0,
+        53.4762
+      ],
+      "success": 46.5238
+    },
+    {
+      "deck": [
+        "Defend",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、打击、防御；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        45.4286,
+        0.0,
+        54.5714
+      ],
+      "success": 45.4286
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、重斩、打击；稳固药水",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        45.4286,
+        0.0,
+        54.5714
+      ],
+      "success": 45.4286
+    },
+    {
+      "deck": [
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、打击 x2；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        45.4286,
+        0.0,
+        54.5714
+      ],
+      "success": 45.4286
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Thrust",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、护身刺击、防御；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        45.2857,
+        0.0,
+        54.7143
+      ],
+      "success": 45.2857
+    },
+    {
+      "deck": [
+        "Guard Thrust",
+        "Heavy Slash",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、护身刺击、重斩；稳固药水",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        45.2857,
+        0.0,
+        54.7143
+      ],
+      "success": 45.2857
+    },
+    {
+      "deck": [
+        "Guard Thrust",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、护身刺击、打击；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        45.2857,
+        0.0,
+        54.7143
+      ],
+      "success": 45.2857
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、防御 x2；稳固药水",
+      "family": "稳固拖回合线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        42.4762,
+        0.0,
+        57.5238
+      ],
+      "success": 42.4762
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、重斩、防御；稳固药水",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        42.4762,
+        0.0,
+        57.5238
+      ],
+      "success": 42.4762
+    },
+    {
+      "deck": [
+        "Defend",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、打击 x2、防御；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        39.4286,
+        0.0,
+        60.5714
+      ],
+      "success": 39.4286
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、重斩、打击 x2；稳固药水",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        39.4286,
+        0.0,
+        60.5714
+      ],
+      "success": 39.4286
+    },
+    {
+      "deck": [
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、打击 x3；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        39.4286,
+        0.0,
+        60.5714
+      ],
+      "success": 39.4286
+    },
+    {
+      "deck": [
+        "Defend",
+        "Guard Thrust",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、护身刺击、打击、防御；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        38.3333,
+        0.0,
+        61.6667
+      ],
+      "success": 38.3333
+    },
+    {
+      "deck": [
+        "Guard Thrust",
+        "Heavy Slash",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、护身刺击、重斩、打击；稳固药水",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        38.3333,
+        0.0,
+        61.6667
+      ],
+      "success": 38.3333
+    },
+    {
+      "deck": [
+        "Guard Thrust",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、护身刺击、打击 x2；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        38.3333,
+        0.0,
+        61.6667
+      ],
+      "success": 38.3333
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、防御 x2；稳固药水",
+      "family": "稳固拖回合线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        36.6667,
+        0.6095,
+        62.7238
+      ],
+      "success": 37.2762
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、重斩、防御；稳固药水",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        36.6667,
+        0.2952,
+        63.0381
+      ],
+      "success": 36.9619
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、打击、防御 x2；稳固药水",
+      "family": "稳固拖回合线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        36.2857,
+        0.0,
+        63.7143
+      ],
+      "success": 36.2857
+    }
+  ],
+  "best_by_first_turn": {
+    "3": {
+      "deck": [
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、打击；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        60.8571,
+        0.0,
+        39.1429
+      ],
+      "success": 60.8571
+    },
+    "2": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Blast",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、防御 x2；爆燃药水",
+      "family": "爆燃抢杀线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        4.7619,
+        16.3333,
+        0.0,
+        78.9048
+      ],
+      "success": 21.0952
+    },
+    "4": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Thrust",
+        "Pierce",
+        "Pierce",
+        "Strike",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、穿刺（改） x2、护身刺击、打击、防御 x2；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        13.6619,
+        86.3381
+      ],
+      "success": 13.6619
+    },
+    "0": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "False Mark",
+        "False Mark",
+        "Guard Thrust",
+        "Heavy Slash",
+        "Mark Cut"
+      ],
+      "potion": "Crack",
+      "display": "刻痕斩（改）、假弱点（改） x2、护身刺击、重斩、防御 x2；裂甲药水",
+      "family": "重斩诱导线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  },
+  "best_by_family": {
+    "基础裂甲线": {
+      "deck": [
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、打击；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        60.8571,
+        0.0,
+        39.1429
+      ],
+      "success": 60.8571
+    },
+    "重斩诱导线": {
+      "deck": [
+        "Heavy Slash",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、重斩；稳固药水",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        57.381,
+        0.0,
+        42.619
+      ],
+      "success": 57.381
+    },
+    "假弱点陷阱线": {
+      "deck": [
+        "False Mark",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、假弱点（改）、裂甲收束（改）、穿刺（改） x2；稳固药水",
+      "family": "假弱点陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        53.619,
+        0.0,
+        46.381
+      ],
+      "success": 53.619
+    },
+    "稳固拖回合线": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter"
+      ],
+      "potion": "Guard",
+      "display": "刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、防御 x2；稳固药水",
+      "family": "稳固拖回合线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        42.4762,
+        0.0,
+        57.5238
+      ],
+      "success": 42.4762
+    },
+    "裂甲收束线": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Thrust",
+        "Heavy Slash",
+        "Mark Cut",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Crack",
+      "display": "审视（改）、刻痕斩（改）、裂甲收束（改）、护身刺击、重斩、防御 x2；裂甲药水",
+      "family": "裂甲收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        22.2857,
+        0.0,
+        77.7143
+      ],
+      "success": 22.2857
+    },
+    "爆燃抢杀线": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Blast",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改）、防御 x2；爆燃药水",
+      "family": "爆燃抢杀线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        4.7619,
+        16.3333,
+        0.0,
+        78.9048
+      ],
+      "success": 21.0952
+    }
+  },
+  "best_by_potion": {
+    "Guard": {
+      "deck": [
+        "Mark Cut",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Shatter",
+        "Strike",
+        "Survey"
+      ],
+      "potion": "Guard",
+      "display": "审视（改）、刻痕斩（改） x2、裂甲收束（改）、穿刺（改） x2、打击；稳固药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        60.8571,
+        0.0,
+        39.1429
+      ],
+      "success": 60.8571
+    },
+    "Blast": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Thrust",
+        "Mark Cut",
+        "Pierce",
+        "Pierce",
+        "Survey"
+      ],
+      "potion": "Blast",
+      "display": "审视（改）、刻痕斩（改）、穿刺（改） x2、护身刺击、防御 x2；爆燃药水",
+      "family": "基础裂甲线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        32.5714,
+        0.0,
+        67.4286
+      ],
+      "success": 32.5714
+    },
+    "Crack": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Guard Thrust",
+        "Heavy Slash",
+        "Mark Cut",
+        "Shatter",
+        "Survey"
+      ],
+      "potion": "Crack",
+      "display": "审视（改）、刻痕斩（改）、裂甲收束（改）、护身刺击、重斩、防御 x2；裂甲药水",
+      "family": "裂甲收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        22.2857,
+        0.0,
+        77.7143
+      ],
+      "success": 22.2857
+    }
+  }
+}

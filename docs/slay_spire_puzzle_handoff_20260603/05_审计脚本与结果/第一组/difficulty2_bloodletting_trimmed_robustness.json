@@ -1,0 +1,606 @@
+{
+  "valid_cases": 18,
+  "invalid_cases": 22,
+  "rows": [
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_seq": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": false
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_seq": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has2": true,
+      "has3": true,
+      "has4": true,
+      "valid": true
+    }
+  ]
+}

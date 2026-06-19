@@ -1,0 +1,3193 @@
+{
+  "variant": {
+    "name": "difficulty2_potion_pool_v2",
+    "card_pool": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Bash",
+      "Neutralize",
+      "Ball Lightning*",
+      "Ball Lightning*",
+      "Survivor",
+      "Quick Slash*",
+      "Quick Slash*",
+      "Dagger Throw*",
+      "Clothesline"
+    ],
+    "potion_pool": [
+      "Fire",
+      "Vulnerable",
+      "Weak"
+    ],
+    "enemy_hp": 72,
+    "player_hp": 15,
+    "enemy_damage_by_turn": [
+      6,
+      20,
+      26,
+      30
+    ],
+    "enemy_armor_gain_by_turn": [
+      14,
+      0,
+      0,
+      0
+    ],
+    "enemy_heal_by_turn": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "deck_size": [
+      6,
+      6
+    ],
+    "draw_per_turn": 5,
+    "energy": 3,
+    "audit_note": "Deck and potion are selected before battle. Each hand enumerates all playable card subsets and the one remaining potion timing. In-turn resolution uses a fixed damage-optimal order for this controlled card set."
+  },
+  "legal_deck_count": 571,
+  "legal_build_count": 1713,
+  "perfect_success_count": 0,
+  "top20": [
+    {
+      "deck": [
+        "Bash",
+        "Clothesline",
+        "Dagger Throw*",
+        "Neutralize",
+        "Quick Slash*",
+        "Survivor"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、金刚臂、中和、投掷匕首（改）、快斩（改）、生存者；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.8133333333333334,
+        0.0,
+        0.18666666666666668
+      ],
+      "success": 0.8133333333333334,
+      "fail": 0.18666666666666668
+    },
+    {
+      "deck": [
+        "Bash",
+        "Clothesline",
+        "Dagger Throw*",
+        "Defend",
+        "Neutralize",
+        "Quick Slash*"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、金刚臂、中和、投掷匕首（改）、快斩（改）、防御；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.7666666666666667,
+        0.0,
+        0.23333333333333334
+      ],
+      "success": 0.7666666666666667,
+      "fail": 0.23333333333333334
+    },
+    {
+      "deck": [
+        "Ball Lightning*",
+        "Bash",
+        "Clothesline",
+        "Dagger Throw*",
+        "Neutralize",
+        "Survivor"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、金刚臂、中和、球状闪电（改）、投掷匕首（改）、生存者；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.7533333333333334,
+        0.0,
+        0.24666666666666667
+      ],
+      "success": 0.7533333333333334,
+      "fail": 0.24666666666666667
+    },
+    {
+      "deck": [
+        "Bash",
+        "Clothesline",
+        "Dagger Throw*",
+        "Neutralize",
+        "Strike",
+        "Survivor"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、金刚臂、中和、投掷匕首（改）、打击、生存者；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.7533333333333332,
+        0.0,
+        0.2466666666666667
+      ],
+      "success": 0.7533333333333332,
+      "fail": 0.2466666666666667
+    },
+    {
+      "deck": [
+        "Clothesline",
+        "Dagger Throw*",
+        "Neutralize",
+        "Quick Slash*",
+        "Quick Slash*",
+        "Survivor"
+      ],
+      "potion": "Fire",
+      "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改） ×2、生存者；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.7333333333333334,
+        0.0,
+        0.2666666666666667
+      ],
+      "success": 0.7333333333333334,
+      "fail": 0.2666666666666667
+    },
+    {
+      "deck": [
+        "Clothesline",
+        "Dagger Throw*",
+        "Neutralize",
+        "Quick Slash*",
+        "Quick Slash*",
+        "Survivor"
+      ],
+      "potion": "Vulnerable",
+      "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改） ×2、生存者；破甲药水",
+      "family": "破甲压血线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.7333333333333334,
+        0.0,
+        0.2666666666666667
+      ],
+      "success": 0.7333333333333334,
+      "fail": 0.2666666666666667
+    },
+    {
+      "deck": [
+        "Bash",
+        "Dagger Throw*",
+        "Neutralize",
+        "Quick Slash*",
+        "Quick Slash*",
+        "Survivor"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、中和、投掷匕首（改）、快斩（改） ×2、生存者；火焰药水",
+      "family": "火焰快杀线",
+      "first_turn": 2,
+      "result": [
+        0.0,
+        0.16666666666666666,
+        0.5666666666666667,
+        0.0,
+        0.26666666666666666
+      ],
+      "success": 0.7333333333333333,
+      "fail": 0.26666666666666666
+    },
+    {
+      "deck": [
+        "Ball Lightning*",
+        "Clothesline",
+        "Dagger Throw*",
+        "Neutralize",
+        "Quick Slash*",
+        "Survivor"
+      ],
+      "potion": "Fire",
+      "build_display": "金刚臂、中和、球状闪电（改）、投掷匕首（改）、快斩（改）、生存者；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.7266666666666666,
+        0.0,
+        0.2733333333333334
+      ],
+      "success": 0.7266666666666666,
+      "fail": 0.2733333333333334
+    },
+    {
+      "deck": [
+        "Bash",
+        "Clothesline",
+        "Neutralize",
+        "Quick Slash*",
+        "Quick Slash*",
+        "Survivor"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、金刚臂、中和、快斩（改） ×2、生存者；火焰药水",
+      "family": "火焰快杀线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.7266666666666666,
+        0.0,
+        0.2733333333333333
+      ],
+      "success": 0.7266666666666666,
+      "fail": 0.2733333333333333
+    },
+    {
+      "deck": [
+        "Bash",
+        "Clothesline",
+        "Dagger Throw*",
+        "Defend",
+        "Neutralize",
+        "Survivor"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、金刚臂、中和、投掷匕首（改）、生存者、防御；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.6400000000000001,
+        0.06666666666666667,
+        0.2933333333333334
+      ],
+      "success": 0.7066666666666668,
+      "fail": 0.2933333333333334
+    },
+    {
+      "deck": [
+        "Bash",
+        "Dagger Throw*",
+        "Defend",
+        "Neutralize",
+        "Quick Slash*",
+        "Survivor"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、中和、投掷匕首（改）、快斩（改）、生存者、防御；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.6399999999999999,
+        0.06666666666666667,
+        0.29333333333333333
+      ],
+      "success": 0.7066666666666666,
+      "fail": 0.29333333333333333
+    },
+    {
+      "deck": [
+        "Ball Lightning*",
+        "Dagger Throw*",
+        "Neutralize",
+        "Quick Slash*",
+        "Quick Slash*",
+        "Survivor"
+      ],
+      "potion": "Vulnerable",
+      "build_display": "中和、球状闪电（改）、投掷匕首（改）、快斩（改） ×2、生存者；破甲药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.6866666666666666,
+        0.0,
+        0.31333333333333335
+      ],
+      "success": 0.6866666666666666,
+      "fail": 0.31333333333333335
+    },
+    {
+      "deck": [
+        "Dagger Throw*",
+        "Neutralize",
+        "Quick Slash*",
+        "Quick Slash*",
+        "Strike",
+        "Survivor"
+      ],
+      "potion": "Vulnerable",
+      "build_display": "中和、投掷匕首（改）、快斩（改） ×2、打击、生存者；破甲药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.6866666666666666,
+        0.0,
+        0.31333333333333335
+      ],
+      "success": 0.6866666666666666,
+      "fail": 0.31333333333333335
+    },
+    {
+      "deck": [
+        "Ball Lightning*",
+        "Bash",
+        "Clothesline",
+        "Neutralize",
+        "Quick Slash*",
+        "Survivor"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、金刚臂、中和、球状闪电（改）、快斩（改）、生存者；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.6799999999999999,
+        0.0,
+        0.32
+      ],
+      "success": 0.6799999999999999,
+      "fail": 0.32
+    },
+    {
+      "deck": [
+        "Ball Lightning*",
+        "Bash",
+        "Dagger Throw*",
+        "Defend",
+        "Neutralize",
+        "Survivor"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、中和、球状闪电（改）、投掷匕首（改）、生存者、防御；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.6133333333333334,
+        0.06000000000000001,
+        0.32666666666666666
+      ],
+      "success": 0.6733333333333335,
+      "fail": 0.32666666666666666
+    },
+    {
+      "deck": [
+        "Ball Lightning*",
+        "Bash",
+        "Clothesline",
+        "Dagger Throw*",
+        "Defend",
+        "Neutralize"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、金刚臂、中和、球状闪电（改）、投掷匕首（改）、防御；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.6733333333333333,
+        0.0,
+        0.32666666666666666
+      ],
+      "success": 0.6733333333333333,
+      "fail": 0.32666666666666666
+    },
+    {
+      "deck": [
+        "Bash",
+        "Clothesline",
+        "Dagger Throw*",
+        "Defend",
+        "Neutralize",
+        "Strike"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、金刚臂、中和、投掷匕首（改）、打击、防御；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.6733333333333333,
+        0.0,
+        0.32666666666666666
+      ],
+      "success": 0.6733333333333333,
+      "fail": 0.32666666666666666
+    },
+    {
+      "deck": [
+        "Clothesline",
+        "Dagger Throw*",
+        "Defend",
+        "Neutralize",
+        "Quick Slash*",
+        "Quick Slash*"
+      ],
+      "potion": "Vulnerable",
+      "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改） ×2、防御；破甲药水",
+      "family": "破甲压血线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.6733333333333333,
+        0.0,
+        0.3266666666666667
+      ],
+      "success": 0.6733333333333333,
+      "fail": 0.3266666666666667
+    },
+    {
+      "deck": [
+        "Bash",
+        "Clothesline",
+        "Defend",
+        "Neutralize",
+        "Quick Slash*",
+        "Quick Slash*"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、金刚臂、中和、快斩（改） ×2、防御；火焰药水",
+      "family": "火焰快杀线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.6733333333333332,
+        0.0,
+        0.32666666666666666
+      ],
+      "success": 0.6733333333333332,
+      "fail": 0.32666666666666666
+    },
+    {
+      "deck": [
+        "Ball Lightning*",
+        "Ball Lightning*",
+        "Bash",
+        "Dagger Throw*",
+        "Neutralize",
+        "Survivor"
+      ],
+      "potion": "Fire",
+      "build_display": "重击、中和、球状闪电（改） ×2、投掷匕首（改）、生存者；火焰药水",
+      "family": "混合线",
+      "first_turn": 3,
+      "result": [
+        0.0,
+        0.0,
+        0.6666666666666667,
+        0.0,
+        0.33333333333333337
+      ],
+      "success": 0.6666666666666667,
+      "fail": 0.33333333333333337
+    }
+  ],
+  "best_by_turn": {
+    "3": [
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、快斩（改）、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.8133333333333334,
+          0.0,
+          0.18666666666666668
+        ],
+        "success": 0.8133333333333334,
+        "fail": 0.18666666666666668
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、快斩（改）、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7666666666666667,
+          0.0,
+          0.23333333333333334
+        ],
+        "success": 0.7666666666666667,
+        "fail": 0.23333333333333334
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、球状闪电（改）、投掷匕首（改）、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7533333333333334,
+          0.0,
+          0.24666666666666667
+        ],
+        "success": 0.7533333333333334,
+        "fail": 0.24666666666666667
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、打击、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7533333333333332,
+          0.0,
+          0.2466666666666667
+        ],
+        "success": 0.7533333333333332,
+        "fail": 0.2466666666666667
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改） ×2、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7333333333333334,
+          0.0,
+          0.2666666666666667
+        ],
+        "success": 0.7333333333333334,
+        "fail": 0.2666666666666667
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改） ×2、生存者；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7333333333333334,
+          0.0,
+          0.2666666666666667
+        ],
+        "success": 0.7333333333333334,
+        "fail": 0.2666666666666667
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "金刚臂、中和、球状闪电（改）、投掷匕首（改）、快斩（改）、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7266666666666666,
+          0.0,
+          0.2733333333333334
+        ],
+        "success": 0.7266666666666666,
+        "fail": 0.2733333333333334
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、快斩（改） ×2、生存者；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7266666666666666,
+          0.0,
+          0.2733333333333333
+        ],
+        "success": 0.7266666666666666,
+        "fail": 0.2733333333333333
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、生存者、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6400000000000001,
+          0.06666666666666667,
+          0.2933333333333334
+        ],
+        "success": 0.7066666666666668,
+        "fail": 0.2933333333333334
+      },
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、投掷匕首（改）、快斩（改）、生存者、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6399999999999999,
+          0.06666666666666667,
+          0.29333333333333333
+        ],
+        "success": 0.7066666666666666,
+        "fail": 0.29333333333333333
+      }
+    ],
+    "2": [
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、投掷匕首（改）、快斩（改） ×2、生存者；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 2,
+        "result": [
+          0.0,
+          0.16666666666666666,
+          0.5666666666666667,
+          0.0,
+          0.26666666666666666
+        ],
+        "success": 0.7333333333333333,
+        "fail": 0.26666666666666666
+      },
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、投掷匕首（改）、快斩（改） ×2、防御；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 2,
+        "result": [
+          0.0,
+          0.16666666666666666,
+          0.4933333333333333,
+          0.0,
+          0.33999999999999997
+        ],
+        "success": 0.6599999999999999,
+        "fail": 0.33999999999999997
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Bash",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、球状闪电（改）、投掷匕首（改）、快斩（改） ×2；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 2,
+        "result": [
+          0.0,
+          0.16666666666666666,
+          0.0,
+          0.0,
+          0.8333333333333333
+        ],
+        "success": 0.16666666666666666,
+        "fail": 0.8333333333333333
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、快斩（改） ×2；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 2,
+        "result": [
+          0.0,
+          0.16666666666666666,
+          0.0,
+          0.0,
+          0.8333333333333333
+        ],
+        "success": 0.16666666666666666,
+        "fail": 0.8333333333333333
+      },
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Strike"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、投掷匕首（改）、快斩（改） ×2、打击；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 2,
+        "result": [
+          0.0,
+          0.16666666666666666,
+          0.0,
+          0.0,
+          0.8333333333333333
+        ],
+        "success": 0.16666666666666666,
+        "fail": 0.8333333333333333
+      }
+    ],
+    "4": [
+      {
+        "deck": [
+          "Clothesline",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "金刚臂、中和、快斩（改） ×2、生存者、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.28666666666666674,
+          0.7133333333333333
+        ],
+        "success": 0.28666666666666674,
+        "fail": 0.7133333333333333
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Clothesline",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "金刚臂、中和、球状闪电（改）、快斩（改）、生存者、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.24933333333333338,
+          0.7506666666666666
+        ],
+        "success": 0.24933333333333338,
+        "fail": 0.7506666666666666
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "重击、中和、快斩（改） ×2、生存者、防御；破甲药水",
+        "family": "混合线",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.2266666666666667,
+          0.7733333333333334
+        ],
+        "success": 0.2266666666666667,
+        "fail": 0.7733333333333334
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、快斩（改） ×2、生存者、防御；破甲药水",
+        "family": "混合线",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.20933333333333337,
+          0.7906666666666666
+        ],
+        "success": 0.20933333333333337,
+        "fail": 0.7906666666666666
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "金刚臂、中和、投掷匕首（改）、生存者、防御 ×2；火焰药水",
+        "family": "过量防守陷阱",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.2026666666666667,
+          0.7973333333333333
+        ],
+        "success": 0.2026666666666667,
+        "fail": 0.7973333333333333
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Bash",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "重击、中和、球状闪电（改）、投掷匕首（改）、生存者、防御；破甲药水",
+        "family": "混合线",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.19066666666666668,
+          0.8093333333333333
+        ],
+        "success": 0.19066666666666668,
+        "fail": 0.8093333333333333
+      },
+      {
+        "deck": [
+          "Dagger Throw*",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "中和、投掷匕首（改）、快斩（改）、生存者、防御 ×2；火焰药水",
+        "family": "过量防守陷阱",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.1466666666666667,
+          0.8533333333333334
+        ],
+        "success": 0.1466666666666667,
+        "fail": 0.8533333333333334
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "金刚臂、中和、快斩（改）、打击、生存者、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.13866666666666672,
+          0.8613333333333333
+        ],
+        "success": 0.13866666666666672,
+        "fail": 0.8613333333333333
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、投掷匕首（改）、打击、生存者、防御；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.12666666666666665,
+          0.8733333333333333
+        ],
+        "success": 0.12666666666666665,
+        "fail": 0.8733333333333333
+      },
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "重击、中和、投掷匕首（改）、打击、生存者、防御；破甲药水",
+        "family": "混合线",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.12266666666666667,
+          0.8773333333333333
+        ],
+        "success": 0.12266666666666667,
+        "fail": 0.8773333333333333
+      }
+    ],
+    "None": [
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、投掷匕首（改）、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、投掷匕首（改）、防御；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、投掷匕首（改）、防御；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、球状闪电（改） ×2、投掷匕首（改）；火焰药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "重击、金刚臂、中和、球状闪电（改） ×2、投掷匕首（改）；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、中和、球状闪电（改） ×2、投掷匕首（改）；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Quick Slash*"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、投掷匕首（改）、快斩（改）；火焰药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Quick Slash*"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、投掷匕首（改）、快斩（改）；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Quick Slash*"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、投掷匕首（改）、快斩（改）；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Strike"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、投掷匕首（改）、打击；火焰药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      }
+    ]
+  },
+  "best_by_family": {
+    "混合线": [
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、快斩（改）、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.8133333333333334,
+          0.0,
+          0.18666666666666668
+        ],
+        "success": 0.8133333333333334,
+        "fail": 0.18666666666666668
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、快斩（改）、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7666666666666667,
+          0.0,
+          0.23333333333333334
+        ],
+        "success": 0.7666666666666667,
+        "fail": 0.23333333333333334
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、球状闪电（改）、投掷匕首（改）、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7533333333333334,
+          0.0,
+          0.24666666666666667
+        ],
+        "success": 0.7533333333333334,
+        "fail": 0.24666666666666667
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、打击、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7533333333333332,
+          0.0,
+          0.2466666666666667
+        ],
+        "success": 0.7533333333333332,
+        "fail": 0.2466666666666667
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改） ×2、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7333333333333334,
+          0.0,
+          0.2666666666666667
+        ],
+        "success": 0.7333333333333334,
+        "fail": 0.2666666666666667
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "金刚臂、中和、球状闪电（改）、投掷匕首（改）、快斩（改）、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7266666666666666,
+          0.0,
+          0.2733333333333334
+        ],
+        "success": 0.7266666666666666,
+        "fail": 0.2733333333333334
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、生存者、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6400000000000001,
+          0.06666666666666667,
+          0.2933333333333334
+        ],
+        "success": 0.7066666666666668,
+        "fail": 0.2933333333333334
+      },
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、投掷匕首（改）、快斩（改）、生存者、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6399999999999999,
+          0.06666666666666667,
+          0.29333333333333333
+        ],
+        "success": 0.7066666666666666,
+        "fail": 0.29333333333333333
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "中和、球状闪电（改）、投掷匕首（改）、快斩（改） ×2、生存者；破甲药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6866666666666666,
+          0.0,
+          0.31333333333333335
+        ],
+        "success": 0.6866666666666666,
+        "fail": 0.31333333333333335
+      },
+      {
+        "deck": [
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "中和、投掷匕首（改）、快斩（改） ×2、打击、生存者；破甲药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6866666666666666,
+          0.0,
+          0.31333333333333335
+        ],
+        "success": 0.6866666666666666,
+        "fail": 0.31333333333333335
+      }
+    ],
+    "破甲压血线": [
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改） ×2、生存者；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7333333333333334,
+          0.0,
+          0.2666666666666667
+        ],
+        "success": 0.7333333333333334,
+        "fail": 0.2666666666666667
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改） ×2、防御；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6733333333333333,
+          0.0,
+          0.3266666666666667
+        ],
+        "success": 0.6733333333333333,
+        "fail": 0.3266666666666667
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、球状闪电（改）、投掷匕首（改）、快斩（改）、生存者；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6133333333333334,
+          0.0,
+          0.38666666666666666
+        ],
+        "success": 0.6133333333333334,
+        "fail": 0.38666666666666666
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改）、打击、生存者；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.5866666666666667,
+          0.0,
+          0.41333333333333333
+        ],
+        "success": 0.5866666666666667,
+        "fail": 0.41333333333333333
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、球状闪电（改）、投掷匕首（改）、快斩（改）、防御；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.5533333333333333,
+          0.0,
+          0.4466666666666667
+        ],
+        "success": 0.5533333333333333,
+        "fail": 0.4466666666666667
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Strike"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改）、打击、防御；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.5133333333333334,
+          0.0,
+          0.4866666666666667
+        ],
+        "success": 0.5133333333333334,
+        "fail": 0.4866666666666667
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、快斩（改）、生存者；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.42666666666666664,
+          0.0,
+          0.5733333333333334
+        ],
+        "success": 0.42666666666666664,
+        "fail": 0.5733333333333334
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改）、生存者、防御；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.18000000000000002,
+          0.216,
+          0.6040000000000001
+        ],
+        "success": 0.396,
+        "fail": 0.6040000000000001
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、快斩（改）、防御；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.38,
+          0.0,
+          0.62
+        ],
+        "success": 0.38,
+        "fail": 0.62
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "重击、金刚臂、中和、球状闪电（改）、投掷匕首（改）、生存者；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.3533333333333334,
+          0.0,
+          0.6466666666666667
+        ],
+        "success": 0.3533333333333334,
+        "fail": 0.6466666666666667
+      }
+    ],
+    "火焰快杀线": [
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、投掷匕首（改）、快斩（改） ×2、生存者；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 2,
+        "result": [
+          0.0,
+          0.16666666666666666,
+          0.5666666666666667,
+          0.0,
+          0.26666666666666666
+        ],
+        "success": 0.7333333333333333,
+        "fail": 0.26666666666666666
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、快斩（改） ×2、生存者；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7266666666666666,
+          0.0,
+          0.2733333333333333
+        ],
+        "success": 0.7266666666666666,
+        "fail": 0.2733333333333333
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、快斩（改） ×2、防御；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6733333333333332,
+          0.0,
+          0.32666666666666666
+        ],
+        "success": 0.6733333333333332,
+        "fail": 0.32666666666666666
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Bash",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、球状闪电（改）、快斩（改） ×2、生存者；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333
+        ],
+        "success": 0.6666666666666666,
+        "fail": 0.3333333333333333
+      },
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、投掷匕首（改）、快斩（改） ×2、防御；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 2,
+        "result": [
+          0.0,
+          0.16666666666666666,
+          0.4933333333333333,
+          0.0,
+          0.33999999999999997
+        ],
+        "success": 0.6599999999999999,
+        "fail": 0.33999999999999997
+      },
+      {
+        "deck": [
+          "Bash",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、快斩（改） ×2、打击、生存者；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6533333333333333,
+          0.0,
+          0.3466666666666667
+        ],
+        "success": 0.6533333333333333,
+        "fail": 0.3466666666666667
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、快斩（改） ×2、生存者、防御；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.5599999999999999,
+          0.08666666666666668,
+          0.3533333333333334
+        ],
+        "success": 0.6466666666666666,
+        "fail": 0.3533333333333334
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Bash",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、球状闪电（改）、快斩（改） ×2、防御；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.5733333333333334,
+          0.0,
+          0.42666666666666664
+        ],
+        "success": 0.5733333333333334,
+        "fail": 0.42666666666666664
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Strike"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、快斩（改） ×2、打击、防御；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.52,
+          0.0,
+          0.48000000000000004
+        ],
+        "success": 0.52,
+        "fail": 0.48000000000000004
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、快斩（改） ×2、防御 ×2；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.4933333333333333,
+          0.0,
+          0.5066666666666666
+        ],
+        "success": 0.4933333333333333,
+        "fail": 0.5066666666666666
+      }
+    ],
+    "过量防守陷阱": [
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、投掷匕首（改）、生存者、防御 ×2；火焰药水",
+        "family": "过量防守陷阱",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.2933333333333334,
+          0.2586666666666667,
+          0.44800000000000006
+        ],
+        "success": 0.552,
+        "fail": 0.44800000000000006
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、快斩（改）、生存者、防御 ×2；火焰药水",
+        "family": "过量防守陷阱",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.14,
+          0.15333333333333338,
+          0.7066666666666667
+        ],
+        "success": 0.2933333333333334,
+        "fail": 0.7066666666666667
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "金刚臂、中和、投掷匕首（改）、生存者、防御 ×2；火焰药水",
+        "family": "过量防守陷阱",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.2026666666666667,
+          0.7973333333333333
+        ],
+        "success": 0.2026666666666667,
+        "fail": 0.7973333333333333
+      },
+      {
+        "deck": [
+          "Dagger Throw*",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "中和、投掷匕首（改）、快斩（改）、生存者、防御 ×2；火焰药水",
+        "family": "过量防守陷阱",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.1466666666666667,
+          0.8533333333333334
+        ],
+        "success": 0.1466666666666667,
+        "fail": 0.8533333333333334
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Dagger Throw*",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "中和、球状闪电（改）、投掷匕首（改）、生存者、防御 ×2；火焰药水",
+        "family": "过量防守陷阱",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.11200000000000002,
+          0.8879999999999999
+        ],
+        "success": 0.11200000000000002,
+        "fail": 0.8879999999999999
+      },
+      {
+        "deck": [
+          "Dagger Throw*",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "中和、投掷匕首（改）、快斩（改）、生存者、防御 ×2；破甲药水",
+        "family": "过量防守陷阱",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.09066666666666669,
+          0.9093333333333333
+        ],
+        "success": 0.09066666666666669,
+        "fail": 0.9093333333333333
+      },
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "重击、中和、投掷匕首（改）、生存者、防御 ×2；破甲药水",
+        "family": "过量防守陷阱",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.08000000000000002,
+          0.9199999999999999
+        ],
+        "success": 0.08000000000000002,
+        "fail": 0.9199999999999999
+      },
+      {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "中和、快斩（改） ×2、生存者、防御 ×2；火焰药水",
+        "family": "过量防守陷阱",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.07466666666666669,
+          0.9253333333333332
+        ],
+        "success": 0.07466666666666669,
+        "fail": 0.9253333333333332
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、球状闪电（改）、生存者、防御 ×2；火焰药水",
+        "family": "过量防守陷阱",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.07333333333333335,
+          0.9266666666666666
+        ],
+        "success": 0.07333333333333335,
+        "fail": 0.9266666666666666
+      },
+      {
+        "deck": [
+          "Bash",
+          "Defend",
+          "Defend",
+          "Neutralize",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、打击、生存者、防御 ×2；火焰药水",
+        "family": "过量防守陷阱",
+        "first_turn": 4,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.068,
+          0.9319999999999999
+        ],
+        "success": 0.068,
+        "fail": 0.9319999999999999
+      }
+    ],
+    "虚弱生存线": [
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、中和、球状闪电（改） ×2、生存者；虚弱药水",
+        "family": "虚弱生存线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Dagger Throw*",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、中和、球状闪电（改） ×2、投掷匕首（改）、生存者；虚弱药水",
+        "family": "虚弱生存线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、中和、球状闪电（改） ×2、生存者、防御；虚弱药水",
+        "family": "虚弱生存线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、中和、球状闪电（改） ×2、快斩（改）、生存者；虚弱药水",
+        "family": "虚弱生存线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Neutralize",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、中和、球状闪电（改） ×2、打击、生存者；虚弱药水",
+        "family": "虚弱生存线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Weak",
+        "build_display": "金刚臂、中和、球状闪电（改） ×2、投掷匕首（改）、生存者；虚弱药水",
+        "family": "虚弱生存线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Clothesline",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Weak",
+        "build_display": "金刚臂、中和、球状闪电（改） ×2、生存者、防御；虚弱药水",
+        "family": "虚弱生存线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Clothesline",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Weak",
+        "build_display": "金刚臂、中和、球状闪电（改） ×2、快斩（改）、生存者；虚弱药水",
+        "family": "虚弱生存线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Clothesline",
+          "Neutralize",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Weak",
+        "build_display": "金刚臂、中和、球状闪电（改） ×2、打击、生存者；虚弱药水",
+        "family": "虚弱生存线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Weak",
+        "build_display": "中和、球状闪电（改） ×2、投掷匕首（改）、生存者、防御；虚弱药水",
+        "family": "虚弱生存线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      }
+    ]
+  },
+  "best_by_potion": {
+    "Fire": [
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、快斩（改）、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.8133333333333334,
+          0.0,
+          0.18666666666666668
+        ],
+        "success": 0.8133333333333334,
+        "fail": 0.18666666666666668
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、快斩（改）、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7666666666666667,
+          0.0,
+          0.23333333333333334
+        ],
+        "success": 0.7666666666666667,
+        "fail": 0.23333333333333334
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、球状闪电（改）、投掷匕首（改）、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7533333333333334,
+          0.0,
+          0.24666666666666667
+        ],
+        "success": 0.7533333333333334,
+        "fail": 0.24666666666666667
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、打击、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7533333333333332,
+          0.0,
+          0.2466666666666667
+        ],
+        "success": 0.7533333333333332,
+        "fail": 0.2466666666666667
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改） ×2、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7333333333333334,
+          0.0,
+          0.2666666666666667
+        ],
+        "success": 0.7333333333333334,
+        "fail": 0.2666666666666667
+      },
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、投掷匕首（改）、快斩（改） ×2、生存者；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 2,
+        "result": [
+          0.0,
+          0.16666666666666666,
+          0.5666666666666667,
+          0.0,
+          0.26666666666666666
+        ],
+        "success": 0.7333333333333333,
+        "fail": 0.26666666666666666
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "金刚臂、中和、球状闪电（改）、投掷匕首（改）、快斩（改）、生存者；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7266666666666666,
+          0.0,
+          0.2733333333333334
+        ],
+        "success": 0.7266666666666666,
+        "fail": 0.2733333333333334
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、快斩（改） ×2、生存者；火焰药水",
+        "family": "火焰快杀线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7266666666666666,
+          0.0,
+          0.2733333333333333
+        ],
+        "success": 0.7266666666666666,
+        "fail": 0.2733333333333333
+      },
+      {
+        "deck": [
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、金刚臂、中和、投掷匕首（改）、生存者、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6400000000000001,
+          0.06666666666666667,
+          0.2933333333333334
+        ],
+        "success": 0.7066666666666668,
+        "fail": 0.2933333333333334
+      },
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Fire",
+        "build_display": "重击、中和、投掷匕首（改）、快斩（改）、生存者、防御；火焰药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6399999999999999,
+          0.06666666666666667,
+          0.29333333333333333
+        ],
+        "success": 0.7066666666666666,
+        "fail": 0.29333333333333333
+      }
+    ],
+    "Vulnerable": [
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改） ×2、生存者；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.7333333333333334,
+          0.0,
+          0.2666666666666667
+        ],
+        "success": 0.7333333333333334,
+        "fail": 0.2666666666666667
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "中和、球状闪电（改）、投掷匕首（改）、快斩（改） ×2、生存者；破甲药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6866666666666666,
+          0.0,
+          0.31333333333333335
+        ],
+        "success": 0.6866666666666666,
+        "fail": 0.31333333333333335
+      },
+      {
+        "deck": [
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "中和、投掷匕首（改）、快斩（改） ×2、打击、生存者；破甲药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6866666666666666,
+          0.0,
+          0.31333333333333335
+        ],
+        "success": 0.6866666666666666,
+        "fail": 0.31333333333333335
+      },
+      {
+        "deck": [
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、投掷匕首（改）、快斩（改） ×2、防御；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6733333333333333,
+          0.0,
+          0.3266666666666667
+        ],
+        "success": 0.6733333333333333,
+        "fail": 0.3266666666666667
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "中和、球状闪电（改）、投掷匕首（改）、快斩（改）、打击、生存者；破甲药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.66,
+          0.0,
+          0.34
+        ],
+        "success": 0.66,
+        "fail": 0.34
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "中和、球状闪电（改） ×2、投掷匕首（改）、快斩（改）、生存者；破甲药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6599999999999999,
+          0.0,
+          0.33999999999999997
+        ],
+        "success": 0.6599999999999999,
+        "fail": 0.33999999999999997
+      },
+      {
+        "deck": [
+          "Dagger Throw*",
+          "Defend",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "中和、投掷匕首（改）、快斩（改） ×2、生存者、防御；破甲药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.5533333333333333,
+          0.09733333333333334,
+          0.34933333333333333
+        ],
+        "success": 0.6506666666666667,
+        "fail": 0.34933333333333333
+      },
+      {
+        "deck": [
+          "Bash",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "重击、中和、投掷匕首（改）、快斩（改） ×2、生存者；破甲药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6466666666666666,
+          0.0,
+          0.3533333333333333
+        ],
+        "success": 0.6466666666666666,
+        "fail": 0.3533333333333333
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "金刚臂、中和、球状闪电（改）、投掷匕首（改）、快斩（改）、生存者；破甲药水",
+        "family": "破甲压血线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6133333333333334,
+          0.0,
+          0.38666666666666666
+        ],
+        "success": 0.6133333333333334,
+        "fail": 0.38666666666666666
+      },
+      {
+        "deck": [
+          "Dagger Throw*",
+          "Neutralize",
+          "Quick Slash*",
+          "Strike",
+          "Strike",
+          "Survivor"
+        ],
+        "potion": "Vulnerable",
+        "build_display": "中和、投掷匕首（改）、快斩（改）、打击 ×2、生存者；破甲药水",
+        "family": "混合线",
+        "first_turn": 3,
+        "result": [
+          0.0,
+          0.0,
+          0.6133333333333334,
+          0.0,
+          0.38666666666666666
+        ],
+        "success": 0.6133333333333334,
+        "fail": 0.38666666666666666
+      }
+    ],
+    "Weak": [
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Defend"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、投掷匕首（改）、防御；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Neutralize"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、中和、球状闪电（改） ×2、投掷匕首（改）；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Quick Slash*"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、投掷匕首（改）、快斩（改）；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Strike"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、投掷匕首（改）、打击；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Dagger Throw*",
+          "Survivor"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、投掷匕首（改）、生存者；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Defend",
+          "Defend"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、防御 ×2；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Defend",
+          "Neutralize"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、中和、球状闪电（改） ×2、防御；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Defend",
+          "Quick Slash*"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、快斩（改）、防御；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Defend",
+          "Strike"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、打击、防御；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      },
+      {
+        "deck": [
+          "Ball Lightning*",
+          "Ball Lightning*",
+          "Bash",
+          "Clothesline",
+          "Defend",
+          "Survivor"
+        ],
+        "potion": "Weak",
+        "build_display": "重击、金刚臂、球状闪电（改） ×2、生存者、防御；虚弱药水",
+        "family": "混合线",
+        "first_turn": null,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "success": 0.0,
+        "fail": 1.0
+      }
+    ]
+  }
+}

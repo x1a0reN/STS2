@@ -1,0 +1,1174 @@
+{
+  "enemy_hp": 94,
+  "player_hp": 20,
+  "incoming": [
+    6,
+    12,
+    18,
+    24,
+    32
+  ],
+  "legal_deck_count": 1874,
+  "legal_build_count": 11244,
+  "perfect_success_count": 0,
+  "top30": [
+    {
+      "deck": [
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、重斩、打击 x2；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        87.6667,
+        0.0,
+        0.0,
+        12.3333
+      ],
+      "success": 87.6667
+    },
+    {
+      "deck": [
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、稳击、打击 x2；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        87.2381,
+        0.0,
+        0.0,
+        12.7619
+      ],
+      "success": 87.2381
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、稳击、重斩、打击；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        85.8095,
+        0.0,
+        0.0,
+        14.1905
+      ],
+      "success": 85.8095
+    },
+    {
+      "deck": [
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、稳击、打击 x2；静默药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        85.0476,
+        0.0,
+        0.0,
+        14.9524
+      ],
+      "success": 85.0476
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut",
+        "Strike"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、稳击、重斩、打击；静默药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        83.8095,
+        0.0,
+        0.0,
+        16.1905
+      ],
+      "success": 83.8095
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、重斩、打击、防御；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        83.3333,
+        0.0,
+        0.0,
+        16.6667
+      ],
+      "success": 83.3333
+    },
+    {
+      "deck": [
+        "Defend",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、稳击、打击、防御；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        80.8095,
+        0.0,
+        0.0,
+        19.1905
+      ],
+      "success": 80.8095
+    },
+    {
+      "deck": [
+        "Defend",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut",
+        "Strike"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、稳击、打击、防御；静默药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        78.8095,
+        0.0,
+        0.0,
+        21.1905
+      ],
+      "success": 78.8095
+    },
+    {
+      "deck": [
+        "Defend",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、打击 x2、防御；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        77.1429,
+        0.0,
+        0.0,
+        22.8571
+      ],
+      "success": 77.1429
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、稳击、重斩、防御；静默药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        75.1905,
+        0.0,
+        0.0,
+        24.8095
+      ],
+      "success": 75.1905
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、稳击、重斩、防御；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        75.1905,
+        0.0,
+        0.0,
+        24.8095
+      ],
+      "success": 75.1905
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、献值收束（改）、稳击、重斩、打击 x2；静默药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        74.5714,
+        0.0,
+        0.0,
+        25.4286
+      ],
+      "success": 74.5714
+    },
+    {
+      "deck": [
+        "Interrupt",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Rite Guard",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、仪式格挡（改）、断仪斩（改）、献值收束（改）、稳击、打击；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        18.4286,
+        55.3429,
+        0.2457,
+        25.9829
+      ],
+      "success": 74.0171
+    },
+    {
+      "deck": [
+        "Defend",
+        "False Interrupt",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、假打断（改）、封仪切（改）、献值收束（改）、稳击、防御；静默药水；献祭碗",
+      "family": "假打断陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        73.7619,
+        0.0,
+        0.0,
+        26.2381
+      ],
+      "success": 73.7619
+    },
+    {
+      "deck": [
+        "False Interrupt",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Rite Guard",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、仪式格挡（改）、假打断（改）、献值收束（改）、稳击、打击；静默药水；献祭碗",
+      "family": "假打断陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        72.2857,
+        0.0,
+        0.0,
+        27.7143
+      ],
+      "success": 72.2857
+    },
+    {
+      "deck": [
+        "Delay",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、拖延（改）、封仪切（改）、献值收束（改）、稳击、打击；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        31.2381,
+        40.8619,
+        0.0,
+        27.9
+      ],
+      "success": 72.1
+    },
+    {
+      "deck": [
+        "False Interrupt",
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Rite Guard",
+        "Safe Hit"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、仪式格挡（改）、假打断（改）、献值收束（改）、稳击、重斩；静默药水；献祭碗",
+      "family": "假打断陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        71.2381,
+        0.0,
+        0.0,
+        28.7619
+      ],
+      "success": 71.2381
+    },
+    {
+      "deck": [
+        "False Interrupt",
+        "Interrupt",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、断仪斩（改）、假打断（改）、献值收束（改）、稳击、打击；护壳药水；献祭碗",
+      "family": "假打断陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        70.0952,
+        0.0,
+        0.0,
+        29.9048
+      ],
+      "success": 70.0952
+    },
+    {
+      "deck": [
+        "Defend",
+        "Delay",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、拖延（改）、封仪切（改）、献值收束（改）、稳击、防御；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        22.9524,
+        46.3238,
+        0.2967,
+        30.4271
+      ],
+      "success": 69.5729
+    },
+    {
+      "deck": [
+        "Defend",
+        "False Interrupt",
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、假打断（改）、封仪切（改）、献值收束（改）、重斩、防御；静默药水；献祭碗",
+      "family": "假打断陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        69.5714,
+        0.0,
+        0.0,
+        30.4286
+      ],
+      "success": 69.5714
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Strike"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、献值收束（改）、稳击、重斩、打击、防御；静默药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        68.8571,
+        0.0,
+        0.0,
+        31.1429
+      ],
+      "success": 68.8571
+    },
+    {
+      "deck": [
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、献值收束（改）、稳击、重斩、打击 x2；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        68.8571,
+        0.0,
+        0.0,
+        31.1429
+      ],
+      "success": 68.8571
+    },
+    {
+      "deck": [
+        "False Interrupt",
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Rite Guard",
+        "Strike"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、仪式格挡（改）、假打断（改）、献值收束（改）、重斩、打击；静默药水；献祭碗",
+      "family": "假打断陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        68.6667,
+        0.0,
+        0.0,
+        31.3333
+      ],
+      "success": 68.6667
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、重斩、防御 x2；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        68.1429,
+        0.3238,
+        0.0,
+        31.5333
+      ],
+      "success": 68.4667
+    },
+    {
+      "deck": [
+        "False Interrupt",
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bell",
+      "display": "献祭刻痕（改） x2、假打断（改）、封仪切（改）、献值收束（改）、重斩、打击；护壳药水；止仪铃",
+      "family": "假打断陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        68.2381,
+        0.0,
+        0.0,
+        31.7619
+      ],
+      "success": 68.2381
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、重斩、防御 x2；静默药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        68.1429,
+        0.0952,
+        0.0,
+        31.7619
+      ],
+      "success": 68.2381
+    },
+    {
+      "deck": [
+        "False Interrupt",
+        "Interrupt",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、断仪斩（改）、假打断（改）、封仪切（改）、献值收束（改）、稳击；护壳药水；献祭碗",
+      "family": "假打断陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        68.0,
+        0.1381,
+        0.0,
+        31.8619
+      ],
+      "success": 68.1381
+    },
+    {
+      "deck": [
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Rite Guard",
+        "Safe Hit",
+        "Seal Cut",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bell",
+      "display": "献祭刻痕（改） x2、仪式格挡（改）、封仪切（改）、献值收束（改）、稳击、打击；护壳药水；止仪铃",
+      "family": "基础仪式线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        11.4762,
+        56.2429,
+        0.219,
+        32.0619
+      ],
+      "success": 67.9381
+    },
+    {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、稳击、防御 x2；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        65.1905,
+        2.0952,
+        0.0,
+        32.7143
+      ],
+      "success": 67.2857
+    },
+    {
+      "deck": [
+        "Defend",
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut",
+        "Strike"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、重斩、打击、防御；静默药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        67.0476,
+        0.0,
+        0.0,
+        32.9524
+      ],
+      "success": 67.0476
+    }
+  ],
+  "best_by_first_turn": {
+    "3": {
+      "deck": [
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、重斩、打击 x2；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        87.6667,
+        0.0,
+        0.0,
+        12.3333
+      ],
+      "success": 87.6667
+    },
+    "2": {
+      "deck": [
+        "False Interrupt",
+        "Heavy Slash",
+        "Interrupt",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、断仪斩（改）、假打断（改）、献值收束（改）、稳击、重斩；护壳药水；献祭碗",
+      "family": "假打断陷阱线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        0.9524,
+        65.0952,
+        0.0,
+        0.0,
+        33.9524
+      ],
+      "success": 66.0476
+    },
+    "4": {
+      "deck": [
+        "Interrupt",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Rite Guard",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bell",
+      "display": "献祭刻痕（改） x2、仪式格挡（改）、断仪斩（改）、献值收束（改）、打击 x2；护壳药水；止仪铃",
+      "family": "基础仪式线",
+      "first_turn": 4,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        38.2619,
+        0.0,
+        61.7381
+      ],
+      "success": 38.2619
+    },
+    "5": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Heavy Slash",
+        "Payoff",
+        "Rite Guard",
+        "Safe Hit",
+        "Seal Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Bell",
+      "display": "仪式格挡（改）、封仪切（改）、献值收束（改）、稳击、重斩、防御 x2；护壳药水；止仪铃",
+      "family": "重斩诱导线",
+      "first_turn": 5,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.1543,
+        96.8457
+      ],
+      "success": 3.1543
+    },
+    "0": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Delay",
+        "False Interrupt",
+        "Heavy Slash",
+        "Interrupt",
+        "Interrupt"
+      ],
+      "potion": "Silence",
+      "relic": "Bell",
+      "display": "断仪斩（改） x2、假打断（改）、拖延（改）、重斩、防御 x2；静默药水；止仪铃",
+      "family": "假打断陷阱线",
+      "first_turn": 0,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "success": 0.0
+    }
+  },
+  "best_by_family": {
+    "献祭碗收束线": {
+      "deck": [
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、重斩、打击 x2；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        87.6667,
+        0.0,
+        0.0,
+        12.3333
+      ],
+      "success": 87.6667
+    },
+    "假打断陷阱线": {
+      "deck": [
+        "Defend",
+        "False Interrupt",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、假打断（改）、封仪切（改）、献值收束（改）、稳击、防御；静默药水；献祭碗",
+      "family": "假打断陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        73.7619,
+        0.0,
+        0.0,
+        26.2381
+      ],
+      "success": 73.7619
+    },
+    "基础仪式线": {
+      "deck": [
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Rite Guard",
+        "Safe Hit",
+        "Seal Cut",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bell",
+      "display": "献祭刻痕（改） x2、仪式格挡（改）、封仪切（改）、献值收束（改）、稳击、打击；护壳药水；止仪铃",
+      "family": "基础仪式线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        11.4762,
+        56.2429,
+        0.219,
+        32.0619
+      ],
+      "success": 67.9381
+    },
+    "重斩诱导线": {
+      "deck": [
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Rite Guard",
+        "Safe Hit",
+        "Seal Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Bell",
+      "display": "献祭刻痕（改） x2、仪式格挡（改）、封仪切（改）、献值收束（改）、稳击、重斩；护壳药水；止仪铃",
+      "family": "重斩诱导线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        5.7143,
+        52.2905,
+        0.219,
+        41.7762
+      ],
+      "success": 58.2238
+    },
+    "封仪节奏线": {
+      "deck": [
+        "Interrupt",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Rite Guard",
+        "Safe Hit",
+        "Seal Cut"
+      ],
+      "potion": "Guard",
+      "relic": "Bell",
+      "display": "献祭刻痕（改） x2、仪式格挡（改）、断仪斩（改）、封仪切（改）、献值收束（改）、稳击；护壳药水；止仪铃",
+      "family": "封仪节奏线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        1.5238,
+        27.4714,
+        0.1733,
+        70.8314
+      ],
+      "success": 29.1686
+    },
+    "静默打断线": {
+      "deck": [
+        "Defend",
+        "Interrupt",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Rite Guard",
+        "Safe Hit"
+      ],
+      "potion": "Silence",
+      "relic": "Bell",
+      "display": "献祭刻痕（改） x2、仪式格挡（改）、断仪斩（改）、献值收束（改）、稳击、防御；静默药水；止仪铃",
+      "family": "静默打断线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        0.0476,
+        14.619,
+        0.0343,
+        85.299
+      ],
+      "success": 14.701
+    }
+  },
+  "best_by_potion": {
+    "Guard": {
+      "deck": [
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、重斩、打击 x2；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        87.6667,
+        0.0,
+        0.0,
+        12.3333
+      ],
+      "success": 87.6667
+    },
+    "Silence": {
+      "deck": [
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Silence",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、稳击、打击 x2；静默药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        85.0476,
+        0.0,
+        0.0,
+        14.9524
+      ],
+      "success": 85.0476
+    },
+    "Offering": {
+      "deck": [
+        "Defend",
+        "Defend",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Safe Hit",
+        "Seal Cut"
+      ],
+      "potion": "Offering",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、稳击、防御 x2；献祭药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 2,
+      "kill_vector": [
+        0.0,
+        1.9048,
+        36.6667,
+        0.0,
+        0.0,
+        61.4286
+      ],
+      "success": 38.5714
+    }
+  },
+  "best_by_relic": {
+    "Bowl": {
+      "deck": [
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut",
+        "Strike",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bowl",
+      "display": "献祭刻痕（改） x2、封仪切（改）、献值收束（改）、重斩、打击 x2；护壳药水；献祭碗",
+      "family": "献祭碗收束线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        87.6667,
+        0.0,
+        0.0,
+        12.3333
+      ],
+      "success": 87.6667
+    },
+    "Bell": {
+      "deck": [
+        "False Interrupt",
+        "Heavy Slash",
+        "Offering",
+        "Offering",
+        "Payoff",
+        "Seal Cut",
+        "Strike"
+      ],
+      "potion": "Guard",
+      "relic": "Bell",
+      "display": "献祭刻痕（改） x2、假打断（改）、封仪切（改）、献值收束（改）、重斩、打击；护壳药水；止仪铃",
+      "family": "假打断陷阱线",
+      "first_turn": 3,
+      "kill_vector": [
+        0.0,
+        0.0,
+        68.2381,
+        0.0,
+        0.0,
+        31.7619
+      ],
+      "success": 68.2381
+    }
+  }
+}

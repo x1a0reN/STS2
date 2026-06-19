@@ -1,0 +1,1903 @@
+{
+  "variant": {
+    "name": "anger_bash_upper_hp50_php8_turn4",
+    "card_pool": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Defend",
+      "Anger",
+      "Bash",
+      "Uppercut"
+    ],
+    "enemy_hp": 50,
+    "player_hp": 8,
+    "enemy_damage_by_turn": [
+      0,
+      9,
+      11,
+      13
+    ],
+    "min_deck_size": 7,
+    "max_deck_size": 9,
+    "draw_per_turn": 5
+  },
+  "solutions": [
+    {
+      "label": "fast_2_turn",
+      "deck": [
+        "Anger",
+        "Bash",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Uppercut"
+      ],
+      "deck_display": "Anger, Bash, Strike x4, Uppercut",
+      "exact_result": [
+        0.0,
+        0.9619047619047619,
+        0.0,
+        0.0,
+        0.0380952380952381
+      ],
+      "expected_kill_turn_if_success": 2.0,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 27,
+              "block": 0,
+              "prob": 0.47619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 33,
+              "block": 0,
+              "prob": 0.23809523809523808
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Uppercut",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 22,
+              "block": 0,
+              "prob": 0.19047619047619047
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 26,
+              "block": 0,
+              "prob": 0.047619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Uppercut"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 31,
+              "block": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 27,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.4761904761904763
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.23809523809523814
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 22,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.19047619047619047
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 26,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.047619047619047616
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 31,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.047619047619047616
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 1.0000000000000002,
+          "exact_kill_prob": 0.9619047619047622,
+          "cumulative_kill_prob": 0.9619047619047622,
+          "fail_prob_after_action": 0.0380952380952381,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 27,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.4761904761904763
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.23809523809523814
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 22,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.19047619047619047
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 26,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.047619047619047616
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 31,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": -3,
+              "block": 0,
+              "prob": 0.1523809523809524
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 27,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": -3,
+              "block": 0,
+              "prob": 0.14285714285714285
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 27,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.14285714285714285
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 22,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": -1,
+              "block": 0,
+              "prob": 0.11428571428571427
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 27,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.09523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Strike",
+                "Uppercut"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.08571428571428572
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 27,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Anger",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.07142857142857144
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 22,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Anger",
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": -7,
+              "block": 0,
+              "prob": 0.0380952380952381
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 22,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Uppercut",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.028571428571428574
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 26,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Uppercut",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": -2,
+              "block": 0,
+              "prob": 0.028571428571428567
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 31,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Uppercut",
+                "Anger",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.028571428571428567
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 27,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Anger",
+                "Bash"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": -3,
+              "block": 0,
+              "prob": 0.023809523809523808
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 31,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 31,
+              "block": 0,
+              "prob": 0.01904761904761905
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 22,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 22,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 26,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 26,
+              "block": 0,
+              "prob": 0.009523809523809525
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 26,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Anger",
+                "Anger",
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": -3,
+              "block": 0,
+              "prob": 0.009523809523809525
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    },
+    {
+      "label": "main_3_turn",
+      "deck": [
+        "Bash",
+        "Defend",
+        "Defend",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Uppercut"
+      ],
+      "deck_display": "Bash, Defend x2, Strike x3, Uppercut",
+      "exact_result": [
+        0.0,
+        0.0,
+        0.9452380952380954,
+        0.007142857142857142,
+        0.047619047619047616
+      ],
+      "expected_kill_turn_if_success": 3.0075,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 0.9999999999999999,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.9999999999999999
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 33,
+              "block": 0,
+              "prob": 0.7142857142857142
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Uppercut",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 28,
+              "block": 0,
+              "prob": 0.23809523809523808
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 32,
+              "block": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.7142857142857143
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 28,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2380952380952381
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 32,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.047619047619047616
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.047619047619047616,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.7142857142857143
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 28,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2380952380952381
+            },
+            {
+              "player_hp": 8,
+              "enemy_hp": 32,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 21,
+              "block": 5,
+              "prob": 0.4000000000000001
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 15,
+              "block": 5,
+              "prob": 0.2857142857142857
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 28,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 20,
+              "block": 5,
+              "prob": 0.22380952380952382
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 32,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Defend"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 24,
+              "block": 5,
+              "prob": 0.04285714285714286
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 33,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 33,
+              "block": 0,
+              "prob": 0.02857142857142857
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 28,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 28,
+              "block": 0,
+              "prob": 0.014285714285714285
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 32,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 32,
+              "block": 0,
+              "prob": 0.004761904761904762
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0,
+              "prob": 0.4000000000000003
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 15,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2857142857142858
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 20,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.223809523809524
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 24,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.04285714285714286
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "start_mass": 0.952380952380953,
+          "exact_kill_prob": 0.9452380952380959,
+          "cumulative_kill_prob": 0.9452380952380959,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0,
+              "prob": 0.4000000000000003
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 15,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2857142857142858
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 20,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.223809523809524
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 24,
+              "vulnerable": 1,
+              "weak": 0,
+              "prob": 0.04285714285714286
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 15,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -2,
+              "block": 0,
+              "prob": 0.2857142857142858
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 0,
+              "block": 0,
+              "prob": 0.24000000000000007
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -1,
+              "block": 0,
+              "prob": 0.13428571428571434
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -6,
+              "block": 0,
+              "prob": 0.08285714285714287
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 21,
+                "vulnerable": 2,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Uppercut"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -7,
+              "block": 0,
+              "prob": 0.07714285714285715
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -7,
+              "block": 0,
+              "prob": 0.04523809523809524
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Uppercut"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -8,
+              "block": 0,
+              "prob": 0.04428571428571428
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 24,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Uppercut"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.018571428571428572
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 24,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": -3,
+              "block": 0,
+              "prob": 0.017142857142857144
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 24,
+                "vulnerable": 1,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 15,
+              "block": 10,
+              "prob": 0.007142857142857142
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 3,
+              "enemy_hp": 15,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.007142857142857143
+            }
+          ]
+        },
+        {
+          "turn": 4,
+          "start_mass": 0.007142857142857143,
+          "exact_kill_prob": 0.007142857142857143,
+          "cumulative_kill_prob": 0.952380952380953,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 3,
+              "enemy_hp": 15,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.007142857142857143
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 3,
+                "enemy_hp": 15,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Bash",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 3,
+              "end_enemy_hp": -2,
+              "block": 0,
+              "prob": 0.004285714285714286
+            },
+            {
+              "start_state": {
+                "player_hp": 3,
+                "enemy_hp": 15,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 3,
+              "end_enemy_hp": -3,
+              "block": 0,
+              "prob": 0.0014285714285714286
+            },
+            {
+              "start_state": {
+                "player_hp": 3,
+                "enemy_hp": 15,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Uppercut"
+              ],
+              "end_player_hp_before_enemy": 3,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.0014285714285714286
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    },
+    {
+      "label": "slow_4_turn",
+      "deck": [
+        "Defend",
+        "Defend",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike",
+        "Strike"
+      ],
+      "deck_display": "Defend x2, Strike x5",
+      "exact_result": [
+        0.0,
+        0.0,
+        0.0,
+        0.7142857142857143,
+        0.2857142857142857
+      ],
+      "expected_kill_turn_if_success": 4.0,
+      "turn_rows": [
+        {
+          "turn": 1,
+          "start_mass": 1.0,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 1.0
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 50,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 32,
+              "block": 0,
+              "prob": 1.0
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 32,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.9999999999999999
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "start_mass": 0.9999999999999999,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.047619047619047616,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 32,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.9999999999999999
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 32,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 26,
+              "block": 10,
+              "prob": 0.4761904761904762
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 32,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 20,
+              "block": 5,
+              "prob": 0.47619047619047616
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 32,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 32,
+              "block": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 26,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.4761904761904762
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 20,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.47619047619047616
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "start_mass": 0.9523809523809523,
+          "exact_kill_prob": 0.0,
+          "cumulative_kill_prob": 0.0,
+          "fail_prob_after_action": 0.2380952380952381,
+          "start_state_groups": [
+            {
+              "player_hp": 8,
+              "enemy_hp": 26,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.4761904761904762
+            },
+            {
+              "player_hp": 4,
+              "enemy_hp": 20,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.47619047619047616
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 26,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 14,
+              "block": 5,
+              "prob": 0.42857142857142866
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Defend",
+                "Defend",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 14,
+              "block": 10,
+              "prob": 0.2857142857142857
+            },
+            {
+              "start_state": {
+                "player_hp": 4,
+                "enemy_hp": 20,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 4,
+              "end_enemy_hp": 20,
+              "block": 0,
+              "prob": 0.19047619047619047
+            },
+            {
+              "start_state": {
+                "player_hp": 8,
+                "enemy_hp": 26,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [],
+              "end_player_hp_before_enemy": 8,
+              "end_enemy_hp": 26,
+              "block": 0,
+              "prob": 0.047619047619047616
+            }
+          ],
+          "next_state_groups": [
+            {
+              "player_hp": 2,
+              "enemy_hp": 14,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.4285714285714286
+            },
+            {
+              "player_hp": 3,
+              "enemy_hp": 14,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2857142857142857
+            }
+          ]
+        },
+        {
+          "turn": 4,
+          "start_mass": 0.7142857142857143,
+          "exact_kill_prob": 0.7142857142857143,
+          "cumulative_kill_prob": 0.7142857142857143,
+          "fail_prob_after_action": 0.0,
+          "start_state_groups": [
+            {
+              "player_hp": 2,
+              "enemy_hp": 14,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.4285714285714286
+            },
+            {
+              "player_hp": 3,
+              "enemy_hp": 14,
+              "vulnerable": 0,
+              "weak": 0,
+              "prob": 0.2857142857142857
+            }
+          ],
+          "chosen_action_groups": [
+            {
+              "start_state": {
+                "player_hp": 2,
+                "enemy_hp": 14,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 2,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.4285714285714286
+            },
+            {
+              "start_state": {
+                "player_hp": 3,
+                "enemy_hp": 14,
+                "vulnerable": 0,
+                "weak": 0
+              },
+              "actions": [
+                "Strike",
+                "Strike",
+                "Strike"
+              ],
+              "end_player_hp_before_enemy": 3,
+              "end_enemy_hp": -4,
+              "block": 0,
+              "prob": 0.2857142857142857
+            }
+          ],
+          "next_state_groups": []
+        }
+      ]
+    }
+  ],
+  "audit_summary": {
+    "case_count": 36,
+    "stable_count": 0,
+    "top_rows": [
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9619047619047619,
+          0.0,
+          0.0,
+          0.0380952380952381
+        ],
+        "fail": 0.0380952380952381
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9190476190476189,
+          0.07380952380952382,
+          0.0,
+          0.0071428571428571435
+        ],
+        "fail": 0.0071428571428571435
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9047619047619047,
+          0.0,
+          0.0,
+          0.09523809523809523
+        ],
+        "fail": 0.09523809523809523
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.8571428571428569,
+          0.0,
+          0.0,
+          0.14285714285714282
+        ],
+        "fail": 0.14285714285714282
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.825,
+          0.12142857142857144,
+          0.0,
+          0.053571428571428575
+        ],
+        "fail": 0.053571428571428575
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.819047619047619,
+          0.1523809523809524,
+          0.0,
+          0.028571428571428574
+        ],
+        "fail": 0.028571428571428574
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.7976190476190476,
+          0.1976190476190476,
+          0.0,
+          0.004761904761904762
+        ],
+        "fail": 0.004761904761904762
+      },
+      {
+        "deck": [
+          "Anger",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.7857142857142858,
+          0.1666666666666667,
+          0.0,
+          0.04761904761904762
+        ],
+        "fail": 0.04761904761904762
+      },
+      {
+        "deck": [
+          "Anger",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.7857142857142856,
+          0.0,
+          0.0,
+          0.21428571428571427
+        ],
+        "fail": 0.21428571428571427
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.732142857142857,
+          0.17857142857142855,
+          0.0,
+          0.08928571428571427
+        ],
+        "fail": 0.08928571428571427
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.713095238095238,
+          0.2571428571428571,
+          0.0,
+          0.02976190476190476
+        ],
+        "fail": 0.02976190476190476
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.6825396825396823,
+          0.17195767195767195,
+          0.0,
+          0.1455026455026455
+        ],
+        "fail": 0.1455026455026455
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.5999999999999999,
+          0.3222222222222222,
+          0.0,
+          0.07777777777777778
+        ],
+        "fail": 0.07777777777777778
+      },
+      {
+        "deck": [
+          "Anger",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.592857142857143,
+          0.3823809523809524,
+          0.005714285714285715,
+          0.01904761904761905
+        ],
+        "fail": 0.01904761904761905
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.5904761904761904,
+          0.3904761904761905,
+          0.0,
+          0.01904761904761905
+        ],
+        "fail": 0.01904761904761905
+      },
+      {
+        "deck": [
+          "Anger",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.5535714285714284,
+          0.2916666666666666,
+          0.0,
+          0.1547619047619047
+        ],
+        "fail": 0.1547619047619047
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.5499999999999998,
+          0.3928571428571428,
+          0.0,
+          0.057142857142857134
+        ],
+        "fail": 0.057142857142857134
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.5052910052910053,
+          0.3941798941798942,
+          0.0,
+          0.10052910052910052
+        ],
+        "fail": 0.10052910052910052
+      },
+      {
+        "deck": [
+          "Anger",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.4345238095238094,
+          0.4919047619047618,
+          0.005714285714285713,
+          0.06785714285714285
+        ],
+        "fail": 0.06785714285714285
+      },
+      {
+        "deck": [
+          "Anger",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 9,
+        "result": [
+          0.0,
+          0.2341269841269841,
+          0.6269841269841269,
+          0.0,
+          0.1388888888888889
+        ],
+        "fail": 0.1388888888888889
+      }
+    ],
+    "top_non_solution_rows": [
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9190476190476189,
+          0.07380952380952382,
+          0.0,
+          0.0071428571428571435
+        ],
+        "fail": 0.0071428571428571435
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.9047619047619047,
+          0.0,
+          0.0,
+          0.09523809523809523
+        ],
+        "fail": 0.09523809523809523
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.8571428571428569,
+          0.0,
+          0.0,
+          0.14285714285714282
+        ],
+        "fail": 0.14285714285714282
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Uppercut"
+        ],
+        "deck_size": 8,
+        "result": [
+          0.0,
+          0.825,
+          0.12142857142857144,
+          0.0,
+          0.053571428571428575
+        ],
+        "fail": 0.053571428571428575
+      },
+      {
+        "deck": [
+          "Anger",
+          "Bash",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "deck_size": 7,
+        "result": [
+          0.0,
+          0.819047619047619,
+          0.1523809523809524,
+          0.0,
+          0.028571428571428574
+        ],
+        "fail": 0.028571428571428574
+      }
+    ]
+  },
+  "export_meta": {
+    "script": "difficulty1_formal_draft_export.py",
+    "variant_name": "anger_bash_upper_hp50_php8_turn4",
+    "solution_labels": [
+      "fast_2_turn",
+      "main_3_turn",
+      "slow_4_turn"
+    ]
+  }
+}

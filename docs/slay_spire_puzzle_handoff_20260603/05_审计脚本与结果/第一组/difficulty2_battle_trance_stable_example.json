@@ -1,0 +1,1593 @@
+{
+  "variant": {
+    "name": "difficulty2_battle_trance_probe",
+    "card_pool": [
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Strike",
+      "Defend",
+      "Bash",
+      "Hemokinesis",
+      "Battle Trance"
+    ],
+    "enemy_hp": 50,
+    "player_hp": 8,
+    "enemy_damage_by_turn": [
+      0,
+      9,
+      11,
+      13
+    ]
+  },
+  "stable_example": {
+    "deck": [
+      "Bash",
+      "Battle Trance",
+      "Defend",
+      "Hemokinesis",
+      "Strike",
+      "Strike",
+      "Strike"
+    ],
+    "deck_display": "Bash, Battle Trance, Defend, Hemokinesis, Strike x3",
+    "exact_result": [
+      0.0,
+      1.0000000000000002,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected_kill_turn_if_success": 2.0,
+    "turn_rows": [
+      {
+        "turn": 1,
+        "start_mass": 1.0000000000000002,
+        "exact_kill_prob": 0.0,
+        "cumulative_kill_prob": 0.0,
+        "fail_prob_after_action": 0.0,
+        "start_state_groups": [
+          {
+            "player_hp": 8,
+            "enemy_hp": 50,
+            "vulnerable": 0,
+            "weak": 0,
+            "prob": 1.0000000000000002
+          }
+        ],
+        "chosen_action_groups": [
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 42,
+            "block": 5,
+            "prob": 0.14285714285714285
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Strike]",
+              "Bash",
+              "Hemokinesis"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 21,
+            "block": 0,
+            "prob": 0.14285714285714285
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Hemokinesis",
+              "Battle Trance[draw Bash, Defend, Strike]"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 21,
+            "block": 0,
+            "prob": 0.07142857142857142
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Hemokinesis",
+              "Battle Trance[draw Bash, Strike, Strike]"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 21,
+            "block": 0,
+            "prob": 0.07142857142857142
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Hemokinesis",
+              "Battle Trance[draw Defend, Hemokinesis, Strike]"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 21,
+            "block": 0,
+            "prob": 0.07142857142857142
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Hemokinesis",
+              "Battle Trance[draw Hemokinesis, Strike, Strike]"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 21,
+            "block": 0,
+            "prob": 0.07142857142857142
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Strike",
+              "Battle Trance[draw Bash, Hemokinesis, Strike]"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 33,
+            "block": 0,
+            "prob": 0.07142857142857142
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Strike",
+              "Battle Trance[draw Hemokinesis, Strike, Strike]"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 33,
+            "block": 0,
+            "prob": 0.07142857142857142
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 42,
+            "block": 0,
+            "prob": 0.047619047619047616
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Hemokinesis"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 21,
+            "block": 0,
+            "prob": 0.047619047619047616
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Defend]",
+              "Bash",
+              "Hemokinesis"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 21,
+            "block": 0,
+            "prob": 0.047619047619047616
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Hemokinesis]",
+              "Bash",
+              "Hemokinesis"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 21,
+            "block": 0,
+            "prob": 0.047619047619047616
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Defend",
+              "Hemokinesis",
+              "Strike"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 30,
+            "block": 5,
+            "prob": 0.047619047619047616
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Strike",
+              "Battle Trance[draw Bash, Defend, Hemokinesis]"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 33,
+            "block": 0,
+            "prob": 0.023809523809523808
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 50,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Strike",
+              "Battle Trance[draw Defend, Hemokinesis, Strike]"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 33,
+            "block": 0,
+            "prob": 0.023809523809523808
+          }
+        ],
+        "next_state_groups": [
+          {
+            "player_hp": 6,
+            "enemy_hp": 21,
+            "vulnerable": 1,
+            "weak": 0,
+            "prob": 0.5714285714285721
+          },
+          {
+            "player_hp": 8,
+            "enemy_hp": 42,
+            "vulnerable": 1,
+            "weak": 0,
+            "prob": 0.1904761904761905
+          },
+          {
+            "player_hp": 8,
+            "enemy_hp": 33,
+            "vulnerable": 1,
+            "weak": 0,
+            "prob": 0.19047619047619044
+          },
+          {
+            "player_hp": 6,
+            "enemy_hp": 30,
+            "vulnerable": 0,
+            "weak": 0,
+            "prob": 0.047619047619047616
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "start_mass": 1.0000000000000007,
+        "exact_kill_prob": 0.06394557823129252,
+        "cumulative_kill_prob": 0.06394557823129252,
+        "fail_prob_after_action": 0.07619047619047618,
+        "start_state_groups": [
+          {
+            "player_hp": 6,
+            "enemy_hp": 21,
+            "vulnerable": 1,
+            "weak": 0,
+            "prob": 0.5714285714285721
+          },
+          {
+            "player_hp": 8,
+            "enemy_hp": 42,
+            "vulnerable": 1,
+            "weak": 0,
+            "prob": 0.1904761904761905
+          },
+          {
+            "player_hp": 8,
+            "enemy_hp": 33,
+            "vulnerable": 1,
+            "weak": 0,
+            "prob": 0.19047619047619044
+          },
+          {
+            "player_hp": 6,
+            "enemy_hp": 30,
+            "vulnerable": 0,
+            "weak": 0,
+            "prob": 0.047619047619047616
+          }
+        ],
+        "chosen_action_groups": [
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.11201814058956913
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Strike, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.10544217687074828
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.091156462585034
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Hemokinesis, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.07687074829931971
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Strike]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.07687074829931971
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 21,
+            "block": 5,
+            "prob": 0.044444444444444446
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 42,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 30,
+            "block": 5,
+            "prob": 0.04285714285714286
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 42,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Hemokinesis",
+              "Battle Trance[draw Bash, Hemokinesis, Strike]",
+              "Bash"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 9,
+            "block": 0,
+            "prob": 0.04285714285714286
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 21,
+            "block": 5,
+            "prob": 0.031746031746031744
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Hemokinesis, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 21,
+            "block": 5,
+            "prob": 0.031746031746031744
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Hemokinesis"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": -12,
+            "block": 0,
+            "prob": 0.030385487528344662
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 42,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Strike, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 30,
+            "block": 5,
+            "prob": 0.028571428571428574
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 42,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Hemokinesis, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 30,
+            "block": 5,
+            "prob": 0.02857142857142857
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Strike, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 21,
+            "block": 5,
+            "prob": 0.025396825396825397
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Hemokinesis]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.020861678004535145
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Defend]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.020861678004535145
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Defend",
+              "Hemokinesis"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 0,
+            "block": 5,
+            "prob": 0.020861678004535145
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 42,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Hemokinesis",
+              "Battle Trance[draw Bash, Defend, Hemokinesis]",
+              "Bash"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 9,
+            "block": 0,
+            "prob": 0.01904761904761905
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 21,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Hemokinesis]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.016099773242630386
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 30,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 22,
+            "block": 5,
+            "prob": 0.014285714285714287
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 30,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Hemokinesis, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 22,
+            "block": 5,
+            "prob": 0.014285714285714287
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 30,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Strike, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 22,
+            "block": 5,
+            "prob": 0.014285714285714287
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 42,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Hemokinesis]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 30,
+            "block": 5,
+            "prob": 0.014285714285714285
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 42,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Strike",
+              "Battle Trance[draw Bash, Hemokinesis, Strike]",
+              "Bash"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 21,
+            "block": 0,
+            "prob": 0.014285714285714285
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Hemokinesis]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 21,
+            "block": 5,
+            "prob": 0.012698412698412697
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Hemokinesis"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 0,
+            "block": 0,
+            "prob": 0.012698412698412697
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Strike]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 21,
+            "block": 5,
+            "prob": 0.012698412698412697
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Defend]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 21,
+            "block": 5,
+            "prob": 0.006349206349206348
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Hemokinesis]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 8,
+            "end_enemy_hp": 21,
+            "block": 5,
+            "prob": 0.006349206349206348
+          },
+          {
+            "start_state": {
+              "player_hp": 8,
+              "enemy_hp": 33,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Defend",
+              "Hemokinesis",
+              "Strike"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 3,
+            "block": 5,
+            "prob": 0.006349206349206348
+          },
+          {
+            "start_state": {
+              "player_hp": 6,
+              "enemy_hp": 30,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Hemokinesis]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 6,
+            "end_enemy_hp": 22,
+            "block": 5,
+            "prob": 0.004761904761904762
+          }
+        ],
+        "next_state_groups": [
+          {
+            "player_hp": 2,
+            "enemy_hp": 9,
+            "vulnerable": 2,
+            "weak": 0,
+            "prob": 0.5201814058956868
+          },
+          {
+            "player_hp": 4,
+            "enemy_hp": 21,
+            "vulnerable": 2,
+            "weak": 0,
+            "prob": 0.17142857142857032
+          },
+          {
+            "player_hp": 4,
+            "enemy_hp": 30,
+            "vulnerable": 2,
+            "weak": 0,
+            "prob": 0.11428571428571427
+          },
+          {
+            "player_hp": 2,
+            "enemy_hp": 22,
+            "vulnerable": 1,
+            "weak": 0,
+            "prob": 0.04761904761904766
+          },
+          {
+            "player_hp": 2,
+            "enemy_hp": 3,
+            "vulnerable": 0,
+            "weak": 0,
+            "prob": 0.00634920634920635
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "start_mass": 0.8598639455782255,
+        "exact_kill_prob": 0.5495086923658318,
+        "cumulative_kill_prob": 0.6134542705971243,
+        "fail_prob_after_action": 0.31035525321239543,
+        "start_state_groups": [
+          {
+            "player_hp": 2,
+            "enemy_hp": 9,
+            "vulnerable": 2,
+            "weak": 0,
+            "prob": 0.5201814058956868
+          },
+          {
+            "player_hp": 4,
+            "enemy_hp": 21,
+            "vulnerable": 2,
+            "weak": 0,
+            "prob": 0.17142857142857032
+          },
+          {
+            "player_hp": 4,
+            "enemy_hp": 30,
+            "vulnerable": 2,
+            "weak": 0,
+            "prob": 0.11428571428571427
+          },
+          {
+            "player_hp": 2,
+            "enemy_hp": 22,
+            "vulnerable": 1,
+            "weak": 0,
+            "prob": 0.04761904761904766
+          },
+          {
+            "player_hp": 2,
+            "enemy_hp": 3,
+            "vulnerable": 0,
+            "weak": 0,
+            "prob": 0.00634920634920635
+          }
+        ],
+        "chosen_action_groups": [
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 9,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": -3,
+            "block": 0,
+            "prob": 0.35875607385811076
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 9,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Strike]",
+              "Bash"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": -3,
+            "block": 0,
+            "prob": 0.08279883381924202
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 9,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Defend]",
+              "Bash"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": -3,
+            "block": 0,
+            "prob": 0.030638160025915143
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 9,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Hemokinesis]",
+              "Bash"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": -3,
+            "block": 0,
+            "prob": 0.028551992225461627
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.028299319727891157
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Strike]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.028299319727891157
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Strike, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.025124716553287987
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Hemokinesis, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.02448979591836735
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.02418745275888134
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 18,
+            "block": 5,
+            "prob": 0.021768707482993196
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 9,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Defend",
+              "Strike"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 0,
+            "block": 5,
+            "prob": 0.01943634596695823
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 18,
+            "block": 5,
+            "prob": 0.016326530612244896
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Hemokinesis, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 18,
+            "block": 5,
+            "prob": 0.016326530612244896
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Strike, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 18,
+            "block": 5,
+            "prob": 0.016326530612244896
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Strike]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 18,
+            "block": 5,
+            "prob": 0.016326530612244896
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Defend]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.010491307634164778
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Hemokinesis]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.009221466364323506
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Hemokinesis]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 9,
+            "block": 5,
+            "prob": 0.009221466364323506
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 22,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 10,
+            "block": 5,
+            "prob": 0.009070294784580499
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 22,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 10,
+            "block": 5,
+            "prob": 0.006802721088435375
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 22,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Hemokinesis, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 10,
+            "block": 5,
+            "prob": 0.006802721088435375
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 22,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Strike, Strike]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 10,
+            "block": 5,
+            "prob": 0.006802721088435375
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 22,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Strike]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 10,
+            "block": 5,
+            "prob": 0.006802721088435375
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 3,
+              "vulnerable": 0,
+              "weak": 0
+            },
+            "actions": [
+              "Bash"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": -5,
+            "block": 0,
+            "prob": 0.00634920634920635
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Hemokinesis"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": -12,
+            "block": 0,
+            "prob": 0.006046863189720335
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 21,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Defend",
+              "Hemokinesis"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 0,
+            "block": 5,
+            "prob": 0.006046863189720335
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Hemokinesis]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 18,
+            "block": 5,
+            "prob": 0.005442176870748299
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Hemokinesis"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": -3,
+            "block": 0,
+            "prob": 0.005442176870748299
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Defend]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 18,
+            "block": 5,
+            "prob": 0.005442176870748299
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Hemokinesis]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 4,
+            "end_enemy_hp": 18,
+            "block": 5,
+            "prob": 0.005442176870748299
+          },
+          {
+            "start_state": {
+              "player_hp": 4,
+              "enemy_hp": 30,
+              "vulnerable": 2,
+              "weak": 0
+            },
+            "actions": [
+              "Defend",
+              "Hemokinesis",
+              "Strike"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 0,
+            "block": 5,
+            "prob": 0.005442176870748299
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 22,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Battle Trance[draw Bash, Defend, Hemokinesis]",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 10,
+            "block": 5,
+            "prob": 0.0022675736961451248
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 22,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Bash",
+              "Strike"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 1,
+            "block": 0,
+            "prob": 0.0022675736961451248
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 22,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Defend]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 10,
+            "block": 5,
+            "prob": 0.0022675736961451248
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 22,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Battle Trance[draw Bash, Hemokinesis]",
+              "Bash",
+              "Defend"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 10,
+            "block": 5,
+            "prob": 0.0022675736961451248
+          },
+          {
+            "start_state": {
+              "player_hp": 2,
+              "enemy_hp": 22,
+              "vulnerable": 1,
+              "weak": 0
+            },
+            "actions": [
+              "Defend",
+              "Strike",
+              "Strike"
+            ],
+            "end_player_hp_before_enemy": 2,
+            "end_enemy_hp": 4,
+            "block": 5,
+            "prob": 0.0022675736961451248
+          }
+        ],
+        "next_state_groups": []
+      }
+    ]
+  },
+  "export_meta": {
+    "script": "refresh_machine_export.py",
+    "turn_rows_precision": "authoritative",
+    "refreshed_from": "difficulty2_battle_trance_stable_example.json"
+  }
+}

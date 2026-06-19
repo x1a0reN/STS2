@@ -1,0 +1,2756 @@
+{
+  "family": "difficulty2_burning_pact_drift",
+  "card_pool": [
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Strike",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Defend",
+    "Burning Pact",
+    "Hemokinesis"
+  ],
+  "enemy_hps": [
+    49,
+    50,
+    51,
+    52
+  ],
+  "player_hps": [
+    8,
+    9
+  ],
+  "damage_sequences": [
+    [
+      0,
+      9,
+      11,
+      13
+    ],
+    [
+      0,
+      9,
+      10,
+      12
+    ],
+    [
+      0,
+      8,
+      10,
+      12
+    ],
+    [
+      0,
+      8,
+      11,
+      13
+    ],
+    [
+      0,
+      9,
+      12,
+      14
+    ]
+  ],
+  "details": [
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5158730158730159,
+          0.03650793650793651,
+          0.01904761904761905
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.17422222222222222,
+          0.03815873015873016
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5158730158730159,
+          0.03650793650793651,
+          0.01904761904761905
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.17422222222222222,
+          0.03815873015873016
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.9094047619047619,
+          0.0852830687830688,
+          0.005312169312169312
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.9094047619047619,
+          0.07182539682539683,
+          0.01876984126984127
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5158730158730159,
+          0.0,
+          0.05555555555555556
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.07180952380952382,
+          0.14057142857142857
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.9094047619047619,
+          0.07182539682539683,
+          0.01876984126984127
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.9094047619047619,
+          0.0852830687830688,
+          0.005312169312169312
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.5652777777777778,
+          0.43472222222222223
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.04571428571428572,
+          0.9542857142857141
+        ]
+      }
+    },
+    {
+      "enemy_hp": 49,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.9094047619047619,
+          0.07182539682539683,
+          0.01876984126984127
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5158730158730159,
+          0.03650793650793651,
+          0.01904761904761905
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.17422222222222222,
+          0.03815873015873016
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5158730158730159,
+          0.03650793650793651,
+          0.01904761904761905
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.17422222222222222,
+          0.03815873015873016
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.9094047619047619,
+          0.0852830687830688,
+          0.005312169312169312
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.9094047619047619,
+          0.07182539682539683,
+          0.01876984126984127
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5158730158730159,
+          0.0,
+          0.05555555555555556
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.07180952380952382,
+          0.14057142857142857
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.9094047619047619,
+          0.07182539682539683,
+          0.01876984126984127
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.9094047619047619,
+          0.0852830687830688,
+          0.005312169312169312
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.5652777777777778,
+          0.43472222222222223
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.04571428571428572,
+          0.9542857142857141
+        ]
+      }
+    },
+    {
+      "enemy_hp": 50,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.9094047619047619,
+          0.07182539682539683,
+          0.01876984126984127
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.3085714285714286,
+          0.0,
+          0.2628571428571429
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.17422222222222222,
+          0.03815873015873016
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.3085714285714286,
+          0.0,
+          0.2628571428571429
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.17422222222222222,
+          0.03815873015873016
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8941666666666667,
+          0.09880687830687832,
+          0.0070264550264550266
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8941666666666667,
+          0.05573015873015874,
+          0.05010317460317461
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.3085714285714286,
+          0.0,
+          0.2628571428571429
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.07180952380952382,
+          0.14057142857142857
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8941666666666667,
+          0.05573015873015874,
+          0.05010317460317461
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8941666666666667,
+          0.09880687830687832,
+          0.0070264550264550266
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.5652777777777778,
+          0.43472222222222223
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.04571428571428572,
+          0.9542857142857141
+        ]
+      }
+    },
+    {
+      "enemy_hp": 51,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8941666666666667,
+          0.05573015873015874,
+          0.05010317460317461
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.3085714285714286,
+          0.0,
+          0.2628571428571429
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.17422222222222222,
+          0.03815873015873016
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.3085714285714286,
+          0.0,
+          0.2628571428571429
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.17422222222222222,
+          0.03815873015873016
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8941666666666667,
+          0.09880687830687832,
+          0.0070264550264550266
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8941666666666667,
+          0.05573015873015874,
+          0.05010317460317461
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 8,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": false,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.3085714285714286,
+          0.0,
+          0.2628571428571429
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.7876190476190477,
+          0.07180952380952382,
+          0.14057142857142857
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8941666666666667,
+          0.05573015873015874,
+          0.05010317460317461
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8941666666666667,
+          0.09880687830687832,
+          0.0070264550264550266
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.5652777777777778,
+          0.43472222222222223
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.04571428571428572,
+          0.9542857142857141
+        ]
+      }
+    },
+    {
+      "enemy_hp": 52,
+      "player_hp": 9,
+      "damage_sequence": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "stable": true,
+      "has_234_gradient": true,
+      "best2": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.4285714285714286,
+          0.5714285714285715,
+          0.0,
+          0.0
+        ]
+      },
+      "best3": {
+        "deck": [
+          "Burning Pact",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Defend",
+          "Hemokinesis",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.8941666666666667,
+          0.05573015873015874,
+          0.05010317460317461
+        ]
+      },
+      "best4": {
+        "deck": [
+          "Defend",
+          "Defend",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike",
+          "Strike"
+        ],
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.7142857142857143,
+          0.2857142857142857
+        ]
+      }
+    }
+  ]
+}

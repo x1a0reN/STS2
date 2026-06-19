@@ -1,0 +1,21 @@
+{
+  "primary_source": "https://sts2.wiki/cards/data.json",
+  "primary_count": 566,
+  "primary_unique_names": 558,
+  "crosscheck_source": "https://www.stratgg.com/cards/",
+  "crosscheck_count": 575,
+  "crosscheck_unique_names": 567,
+  "names_in_stratgg_not_in_sts2wiki": [
+    "Caltrops",
+    "Clash",
+    "Distraction",
+    "Dual Wield",
+    "Entrench",
+    "Hello World",
+    "Outmaneuver",
+    "Rebound",
+    "Stack"
+  ],
+  "names_in_sts2wiki_not_in_stratgg": [],
+  "fetched_at_utc": "2026-05-17T08:49:48.916628+00:00"
+}
