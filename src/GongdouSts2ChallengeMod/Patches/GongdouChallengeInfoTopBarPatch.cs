@@ -29,6 +29,7 @@ internal static class GongdouChallengeInfoTopBar
     private const string ButtonName = "GongDouChallengeInfoButton";
     private const float NativeButtonGap = 8f;
     private static readonly StringName ShaderV = new("v");
+    private static bool _isOpeningInfoScreen;
 
     public static void EnsureButton(NTopBar topBar)
     {
@@ -390,14 +391,6 @@ internal static class GongdouChallengeInfoTopBar
             }
         };
         button.Pressed += InvokeOpen;
-        button.GuiInput += input =>
-        {
-            if (IsLeftMouseRelease(input) || input.IsActionPressed("ui_accept"))
-            {
-                InvokeOpen();
-                button.AcceptEvent();
-            }
-        };
         button.TreeExiting += () =>
         {
             NHoverTipSet.Remove(button);
@@ -410,11 +403,6 @@ internal static class GongdouChallengeInfoTopBar
         return new HoverTip(
             new LocString("static_hover_tips", "GONGDOU_CHALLENGE_INFO.title"),
             new LocString("static_hover_tips", "GONGDOU_CHALLENGE_INFO.description"));
-    }
-
-    private static bool IsLeftMouseRelease(InputEvent input)
-    {
-        return input is InputEventMouseButton { ButtonIndex: MouseButton.Left, Pressed: false };
     }
 
     private static void PlayUiSfx(string eventPath)
@@ -528,6 +516,12 @@ internal static class GongdouChallengeInfoTopBar
 
     private static void ShowInfoScreen()
     {
+        if (_isOpeningInfoScreen)
+        {
+            return;
+        }
+
+        _isOpeningInfoScreen = true;
         try
         {
             var config = ResolveConfig();
@@ -543,11 +537,20 @@ internal static class GongdouChallengeInfoTopBar
                 return;
             }
 
+            if (overlayStack.GetChildren().OfType<GongdouChallengeInfoScreen>().Any())
+            {
+                return;
+            }
+
             overlayStack.Push(new GongdouChallengeInfoScreen(config));
         }
         catch (Exception ex)
         {
             GD.PrintErr($"[GongDou STS2] Failed to show challenge info screen: {ex}");
+        }
+        finally
+        {
+            Callable.From(() => _isOpeningInfoScreen = false).CallDeferred();
         }
     }
 

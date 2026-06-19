@@ -6,17 +6,12 @@ using GongdouSts2ChallengeMod.Relics;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Multiplayer;
-using MegaCrit.Sts2.Core.Helpers;
 using MegaCrit.Sts2.Core.MonsterMoves.Intents;
 using MegaCrit.Sts2.Core.Nodes.Combat;
-using MegaCrit.Sts2.Core.Nodes.CommonUi;
-using MegaCrit.Sts2.Core.Nodes.GodotExtensions;
 using MegaCrit.Sts2.Core.Nodes.Potions;
 using MegaCrit.Sts2.Core.Nodes.Relics;
 using MegaCrit.Sts2.Core.Nodes.Screens;
-using MegaCrit.Sts2.Core.Nodes.Screens.CardSelection;
 using MegaCrit.Sts2.Core.Nodes.Screens.Overlays;
-using MegaCrit.Sts2.addons.mega_text;
 
 namespace GongdouSts2ChallengeMod.Patches;
 
@@ -71,7 +66,6 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
     private void BuildUi()
     {
         FillParent(this);
-        AddChild(CreateNativeInfoBanner());
 
         var state = TryGetCombatState();
         var enemy = state?.Enemies.FirstOrDefault(e => e.IsPrimaryEnemy) ?? state?.Enemies.FirstOrDefault();
@@ -402,46 +396,28 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         }).CallDeferred();
     }
 
-    private Control CreateNativeInfoBanner()
-    {
-        var banner = TryInstantiateNativeScene<NCommonBanner>(
-            "res://scenes/ui/common_banner.tscn",
-            "common_ui/common_banner",
-            "screens/common_banner",
-            "ui/common_banner");
-        if (banner != null)
-        {
-            banner.Connect(Node.SignalName.Ready, Callable.From(() =>
-            {
-                banner.label.SetTextAutoSize("关卡信息");
-                banner.AnimateIn();
-            }));
-            return banner;
-        }
-
-        return CreateInvisibleFallback("NativeChallengeInfoBannerFallback");
-    }
-
     private Control CreateNativeCloseButton()
     {
-        var button = TryInstantiateNativeScene<NChoiceSelectionSkipButton>(
-            "res://scenes/ui/choice_selection_skip_button.tscn",
-            "screens/card_selection/choice_selection_skip_button",
-            "card_selection/choice_selection_skip_button",
-            "ui/choice_selection_skip_button");
-        if (button != null)
+        var button = new Button
         {
-            button.Name = "NativeChallengeInfoBackButton";
-            button.Connect(Node.SignalName.Ready, Callable.From(() =>
-            {
-                SetNativeSkipButtonText(button, "返回战斗");
-                button.AnimateIn();
-            }));
-            button.Connect(NClickableControl.SignalName.Released, Callable.From<NButton>(_ => Close()));
-            return button;
-        }
+            Name = "NativeChallengeInfoBackButton",
+            Text = "返回战斗",
+            CustomMinimumSize = new Vector2(260f, 62f),
+            Size = new Vector2(260f, 62f),
+            MouseFilter = MouseFilterEnum.Stop,
+            FocusMode = FocusModeEnum.All
+        };
 
-        return CreateInvisibleFallback("NativeChallengeInfoBackButtonFallback");
+        button.AnchorLeft = 0.5f;
+        button.AnchorRight = 0.5f;
+        button.AnchorTop = 1f;
+        button.AnchorBottom = 1f;
+        button.OffsetLeft = -130f;
+        button.OffsetRight = 130f;
+        button.OffsetTop = -100f;
+        button.OffsetBottom = -38f;
+        button.Pressed += Close;
+        return button;
     }
 
     private void BuildFallbackCloseOnlyUi()
@@ -461,43 +437,6 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         {
             GD.PrintErr($"[GongDou STS2] Challenge info opened without active combat state: {ex.Message}");
             return null;
-        }
-    }
-
-    private static T? TryInstantiateNativeScene<T>(params string[] scenePaths)
-        where T : Control
-    {
-        foreach (var scenePath in scenePaths)
-        {
-            try
-            {
-                var control = SceneHelper.Instantiate<T>(scenePath);
-                if (control != null)
-                {
-                    return control;
-                }
-            }
-            catch
-            {
-                // STS2 scene paths move between builds; try the next known native candidate.
-            }
-        }
-
-        GD.PrintErr($"[GongDou STS2] Failed to instantiate native {typeof(T).Name} for challenge info.");
-        return null;
-    }
-
-    private static void SetNativeSkipButtonText(Control button, string text)
-    {
-        if (button.GetNodeOrNull<MegaLabel>("Label") is { } megaLabel)
-        {
-            megaLabel.SetTextAutoSize(text);
-            return;
-        }
-
-        if (button.GetNodeOrNull<Label>("Label") is { } label)
-        {
-            label.Text = text;
         }
     }
 

@@ -3,11 +3,9 @@ using GongdouSts2ChallengeMod.Cards;
 using GongdouSts2ChallengeMod.Models;
 using GongdouSts2ChallengeMod.Relics;
 using MegaCrit.Sts2.Core.Entities.Multiplayer;
-using MegaCrit.Sts2.Core.Helpers;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Potions;
-using MegaCrit.Sts2.Core.Nodes.CommonUi;
 using MegaCrit.Sts2.Core.Nodes.GodotExtensions;
 using MegaCrit.Sts2.Core.Nodes.HoverTips;
 using MegaCrit.Sts2.Core.Nodes.Potions;
@@ -477,45 +475,7 @@ public sealed class NativeItemSelectionOverlay : Control, IOverlayScreen
 
         private Control CreateRelicStyleBanner()
         {
-            var banner = TryInstantiateNativeScene<NCommonBanner>(
-                "res://scenes/ui/common_banner.tscn",
-                "common_ui/common_banner",
-                "screens/common_banner",
-                "ui/common_banner");
-            if (banner != null)
-            {
-                banner.Connect(Node.SignalName.Ready, Callable.From(() =>
-                {
-                    banner.label.SetTextAutoSize("选择一瓶药水");
-                    banner.AnimateIn();
-                }));
-                return banner;
-            }
-
             return CreateFallbackBanner();
-        }
-
-        private static T? TryInstantiateNativeScene<T>(params string[] scenePaths)
-            where T : Control
-        {
-            foreach (var scenePath in scenePaths)
-            {
-                try
-                {
-                    var control = SceneHelper.Instantiate<T>(scenePath);
-                    if (control != null)
-                    {
-                        return control;
-                    }
-                }
-                catch
-                {
-                    // STS2 scene paths move between builds; try the next known native candidate.
-                }
-            }
-
-            GD.PrintErr($"[GongDou STS2] Failed to instantiate native {typeof(T).Name} for item selection.");
-            return null;
         }
 
         private static Control CreateFallbackBanner()
