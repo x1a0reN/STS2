@@ -32,7 +32,15 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         MouseFilter = MouseFilterEnum.Stop;
         FocusMode = FocusModeEnum.All;
         GuiInput += OnGuiInput;
-        BuildUi();
+        try
+        {
+            BuildUi();
+        }
+        catch (Exception ex)
+        {
+            GD.PrintErr($"[GongDou STS2] Failed to build challenge info screen: {ex}");
+            BuildFallbackCloseOnlyUi();
+        }
     }
 
     public NetScreenType ScreenType => NetScreenType.None;
@@ -65,7 +73,7 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         FillParent(this);
         AddChild(CreateNativeInfoBanner());
 
-        var state = CombatManager.Instance.DebugOnlyGetState();
+        var state = TryGetCombatState();
         var enemy = state?.Enemies.FirstOrDefault(e => e.IsPrimaryEnemy) ?? state?.Enemies.FirstOrDefault();
         var player = state?.PlayerCreatures.FirstOrDefault();
         var resources = ChallengeSessionManager.ActiveResources ?? PuzzleCatalog.ResolveResources(_config);
@@ -397,6 +405,7 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
     private Control CreateNativeInfoBanner()
     {
         var banner = TryInstantiateNativeScene<NCommonBanner>(
+            "res://scenes/ui/common_banner.tscn",
             "common_ui/common_banner",
             "screens/common_banner",
             "ui/common_banner");
@@ -416,6 +425,7 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
     private Control CreateNativeCloseButton()
     {
         var button = TryInstantiateNativeScene<NChoiceSelectionSkipButton>(
+            "res://scenes/ui/choice_selection_skip_button.tscn",
             "screens/card_selection/choice_selection_skip_button",
             "card_selection/choice_selection_skip_button",
             "ui/choice_selection_skip_button");
@@ -432,6 +442,26 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         }
 
         return CreateInvisibleFallback("NativeChallengeInfoBackButtonFallback");
+    }
+
+    private void BuildFallbackCloseOnlyUi()
+    {
+        FillParent(this);
+        _closeButton = CreateNativeCloseButton();
+        AddChild(_closeButton);
+    }
+
+    private static CombatState? TryGetCombatState()
+    {
+        try
+        {
+            return CombatManager.Instance?.DebugOnlyGetState();
+        }
+        catch (Exception ex)
+        {
+            GD.PrintErr($"[GongDou STS2] Challenge info opened without active combat state: {ex.Message}");
+            return null;
+        }
     }
 
     private static T? TryInstantiateNativeScene<T>(params string[] scenePaths)

@@ -317,6 +317,11 @@ internal static class GongdouChallengeInfoTopBar
         {
             NHoverTipSet.Remove(button);
             var tip = NHoverTipSet.CreateAndShow(button, CreateChallengeInfoHoverTip());
+            if (tip == null || !GodotObject.IsInstanceValid(tip))
+            {
+                return;
+            }
+
             tip.GlobalPosition = button.GlobalPosition + new Vector2(button.Size.X - tip.Size.X, button.Size.Y + 20f);
         }
 

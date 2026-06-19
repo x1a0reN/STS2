@@ -478,6 +478,7 @@ public sealed class NativeItemSelectionOverlay : Control, IOverlayScreen
         private Control CreateRelicStyleBanner()
         {
             var banner = TryInstantiateNativeScene<NCommonBanner>(
+                "res://scenes/ui/common_banner.tscn",
                 "common_ui/common_banner",
                 "screens/common_banner",
                 "ui/common_banner");
