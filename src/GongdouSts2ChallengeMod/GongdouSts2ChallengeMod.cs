@@ -18,7 +18,7 @@ namespace GongdouSts2ChallengeMod;
 [ModInitializer("Initialize")]
 public static class GongdouSts2ChallengeMod
 {
-    public const string Version = "0.1.197";
+    public const string Version = "0.1.198";
     public const string ChallengeType = "slay_the_spire_2_puzzle";
     public const string ExecutableName = "SlayTheSpire2.exe";
 

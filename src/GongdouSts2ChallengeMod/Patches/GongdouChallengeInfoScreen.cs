@@ -79,10 +79,7 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         content.AddChild(BuildTitle());
         content.AddChild(BuildMonsterSummary(state, enemy));
 
-        var monsterFrame = CreateAnchoredControl<Control>("NativeMonsterVisual", 0.38f, 0.29f, 0.62f, 0.70f);
-        content.AddChild(monsterFrame);
-        AddMonsterVisual(monsterFrame, enemy);
-
+        content.AddChild(BuildStageInfo());
         content.AddChild(BuildActionSummary(state, enemy, player));
         content.AddChild(BuildResourceSummary(resources, selection, enemy, player));
 
@@ -107,44 +104,131 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         box.AddThemeConstantOverride("separation", 10);
 
         var name = string.IsNullOrWhiteSpace(enemy?.Name) ? _config.Enemy.Name : enemy.Name;
-        box.AddChild(CreateSectionLabel("怪物"));
+        box.AddChild(CreateSectionLabel("目标"));
         box.AddChild(CreateLabel(name, 26, StsText));
         box.AddChild(CreateWrappedLabel(FormatEnemyHp(enemy), 20));
 
         if (state != null)
         {
-            box.AddChild(CreateWrappedLabel($"当前第{state.RoundNumber}回合", 19));
+            box.AddChild(CreateWrappedLabel($"当前：第{state.RoundNumber}回合。", 19));
         }
 
-        box.AddChild(CreateSectionLabel("胜利条件"));
-        box.AddChild(CreateWrappedLabel(_config.WinConditionText, 19));
+        box.AddChild(CreateSectionLabel("条件"));
+        box.AddChild(CreateWrappedLabel("胜利：击败敌人。", 19));
+        box.AddChild(CreateWrappedLabel("失败：玩家死亡。", 18));
 
-        if (!string.IsNullOrWhiteSpace(_config.EnemyInfoText))
+        if (_config.EnemyActions.Any(action => action.FailIfAlive))
         {
-            box.AddChild(CreateSectionLabel("规则"));
-            box.AddChild(CreateWrappedLabel(_config.EnemyInfoText, 18));
+            box.AddChild(CreateWrappedLabel("终结：行动后敌人仍存活，挑战失败。", 18));
         }
 
         return box;
     }
 
+    private Control BuildStageInfo()
+    {
+        var box = CreateAnchoredControl<VBoxContainer>("NativeStageInfo", 0.38f, 0.30f, 0.62f, 0.72f);
+        box.AddThemeConstantOverride("separation", 8);
+        box.AddChild(CreateCenteredSectionLabel("关卡信息"));
+
+        foreach (var line in BuildStageInfoLines())
+        {
+            box.AddChild(CreateWrappedLabel(line, 18));
+        }
+
+        return box;
+    }
+
+    private IEnumerable<string> BuildStageInfoLines()
+    {
+        yield return $"角色：铁甲战士。生命{_config.Player.StartingHp}，能量{_config.Player.MaxEnergy}，每回合抽{_config.Player.DrawPerTurn}张。";
+        yield return $"选牌：{FormatCardLimit()}。药水：{FormatItemLimit(_config.MaxPotions, "瓶")}。遗物：{FormatItemLimit(_config.MaxRelics, "个")}。";
+
+        foreach (var line in BuildKeyMechanicLines())
+        {
+            yield return line;
+        }
+    }
+
+    private IEnumerable<string> BuildKeyMechanicLines()
+    {
+        if (_config.EnemyActions.Any(action => action.ArmorGain > 0))
+        {
+            yield return "保留格挡：敌人格挡不会在回合结束时失去。";
+        }
+
+        if (_config.EnemyActions.Any(action => action.FailIfAlive))
+        {
+            yield return "终结：指定行动结算后，敌人仍存活则失败。";
+        }
+
+        foreach (var line in BuildStageSpecificMechanicLines().Take(3))
+        {
+            yield return line;
+        }
+
+        foreach (var constraint in _config.SelectionConstraints.Take(2))
+        {
+            if (!string.IsNullOrWhiteSpace(constraint.Description))
+            {
+                yield return $"限制：{NormalizeSentence(constraint.Description)}";
+            }
+        }
+    }
+
+    private IEnumerable<string> BuildStageSpecificMechanicLines()
+    {
+        switch (_config.StageIndex)
+        {
+            case 3:
+                yield return "弃牌：触发奇巧牌的免费打出。";
+                break;
+            case 4:
+                yield return "灼伤：第1/2/3回合加入弃牌堆。";
+                yield return "状态：状态牌或诅咒牌进入牌堆后，顺劈斩（改）获得强化。";
+                break;
+            case 5:
+                yield return "人工制品：先抵消负面状态。虚空可被指定牌消耗。";
+                break;
+            case 6:
+                yield return "愤怒：攻击伤害翻倍。";
+                yield return "平静：离开时获得能量。";
+                break;
+            case 7:
+                yield return "中毒：回合开始失去生命。敌人会解毒并获得保留格挡。";
+                break;
+            case 8:
+                yield return "开局：生成闪电与冰霜充能球。";
+                yield return "充能球：回合结束触发被动效果，释放最左侧充能球。";
+                break;
+            case 9:
+                yield return "镜像：每回合抽4张。";
+                yield return "真言：达到10点时进入神格。";
+                break;
+            case 10:
+                yield return "裂隙牌组：每回合抽4张。";
+                yield return "裂隙：充能、标记、回声与过热决定斩杀窗口。";
+                break;
+        }
+    }
+
     private Control BuildActionSummary(CombatState? state, Creature? enemy, Creature? player)
     {
         var box = CreateAnchoredControl<VBoxContainer>("NativeActionSummary", 0.67f, 0.30f, 0.93f, 0.72f);
-        box.AddThemeConstantOverride("separation", 10);
-        box.AddChild(CreateSectionLabel("行动循环"));
+        box.AddThemeConstantOverride("separation", 7);
+        box.AddChild(CreateSectionLabel("敌方行动"));
 
-        var actions = _config.EnemyActions.OrderBy(action => action.Turn).Take(4).ToList();
+        var actions = _config.EnemyActions.OrderBy(action => action.Turn).Take(5).ToList();
         if (actions.Count == 0)
         {
-            box.AddChild(CreateWrappedLabel("按当前怪物原生行动执行。", 19));
+            box.AddChild(CreateWrappedLabel("使用原生行动表。", 19));
             return box;
         }
 
         if (state != null)
         {
             var current = ResolveActionForRound(actions, state.RoundNumber);
-            box.AddChild(CreateWrappedLabel($"当前：{FormatAction(current)}", 19));
+            box.AddChild(CreateWrappedLabel($"当前行动：{FormatAction(current)}", 18));
         }
 
         foreach (var action in actions)
@@ -152,7 +236,7 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
             box.AddChild(CreateActionRow(action, enemy, player));
         }
 
-        box.AddChild(CreateWrappedLabel($"之后重复第{actions[^1].Turn}回合行动。", 18));
+        box.AddChild(CreateWrappedLabel(FormatActionLoopEnd(actions), 16));
         return box;
     }
 
@@ -195,7 +279,7 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         {
             MouseFilter = MouseFilterEnum.Ignore
         };
-        row.AddThemeConstantOverride("separation", 12);
+        row.AddThemeConstantOverride("separation", 10);
         row.AddChild(CreateIntentIcon(action, enemy, player));
 
         var text = new VBoxContainer
@@ -204,8 +288,8 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
             SizeFlagsHorizontal = SizeFlags.ExpandFill
         };
         text.AddThemeConstantOverride("separation", 2);
-        text.AddChild(CreateLabel($"第{action.Turn}回合", 20, StsText));
-        text.AddChild(CreateWrappedLabel(FormatAction(action), 17));
+        text.AddChild(CreateLabel($"第{action.Turn}回合", 18, StsText));
+        text.AddChild(CreateWrappedLabel(FormatAction(action), 15));
         row.AddChild(text);
         return row;
     }
@@ -214,7 +298,7 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
     {
         var frame = new Control
         {
-            CustomMinimumSize = new Vector2(72, 72),
+            CustomMinimumSize = new Vector2(56, 56),
             MouseFilter = MouseFilterEnum.Ignore
         };
 
@@ -227,8 +311,8 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         try
         {
             var node = NIntent.Create(0f);
-            node.Scale = Vector2.One * 0.78f;
-            node.Position = new Vector2(4f, 6f);
+            node.Scale = Vector2.One * 0.62f;
+            node.Position = new Vector2(2f, 4f);
             var targets = player == null ? Array.Empty<Creature>() : [player];
             node.Connect(Node.SignalName.Ready, Callable.From(() =>
                 node.UpdateIntent(CreateIntent(action), targets, enemy)));
@@ -357,45 +441,6 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         }
     }
 
-    private void AddMonsterVisual(Control frame, Creature? enemy)
-    {
-        if (enemy == null)
-        {
-            frame.AddChild(CreateCenteredFallback("暂无怪物模型"));
-            return;
-        }
-
-        Callable.From(() =>
-        {
-            try
-            {
-                if (!GodotObject.IsInstanceValid(frame))
-                {
-                    return;
-                }
-
-                var visuals = enemy.CreateVisuals();
-                if (visuals == null)
-                {
-                    frame.AddChild(CreateCenteredFallback("暂无怪物模型"));
-                    return;
-                }
-
-                visuals.Position = new Vector2(frame.Size.X * 0.5f, frame.Size.Y * 0.86f);
-                visuals.Scale = Vector2.One * 0.9f;
-                frame.AddChild(visuals);
-            }
-            catch (Exception ex)
-            {
-                GD.PrintErr($"[GongDou STS2] Failed to create native challenge info monster visual: {ex.Message}");
-                if (GodotObject.IsInstanceValid(frame))
-                {
-                    frame.AddChild(CreateCenteredFallback("怪物模型加载失败"));
-                }
-            }
-        }).CallDeferred();
-    }
-
     private Control CreateNativeCloseButton()
     {
         var button = new Button
@@ -481,33 +526,57 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
             : $"初始生命{_config.Enemy.BaseHp}";
     }
 
+    private string FormatCardLimit()
+    {
+        return _config.MinCards == _config.MaxCards
+            ? $"选择{_config.MaxCards}张"
+            : $"选择{_config.MinCards}-{_config.MaxCards}张";
+    }
+
+    private static string FormatItemLimit(int count, string unit)
+    {
+        return count <= 0 ? "无" : $"选择{count}{unit}";
+    }
+
+    private static string FormatActionLoopEnd(IReadOnlyList<EnemyActionConfig> actions)
+    {
+        var last = actions[^1];
+        return last.FailIfAlive
+            ? "终结行动结算后，敌人仍存活则失败。"
+            : "行动表结束后，重复最后一个行动。";
+    }
+
     private static string FormatAction(EnemyActionConfig action)
     {
         var parts = new List<string>();
-        if (!string.IsNullOrWhiteSpace(action.Description))
+        if (action.Damage > 0)
         {
-            parts.Add(action.Description.Trim());
-        }
-        else if (action.Damage > 0)
-        {
-            parts.Add($"攻击{action.Damage}点");
+            parts.Add($"攻击{action.Damage}点。");
         }
         else
         {
-            parts.Add(string.Equals(action.Type, "ritual", StringComparison.OrdinalIgnoreCase) ? "蓄力" : action.Type);
+            parts.Add(string.Equals(action.Type, "ritual", StringComparison.OrdinalIgnoreCase)
+                ? "蓄力。"
+                : $"{action.Type}。");
         }
 
         if (action.ArmorGain > 0)
         {
-            parts.Add($"获得{action.ArmorGain}点保留格挡");
+            parts.Add($"回合结束获得{action.ArmorGain}点保留格挡。");
         }
 
         if (action.FailIfAlive)
         {
-            parts.Add("行动后仍存活则挑战失败");
+            parts.Add("若敌人仍存活，挑战失败。");
         }
 
-        return string.Join("；", parts);
+        return string.Concat(parts);
+    }
+
+    private static string NormalizeSentence(string text)
+    {
+        var trimmed = text.Trim().Replace(" ", "").TrimEnd('。', '；', ';', '.');
+        return $"{trimmed}。";
     }
 
     private static Label CreateSectionLabel(string text)
@@ -542,15 +611,6 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         return label;
     }
 
-    private static Control CreateCenteredFallback(string text)
-    {
-        var label = CreateWrappedLabel(text, 19);
-        label.HorizontalAlignment = HorizontalAlignment.Center;
-        label.VerticalAlignment = VerticalAlignment.Center;
-        FillParent(label);
-        return label;
-    }
-
     private static Control CreateTextIcon(string text)
     {
         var label = CreateLabel(text, 24, StsText);
@@ -558,16 +618,6 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         label.VerticalAlignment = VerticalAlignment.Center;
         CenterChild(label, new Vector2(64, 64));
         return label;
-    }
-
-    private static Control CreateInvisibleFallback(string name)
-    {
-        return new Control
-        {
-            Name = name,
-            MouseFilter = MouseFilterEnum.Ignore,
-            Visible = false
-        };
     }
 
     private static T CreateAnchoredControl<T>(string name, float left, float top, float right, float bottom)
