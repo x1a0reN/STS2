@@ -566,19 +566,19 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         return string.Join("；", parts);
     }
 
-    private static MegaLabel CreateSectionLabel(string text)
+    private static Label CreateSectionLabel(string text)
     {
         return CreateLabel(text, 23, StsGold);
     }
 
-    private static MegaLabel CreateCenteredSectionLabel(string text)
+    private static Label CreateCenteredSectionLabel(string text)
     {
         var label = CreateSectionLabel(text);
         label.HorizontalAlignment = HorizontalAlignment.Center;
         return label;
     }
 
-    private static MegaLabel CreateWrappedLabel(string text, int fontSize)
+    private static Label CreateWrappedLabel(string text, int fontSize)
     {
         var label = CreateLabel(text, fontSize, StsTextMuted);
         label.AutowrapMode = TextServer.AutowrapMode.WordSmart;
@@ -586,14 +586,12 @@ internal sealed class GongdouChallengeInfoScreen : Control, IOverlayScreen
         return label;
     }
 
-    private static MegaLabel CreateLabel(string text, int fontSize, Color color)
+    private static Label CreateLabel(string text, int fontSize, Color color)
     {
-        var label = new MegaLabel
+        var label = new Label
         {
             Text = text,
-            MouseFilter = MouseFilterEnum.Ignore,
-            MinFontSize = Math.Max(8, fontSize - 4),
-            MaxFontSize = fontSize
+            MouseFilter = MouseFilterEnum.Ignore
         };
         label.AddThemeFontSizeOverride("font_size", fontSize);
         label.AddThemeColorOverride("font_color", color);
